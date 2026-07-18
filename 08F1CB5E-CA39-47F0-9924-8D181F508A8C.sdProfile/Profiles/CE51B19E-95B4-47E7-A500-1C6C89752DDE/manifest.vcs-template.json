@@ -1,0 +1,110 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,0": {
+          "ActionID": "61b312a9-f25a-4f74-9aee-751e7aa9e254",
+          "LinkedTitle": true,
+          "Name": "Parent Folder",
+          "Plugin": {
+            "Name": "Open Parent Folder",
+            "UUID": "com.elgato.streamdeck.profile.backtoparent",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.profile.backtoparent"
+        },
+        "0,1": {
+          "ActionID": "cf6b9952-aae1-43bd-a1aa-6babc9c96763",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "scene_zoom", "target": "preview" },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/ANI5J6I0QP0THAWFQTIHRRN3D4Z.png",
+              "Title": "zoom"
+            },
+            { "Image": "Images/VLO9BA4OB93DDEO7IA1R3QQL7OZ.png" }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
+        },
+        "0,2": {
+          "ActionID": "ddac7bf4-a183-4340-8270-3aa7d834a650",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "scene_dslr", "target": "preview" },
+          "State": 1,
+          "States": [
+            {
+              "Image": "Images/KSG77QABDD52F0H6O52LKH65MCZ.png",
+              "Title": "dslr"
+            },
+            { "Image": "Images/NN3H3S0TPH7B51H6SMK98374FGZ.png" }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
+        },
+        "0,3": {
+          "ActionID": "6d159b02-2732-486a-9909-8948d022afca",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "scene_browser", "target": "preview" },
+          "State": 1,
+          "States": [
+            {
+              "Image": "Images/LO3VWD4GD11D1CHR743T7FVFM8Z.png",
+              "Title": "brave"
+            },
+            { "Image": "Images/ELHDTAN63P5573NJIP8M54DSMOZ.png" }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
+        },
+        "1,1": {
+          "ActionID": "03464364-24d0-4376-adaa-aebb2644825d",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "scene_wezterm", "target": "preview" },
+          "State": 1,
+          "States": [
+            {
+              "Image": "Images/IDI2WN2TO9509F46REHTK0R5JCZ.png",
+              "Title": "wezterm"
+            },
+            { "Image": "Images/PNVOHAR40D709BIME0HAVEPV9KZ.png" }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}

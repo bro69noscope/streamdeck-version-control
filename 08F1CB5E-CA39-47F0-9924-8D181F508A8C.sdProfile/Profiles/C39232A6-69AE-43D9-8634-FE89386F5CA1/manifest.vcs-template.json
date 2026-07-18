@@ -1,0 +1,171 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,0": {
+          "ActionID": "fcc1510e-71df-4a7c-8cff-2bbe6964df60",
+          "LinkedTitle": true,
+          "Name": "Parent Folder",
+          "Plugin": {
+            "Name": "Open Parent Folder",
+            "UUID": "com.elgato.streamdeck.profile.backtoparent",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.profile.backtoparent"
+        },
+        "0,1": {
+          "ActionID": "68235d12-1b97-4557-b4eb-1ae07b0a5afc",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "c11c80af-b2dd-410f-a719-90957b7bb9f2",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "J1vi8ktQ7QvMLL2cN_GKL",
+            "instanceUuid": "",
+            "keyDownAction": {
+              "args": [],
+              "id": "350c6607-bdf9-4930-92ce-1df19b953c6f",
+              "name": "BRB End"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "brb end" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "1,0": {
+          "ActionID": "3680ff7d-24f7-4530-8218-2f4683b1946e",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "87349c11-8322-4231-9df6-06d75a3b968e",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "h7SB9NWhEaF1SLDzOOgxk",
+            "instanceUuid": "",
+            "keyDownAction": {
+              "args": [],
+              "id": "e2b131c0-e5a3-4b48-b3b0-52a5cb15818a",
+              "name": "BRB Set 1 min"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "brb 1" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "2,0": {
+          "ActionID": "a1b9249a-7e4a-4631-87b5-f30b8e810ccb",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "39b0c368-3cac-490e-8519-76a5ff26b3be",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "v7TUnNf6pDFTGMuuNqhyg",
+            "instanceUuid": "",
+            "keyDownAction": {
+              "args": [],
+              "id": "26304054-a054-49f6-a22d-92db199ef8f2",
+              "name": "BRB Set 2 min"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "brb 2" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "3,0": {
+          "ActionID": "20740cb4-c17e-4b50-9c1f-5ab4d896f005",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "9ab5d40e-731b-4cf5-aec0-3a593b663f36",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "AY_y5mrw00LaQNyNuffOx",
+            "instanceUuid": "",
+            "keyDownAction": {
+              "args": [],
+              "id": "1bbc6b0c-dd89-4479-a7ea-43931bb4988c",
+              "name": "BRB Set 5 min"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "brb 5" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "4,0": {
+          "ActionID": "2883b3e3-a423-4ec5-a55b-2d92223a9e20",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "3c84abc0-8b00-47dd-8b72-4643c457693f",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "3oTe5hkPEpQMTH3jQ15cy",
+            "instanceUuid": "",
+            "keyDownAction": {
+              "args": [],
+              "id": "b8344892-d837-4018-961d-6099bd2dc651",
+              "name": "BRB Set Input"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "brb X" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}

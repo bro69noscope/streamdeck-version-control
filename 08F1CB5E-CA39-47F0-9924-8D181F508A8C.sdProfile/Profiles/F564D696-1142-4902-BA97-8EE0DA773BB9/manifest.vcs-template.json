@@ -1,0 +1,301 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,1": {
+          "ActionID": "a3e9fc70-2550-49f6-bb6e-e9a7722d10b7",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "scene_osu", "target": "preview" },
+          "State": 1,
+          "States": [
+            {
+              "Image": "Images/ROJ8RAAFW51QL78SVRTBRVNI4CZ.png",
+              "Title": "osu"
+            },
+            { "Image": "Images/HO75SPBREP13JC78FTMW2SO264Z.png" }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
+        },
+        "0,2": {
+          "ActionID": "eb598ae8-4d64-401b-96a4-1630252d1ace",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "scene_lounge", "target": "preview" },
+          "State": 1,
+          "States": [
+            {
+              "Image": "Images/0AR0VQK9LL6A1A1GB4W35LJH2CZ.png",
+              "Title": "lounge"
+            },
+            { "Image": "Images/LD49HKWQG15AT1VCONT9128E18Z.png" }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
+        },
+        "0,3": {
+          "ActionID": "f76b2d16-26bf-4a91-bf25-e2831cb63ca9",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": {
+            "scene": "scene_screencap_center_monitor",
+            "target": "preview"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/NCDS37QJI15LLEQFRSRT8V4Q6SZ.png",
+              "Title": "center\nscreen"
+            },
+            { "Image": "Images/61FCR01VI12VH6MPFFSA3GEK9CZ.png" }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
+        },
+        "1,0": {
+          "ActionID": "2f364208-507a-47cd-905c-cc3b922f5cd3",
+          "LinkedTitle": true,
+          "Name": "Create Folder",
+          "Plugin": {
+            "Name": "Create Folder",
+            "UUID": "com.elgato.streamdeck.profile.openchild",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "ProfileUUID": "c39232a6-69ae-43d9-8634-fe89386f5ca1" },
+          "State": 0,
+          "States": [{ "Title": "brb" }],
+          "UUID": "com.elgato.streamdeck.profile.openchild"
+        },
+        "1,1": {
+          "ActionID": "9473a751-455d-4569-a187-52007c4204f2",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "scene_aoe2", "target": "preview" },
+          "State": 1,
+          "States": [
+            {
+              "Image": "Images/9220ARD79H1IJ1BNA45QB8R3WKZ.png",
+              "Title": "aoe2"
+            },
+            { "Image": "Images/CVM2NKFD9H20L9CO17VIOAWFCKZ.png" }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
+        },
+        "1,2": {
+          "ActionID": "f5ab1442-49cf-4e6c-89da-eafe17375ce9",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "scene_capture_age", "target": "preview" },
+          "State": 1,
+          "States": [
+            { "Image": "Images/D4OMRPLA350WHF1122HOD7M6LGZ.png" },
+            { "Image": "Images/D7CQG9Q1N569FB246J3BMN8FF4Z.png" }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
+        },
+        "1,3": {
+          "ActionID": "2039d24d-4d76-40c4-9fc2-7b3e57de735e",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "scene_vlc", "target": "preview" },
+          "State": 1,
+          "States": [
+            {
+              "Image": "Images/45TM7JNOAP1MJ4HTP9GW100QB8Z.png",
+              "Title": "vlc"
+            },
+            { "Image": "Images/P9KQGO4SSL591FWSF7GR8M9S2OZ.png" }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
+        },
+        "2,0": {
+          "ActionID": "2781fa17-5dd2-48ac-8a10-e08a2ecea0a5",
+          "LinkedTitle": true,
+          "Name": "Create Folder",
+          "Plugin": {
+            "Name": "Create Folder",
+            "UUID": "com.elgato.streamdeck.profile.openchild",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "ProfileUUID": "ce51b19e-95b4-47e7-a500-1c6c89752dde" },
+          "State": 0,
+          "States": [{ "Title": "rare scenes" }],
+          "UUID": "com.elgato.streamdeck.profile.openchild"
+        },
+        "3,2": {
+          "ActionID": "d1a84564-71c7-41a2-9448-a12460556377",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "7524d90a-07ba-40c4-b03e-b410a34be568",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "TjAx95TV0LhiLgYMv5mel",
+            "instanceUuid": "",
+            "keyDownAction": {
+              "args": [],
+              "id": "5a63350f-9e97-447c-9d91-990dad7dd458",
+              "name": "Temporary Cam Zoom"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "zoom" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "3,3": {
+          "ActionID": "ae7c1f9b-d56f-40eb-8dd4-e86ade5b9796",
+          "LinkedTitle": true,
+          "Name": "Hotkey",
+          "Plugin": {
+            "Name": "Activate a Key Command",
+            "UUID": "com.elgato.streamdeck.system.hotkey",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "Coalesce": true,
+            "Hotkeys": [
+              {
+                "KeyCmd": false,
+                "KeyCtrl": true,
+                "KeyModifiers": 7,
+                "KeyOption": true,
+                "KeyShift": true,
+                "NativeCode": 124,
+                "QTKeyCode": 16777276,
+                "VKeyCode": 124
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              }
+            ]
+          },
+          "State": 0,
+          "States": [{ "Title": "obs&chat" }],
+          "UUID": "com.elgato.streamdeck.system.hotkey"
+        },
+        "6,0": {
+          "ActionID": "0719c2d5-c7c4-4955-8c70-e4b9a542ea0a",
+          "LinkedTitle": true,
+          "Name": "Source Visibility",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": {
+            "collection": "collection_aoe2",
+            "icon": "browser",
+            "scene": "scene_alerts",
+            "sceneitemid": 3,
+            "sceneitemname": "browser_streamelements_alert",
+            "sceneitemscene": "scene_alerts",
+            "toplevelscene": "scene_alerts"
+          },
+          "State": 0,
+          "States": [{ "Title": "alerts" }, {}],
+          "UUID": "com.elgato.obsstudio.source"
+        },
+        "7,0": {
+          "ActionID": "cfd14c5d-fd29-4318-8490-d022e73d1a1f",
+          "LinkedTitle": true,
+          "Name": "Source Visibility",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": {
+            "collection": "collection_aoe2",
+            "icon": "camera",
+            "scene": "scene_dslr",
+            "sceneitemid": 1,
+            "sceneitemname": "capture_dslr",
+            "sceneitemscene": "scene_dslr",
+            "toplevelscene": "scene_dslr"
+          },
+          "State": 0,
+          "States": [{ "Title": "cam" }, {}],
+          "UUID": "com.elgato.obsstudio.source"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}
