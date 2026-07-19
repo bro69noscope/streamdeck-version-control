@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_zoom", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/ANI5J6I0QP0THAWFQTIHRRN3D4Z.png",

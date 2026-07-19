@@ -58,7 +58,7 @@
             "scene": "scene_screencap_center_monitor",
             "target": "preview"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/NCDS37QJI15LLEQFRSRT8V4Q6SZ.png",
@@ -288,7 +288,7 @@
             "sceneitemscene": "scene_dslr",
             "toplevelscene": "scene_dslr"
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "cam" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         }
