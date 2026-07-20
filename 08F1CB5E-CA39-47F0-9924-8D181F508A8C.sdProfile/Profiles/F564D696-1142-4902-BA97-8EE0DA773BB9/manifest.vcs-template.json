@@ -58,7 +58,7 @@
             "scene": "scene_screencap_center_monitor",
             "target": "preview"
           },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/NCDS37QJI15LLEQFRSRT8V4Q6SZ.png",
