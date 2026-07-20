@@ -1,0 +1,57 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,0": {
+          "ActionID": "94c10ae0-ca9e-4a80-a4c4-3f6db4443283",
+          "LinkedTitle": true,
+          "Name": "Parent Folder",
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.profile.backtoparent"
+        },
+        "1,0": {
+          "ActionID": "fc515080-a831-49d7-b0b9-aafead6dac19",
+          "LinkedTitle": true,
+          "Name": "WebSocket Message",
+          "Resources": null,
+          "Settings": {
+            "body": "bring to top",
+            "url": "ws://localhost:50000/windows"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/TJRV1PMQW95MB5VFM99STP7RCKZ.png",
+              "Title": "BRING\nTO TOP"
+            }
+          ],
+          "UUID": "gg.datagram.web-requests.websocket"
+        },
+        "2,0": {
+          "ActionID": "5bf13662-2a3d-4a2a-887d-064c0daa4a7d",
+          "LinkedTitle": true,
+          "Name": "WebSocket Message",
+          "Resources": null,
+          "Settings": {
+            "body": "readjust",
+            "url": "ws://localhost:50000/windows"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/63F0RB52550EPA4QSNVSOCPMICZ.png",
+              "Title": "RE-FIT"
+            }
+          ],
+          "UUID": "gg.datagram.web-requests.websocket"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}

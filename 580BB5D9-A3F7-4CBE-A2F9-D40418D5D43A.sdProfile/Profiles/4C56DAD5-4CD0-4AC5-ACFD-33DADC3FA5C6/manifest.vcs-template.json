@@ -1,0 +1,956 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,0": {
+          "ActionID": "23be17ad-d02d-4050-b6a3-e622f7c9171f",
+          "LinkedTitle": true,
+          "Name": "Create Folder",
+          "Plugin": {
+            "Name": "Create Folder",
+            "UUID": "com.elgato.streamdeck.profile.openchild",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "ProfileUUID": "c2fec1bd-07df-4ffe-a09f-20eabbcfdb6f" },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/479KQQGGR145H5B4IBQ70NCKA4Z.webp",
+              "Title": "Scripts"
+            }
+          ],
+          "UUID": "com.elgato.streamdeck.profile.openchild"
+        },
+        "0,3": {
+          "ActionID": "2e470233-a0e6-471d-ac1a-56a0b847c0e2",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "121d122a-1608-46be-97c0-d075eb8a4fed",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "PybWHe_kBSArCb_swBQdZ",
+            "instanceUuid": "",
+            "keyDownAction": {
+              "args": [],
+              "id": "2d04c060-cab9-49a1-97ef-b3573e48f661",
+              "name": "Hard Reset"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "RESET\nALL" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "1,0": {
+          "ActionID": "54593d73-f830-44df-b614-951814e44e9b",
+          "LinkedTitle": false,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "scene_dslr", "target": "preview" },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 12,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "Title": "DSLR",
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            },
+            {
+              "FontFamily": "",
+              "FontSize": 12,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
+        },
+        "2,0": {
+          "ActionID": "9a38fcb1-df02-4cfb-bf53-151badce9058",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "METASCENE", "target": "preview" },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "com.elgato.obsstudio.scene"
+        },
+        "4,0": {
+          "ActionID": "9c1b94b9-6dea-4735-9fa1-f862b8b884e6",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "eb25bf44-c10d-46eb-9dcc-fdbd98bbeabd",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "cc51ea89-4e90-4d6c-8311-4d5abac51ff1",
+            "instanceUuid": "",
+            "keyDownAction": {
+              "args": [],
+              "id": "9e2a7010-59f9-454c-8ab0-71f8024fe1ad",
+              "name": "Retarded Mates"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "" }
+          },
+          "State": 0,
+          "States": [{ "Title": "Retarded\nMates" }],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "4,1": {
+          "ActionID": "74ec9879-67e0-4fbe-a007-6607f2d1308d",
+          "LinkedTitle": true,
+          "Name": "Text",
+          "Plugin": {
+            "Name": "Text",
+            "UUID": "com.elgato.streamdeck.system.text",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "Hotkey": {
+              "KeyModifiers": 0,
+              "QTKeyCode": 33554431,
+              "VKeyCode": -1
+            },
+            "isSendingEnter": false,
+            "pastedText": "meowmeow3"
+          },
+          "State": 0,
+          "States": [{ "Title": "dogverynice" }],
+          "UUID": "com.elgato.streamdeck.system.text"
+        },
+        "5,0": {
+          "ActionID": "59fa316f-2281-4e9a-a21c-d8299017dcc6",
+          "Actions": [
+            {
+              "Actions": [
+                {
+                  "ActionID": "344c6846-5adb-4b19-a569-b96d70834743",
+                  "LinkedTitle": true,
+                  "Name": "Audio Mixer",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.1.29"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "isInMultiAction": true,
+                    "mode": "toggle",
+                    "source": "MG12XU Stereo USB Mix",
+                    "step": 1,
+                    "style": "static",
+                    "type": "set",
+                    "volume": 0.552
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Lower USB mix by 15db" }, {}],
+                  "UUID": "com.elgato.obsstudio.mixeraudio"
+                },
+                {
+                  "ActionID": "b8de8904-b578-4e45-9050-b78c1c86df4e",
+                  "LinkedTitle": true,
+                  "Name": "Source Visibility",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.3.31"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "collection": "Dota",
+                    "scene": "METASCENE",
+                    "sceneitemid": 10,
+                    "sceneitemname": "Narrator: test",
+                    "sceneitemscene": "Voice Clips",
+                    "toplevelscene": "METASCENE"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Play Narrator Clip" }, {}],
+                  "UUID": "com.elgato.obsstudio.source"
+                },
+                {
+                  "ActionID": "f9b76ac9-ede8-421f-87c9-26725d090c61",
+                  "LinkedTitle": true,
+                  "Name": "Filter",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.1.29"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "filter": "Apply LUT - GrayScale",
+                    "source": "Scenes Clones"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Apply Grayscale LUT" }, {}],
+                  "UUID": "com.elgato.obsstudio.filter.state"
+                },
+                {
+                  "ActionID": "809b976e-9615-4d38-b478-881779dd51c5",
+                  "LinkedTitle": true,
+                  "Name": "Delay",
+                  "Plugin": {
+                    "Name": "Multi Action",
+                    "UUID": "com.elgato.streamdeck.multiactions",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": { "delay": 11300 },
+                  "State": 0,
+                  "States": [{ "Title": "wait 11.3s" }],
+                  "UUID": "com.elgato.streamdeck.multiactions.delay"
+                },
+                {
+                  "ActionID": "1236627e-3939-43cc-b75f-b8e2a10f356d",
+                  "LinkedTitle": true,
+                  "Name": "Filter",
+                  "OverrideState": 1,
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.1.29"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "filter": "Apply LUT - GrayScale",
+                    "source": "Scenes Clones"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Remove Grayscale LUT" }, {}],
+                  "UUID": "com.elgato.obsstudio.filter.state"
+                },
+                {
+                  "ActionID": "3be1545d-48cf-4fd3-a889-052449c0334a",
+                  "LinkedTitle": true,
+                  "Name": "Source Visibility",
+                  "OverrideState": 1,
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.3.31"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "collection": "Dota",
+                    "scene": "METASCENE",
+                    "sceneitemid": 10,
+                    "sceneitemname": "Narrator: test",
+                    "sceneitemscene": "Voice Clips",
+                    "toplevelscene": "> MetaScene Test"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Stop Narrator Clip" }, {}],
+                  "UUID": "com.elgato.obsstudio.source"
+                },
+                {
+                  "ActionID": "a8451fe9-836d-4660-86ac-5a0fa218b5cf",
+                  "LinkedTitle": true,
+                  "Name": "Audio Mixer",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.1.29"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "isInMultiAction": true,
+                    "mode": "toggle",
+                    "source": "MG12XU Stereo USB Mix",
+                    "step": 1,
+                    "style": "static",
+                    "type": "set",
+                    "volume": 1
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Reset USB mix to 0db" }, {}],
+                  "UUID": "com.elgato.obsstudio.mixeraudio"
+                }
+              ]
+            },
+            { "Actions": [] }
+          ],
+          "LinkedTitle": true,
+          "Name": "Multi Action",
+          "Plugin": {
+            "Name": "Multi Action",
+            "UUID": "com.elgato.streamdeck.multiactions",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{ "Title": "Narrator \nTest" }],
+          "UUID": "com.elgato.streamdeck.multiactions.routine"
+        },
+        "5,1": {
+          "ActionID": "fcfc0c7b-fc06-4ecb-ba12-b07223a867f3",
+          "Actions": [
+            {
+              "Actions": [
+                {
+                  "ActionID": "c6fad485-52b5-43f7-8323-eaae1a815026",
+                  "LinkedTitle": true,
+                  "Name": "Audio Mixer",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.1.29"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "isInMultiAction": true,
+                    "mode": "toggle",
+                    "source": "MG12XU Stereo USB Mix",
+                    "step": 1,
+                    "style": "static",
+                    "type": "set",
+                    "volume": 0.552
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Lower USB mix by 15db" }, {}],
+                  "UUID": "com.elgato.obsstudio.mixeraudio"
+                },
+                {
+                  "ActionID": "5e9f2da2-6c54-414f-8068-553d2eb52d1b",
+                  "LinkedTitle": true,
+                  "Name": "Source Visibility",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.3.31"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "collection": "Dota",
+                    "scene": "METASCENE",
+                    "sceneitemid": 10,
+                    "sceneitemname": "Narrator: test",
+                    "sceneitemscene": "Voice Clips",
+                    "toplevelscene": "METASCENE"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Play Narrator Clip" }, {}],
+                  "UUID": "com.elgato.obsstudio.source"
+                },
+                {
+                  "ActionID": "fb4aeb69-d715-4779-9590-586f20b6401e",
+                  "LinkedTitle": true,
+                  "Name": "Filter",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.1.29"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "filter": "Apply LUT - GrayScale",
+                    "source": "Scenes Clones"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Apply Grayscale LUT" }, {}],
+                  "UUID": "com.elgato.obsstudio.filter.state"
+                },
+                {
+                  "ActionID": "fabad47d-2cbc-4d83-af6f-e06ed1420c53",
+                  "LinkedTitle": true,
+                  "Name": "Delay",
+                  "Plugin": {
+                    "Name": "Multi Action",
+                    "UUID": "com.elgato.streamdeck.multiactions",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": { "delay": 11300 },
+                  "State": 0,
+                  "States": [{ "Title": "wait 11.3s" }],
+                  "UUID": "com.elgato.streamdeck.multiactions.delay"
+                },
+                {
+                  "ActionID": "0812dad5-d443-44ca-a57e-7e99aa351d1c",
+                  "LinkedTitle": true,
+                  "Name": "Filter",
+                  "OverrideState": 1,
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.1.29"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "filter": "Apply LUT - GrayScale",
+                    "source": "Scenes Clones"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Remove Grayscale LUT" }, {}],
+                  "UUID": "com.elgato.obsstudio.filter.state"
+                },
+                {
+                  "ActionID": "ba598f7f-295b-44eb-9988-a04f45b68651",
+                  "LinkedTitle": true,
+                  "Name": "Source Visibility",
+                  "OverrideState": 1,
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.3.31"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "collection": "Dota",
+                    "scene": "METASCENE",
+                    "sceneitemid": 10,
+                    "sceneitemname": "Narrator: test",
+                    "sceneitemscene": "Voice Clips",
+                    "toplevelscene": "> MetaScene Test"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Stop Narrator Clip" }, {}],
+                  "UUID": "com.elgato.obsstudio.source"
+                },
+                {
+                  "ActionID": "5f1b4ec4-9195-4a57-a4c9-3b01073b4c1e",
+                  "LinkedTitle": true,
+                  "Name": "Audio Mixer",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.1.29"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "isInMultiAction": true,
+                    "mode": "toggle",
+                    "source": "MG12XU Stereo USB Mix",
+                    "step": 1,
+                    "style": "static",
+                    "type": "set",
+                    "volume": 1
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Reset USB mix to 0db" }, {}],
+                  "UUID": "com.elgato.obsstudio.mixeraudio"
+                }
+              ]
+            },
+            { "Actions": [] }
+          ],
+          "LinkedTitle": true,
+          "Name": "Multi Action",
+          "Plugin": {
+            "Name": "Multi Action",
+            "UUID": "com.elgato.streamdeck.multiactions",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{ "Title": "Narrator \nTest" }],
+          "UUID": "com.elgato.streamdeck.multiactions.routine"
+        },
+        "7,0": {
+          "ActionID": "db820a42-bf13-4764-b847-11901846becd",
+          "Actions": [
+            {
+              "Actions": [
+                {
+                  "ActionID": "0fc6d2f6-6654-43bd-bd06-9428ce68c7ec",
+                  "LinkedTitle": false,
+                  "Name": "Hotkey",
+                  "OverrideState": 0,
+                  "Plugin": {
+                    "Name": "Activate a Key Command",
+                    "UUID": "com.elgato.streamdeck.system.hotkey",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "Coalesce": true,
+                    "Hotkeys": [
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 221,
+                        "QTKeyCode": 93,
+                        "VKeyCode": 221
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      }
+                    ]
+                  },
+                  "State": 0,
+                  "States": [
+                    {
+                      "FontFamily": "",
+                      "FontSize": 12,
+                      "FontStyle": "",
+                      "FontUnderline": false,
+                      "OutlineThickness": 2,
+                      "ShowTitle": true,
+                      "Title": "# press the \"]\" shortcut to stop dota music",
+                      "TitleAlignment": "bottom",
+                      "TitleColor": "#ffffff"
+                    }
+                  ],
+                  "UUID": "com.elgato.streamdeck.system.hotkey"
+                },
+                {
+                  "ActionID": "799db18b-d3ee-4117-b302-a0cb150a527b",
+                  "LinkedTitle": false,
+                  "Name": "Multimedia",
+                  "OverrideState": 0,
+                  "Plugin": {
+                    "Name": "Multimedia",
+                    "UUID": "com.elgato.streamdeck.system.multimedia",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": { "actionIdx": 3 },
+                  "State": 0,
+                  "States": [
+                    {
+                      "FontFamily": "",
+                      "FontSize": 12,
+                      "FontStyle": "",
+                      "FontUnderline": false,
+                      "OutlineThickness": 2,
+                      "ShowTitle": true,
+                      "Title": "# stops any multimedia track",
+                      "TitleAlignment": "bottom",
+                      "TitleColor": "#ffffff"
+                    }
+                  ],
+                  "UUID": "com.elgato.streamdeck.system.multimedia"
+                },
+                {
+                  "ActionID": "3887480e-ea86-41a7-a2df-a52410564e50",
+                  "LinkedTitle": true,
+                  "Name": "Source Visibility",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.3.31"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "collection": "Dota",
+                    "scene": "METASCENE",
+                    "sceneitemid": 5,
+                    "sceneitemname": "Cyberbird",
+                    "sceneitemscene": "Music",
+                    "toplevelscene": "# MetaScene Test"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Play cyberbird" }, {}],
+                  "UUID": "com.elgato.obsstudio.source"
+                },
+                {
+                  "ActionID": "c6715df4-6e90-4866-8e0c-01f6e9c8be4b",
+                  "LinkedTitle": true,
+                  "Name": "Filter",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.1.29"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "filter": "Apply LUT - Golden Warm",
+                    "source": "Scenes Clones"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Apply warm LUT" }, {}],
+                  "UUID": "com.elgato.obsstudio.filter.state"
+                }
+              ]
+            },
+            { "Actions": [] }
+          ],
+          "LinkedTitle": false,
+          "Name": "Multi Action",
+          "Plugin": {
+            "Name": "Multi Action",
+            "UUID": "com.elgato.streamdeck.multiactions",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 12,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "Image": "Images/8SWKQ980PP20595NBGM9N4QBE8Z.png",
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "Title": "Cyberbird",
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.elgato.streamdeck.multiactions.routine"
+        },
+        "7,1": {
+          "ActionID": "67a79c47-b3e0-41ab-866e-2a7a5f53cb61",
+          "Actions": [
+            {
+              "Actions": [
+                {
+                  "ActionID": "c7cecbb3-4141-4c8c-8928-4fda15f20720",
+                  "LinkedTitle": true,
+                  "Name": "Action",
+                  "Plugin": {
+                    "Name": "Streamer.bot",
+                    "UUID": "bot.streamer.streamdeck",
+                    "Version": "1.1.1.2"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "_uuid": "af379d7d-e87b-4cf2-99d9-850a39170627",
+                    "backgroundColorMap": { "0": null },
+                    "backgroundSrcMap": { "0": "" },
+                    "id": "PybWHe_kBSArCb_swBQdZ",
+                    "instanceUuid": "",
+                    "keyDownAction": {
+                      "args": [],
+                      "id": "2d04c060-cab9-49a1-97ef-b3573e48f661",
+                      "name": "Hard Reset"
+                    },
+                    "keyDownLongAction": { "args": [], "id": "", "name": "" },
+                    "keyUpAction": { "args": [], "id": "", "name": "" },
+                    "title": { "0": "RESET\nALL" }
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "reset all" }],
+                  "UUID": "bot.streamer.streamdeck.action"
+                },
+                {
+                  "ActionID": "b5883d4b-3596-4206-ae18-783d99bdb007",
+                  "LinkedTitle": false,
+                  "Name": "Hotkey",
+                  "OverrideState": 0,
+                  "Plugin": {
+                    "Name": "Activate a Key Command",
+                    "UUID": "com.elgato.streamdeck.system.hotkey",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "Coalesce": true,
+                    "Hotkeys": [
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 221,
+                        "QTKeyCode": 93,
+                        "VKeyCode": 221
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      }
+                    ]
+                  },
+                  "State": 0,
+                  "States": [
+                    {
+                      "FontFamily": "",
+                      "FontSize": 12,
+                      "FontStyle": "",
+                      "FontUnderline": false,
+                      "OutlineThickness": 2,
+                      "ShowTitle": true,
+                      "Title": "Press the \"]\" shortcut to stop dota music",
+                      "TitleAlignment": "bottom",
+                      "TitleColor": "#ffffff"
+                    }
+                  ],
+                  "UUID": "com.elgato.streamdeck.system.hotkey"
+                },
+                {
+                  "ActionID": "ae306bdd-accb-4283-bd64-b0de9a54ad3e",
+                  "LinkedTitle": false,
+                  "Name": "Multimedia",
+                  "OverrideState": 0,
+                  "Plugin": {
+                    "Name": "Multimedia",
+                    "UUID": "com.elgato.streamdeck.system.multimedia",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": { "actionIdx": 3 },
+                  "State": 0,
+                  "States": [
+                    {
+                      "FontFamily": "",
+                      "FontSize": 12,
+                      "FontStyle": "",
+                      "FontUnderline": false,
+                      "OutlineThickness": 2,
+                      "ShowTitle": true,
+                      "Title": "Stop any multimedia track",
+                      "TitleAlignment": "bottom",
+                      "TitleColor": "#ffffff"
+                    }
+                  ],
+                  "UUID": "com.elgato.streamdeck.system.multimedia"
+                },
+                {
+                  "ActionID": "dfabf444-4d71-4c99-b953-7a960113b081",
+                  "LinkedTitle": true,
+                  "Name": "Source Visibility",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.3.31"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "collection": "Dota",
+                    "scene": "METASCENE",
+                    "sceneitemid": 4,
+                    "sceneitemname": "<< Ladies and gents, we might be back >>",
+                    "sceneitemscene": "Transitions",
+                    "toplevelscene": "METASCENE"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Show \"Ladies and gents\" text" }, {}],
+                  "UUID": "com.elgato.obsstudio.source"
+                },
+                {
+                  "ActionID": "f5cf19ac-bdf2-44b9-87c7-5811ea859b66",
+                  "LinkedTitle": true,
+                  "Name": "Delay",
+                  "Plugin": {
+                    "Name": "Multi Action",
+                    "UUID": "com.elgato.streamdeck.multiactions",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": { "delay": 5700 },
+                  "State": 0,
+                  "States": [{ "Title": "Wait 6s" }],
+                  "UUID": "com.elgato.streamdeck.multiactions.delay"
+                },
+                {
+                  "ActionID": "19d6f946-6b42-45d1-9cfa-9c9f79e5eb9e",
+                  "LinkedTitle": true,
+                  "Name": "Source Visibility",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.3.31"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "collection": "Dota",
+                    "scene": "METASCENE",
+                    "sceneitemid": 5,
+                    "sceneitemname": "Cyberbird",
+                    "sceneitemscene": "Music",
+                    "toplevelscene": "METASCENE"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Play cyberbird" }, {}],
+                  "UUID": "com.elgato.obsstudio.source"
+                },
+                {
+                  "ActionID": "a7603fc8-5986-4731-bdf2-e272ac5439ca",
+                  "LinkedTitle": true,
+                  "Name": "Filter",
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.1.29"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "filter": "Apply LUT - Golden Warm",
+                    "source": "Scenes Clones"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Apply warm LUT" }, {}],
+                  "UUID": "com.elgato.obsstudio.filter.state"
+                },
+                {
+                  "ActionID": "9e68cf13-6a73-4ca8-9241-004dd46b1e92",
+                  "LinkedTitle": true,
+                  "Name": "Source Visibility",
+                  "OverrideState": 1,
+                  "Plugin": {
+                    "Name": "OBS Studio",
+                    "UUID": "com.elgato.obsstudio",
+                    "Version": "3.0.3.31"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "collection": "Dota",
+                    "scene": "METASCENE",
+                    "sceneitemid": 4,
+                    "sceneitemname": "<< Ladies and gents, we might be back >>",
+                    "sceneitemscene": "Transitions",
+                    "toplevelscene": "METASCENE"
+                  },
+                  "State": 1,
+                  "States": [{ "Title": "Hide \"Ladies and gents\" text" }, {}],
+                  "UUID": "com.elgato.obsstudio.source"
+                }
+              ]
+            },
+            { "Actions": [] }
+          ],
+          "LinkedTitle": false,
+          "Name": "Multi Action",
+          "Plugin": {
+            "Name": "Multi Action",
+            "UUID": "com.elgato.streamdeck.multiactions",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 12,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "Image": "Images/2GA8CFLL990PJB4MQCBVOPNEAOZ.png",
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "Title": "Ladies\nand\ngents +\nCyberbird",
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.elgato.streamdeck.multiactions.routine"
+        },
+        "7,3": {
+          "ActionID": "101dde45-988d-40ea-8351-732c97041e78",
+          "LinkedTitle": true,
+          "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "body": "refit",
+            "url": "ws://localhost:50000/windows"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/4W7N2TNIMP3WN1GHB1FW8M29M4Z.webp",
+              "Title": "PRETTY\nSCRIPTS"
+            }
+          ],
+          "UUID": "gg.datagram.web-requests.websocket"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}

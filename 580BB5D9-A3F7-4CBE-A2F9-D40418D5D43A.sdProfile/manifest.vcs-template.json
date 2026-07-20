@@ -1,0 +1,10 @@
+{
+  "Device": { "Model": "20GAT9901", "UUID": "@(1)[4057/108/CL30I1A05137]" },
+  "Name": "dota_4x8",
+  "Pages": {
+    "Current": "4c56dad5-4cd0-4ac5-acfd-33dadc3fa5c6",
+    "Default": "731e8404-2fad-4647-a8ce-ace7ed0080e2",
+    "Pages": ["4c56dad5-4cd0-4ac5-acfd-33dadc3fa5c6"]
+  },
+  "Version": "3.0"
+}
