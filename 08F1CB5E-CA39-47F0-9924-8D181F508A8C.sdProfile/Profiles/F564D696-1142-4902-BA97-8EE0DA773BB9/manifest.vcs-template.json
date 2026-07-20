@@ -158,6 +158,39 @@
           "States": [{ "Title": "rare scenes" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
+        "3,1": {
+          "ActionID": "0d2198a7-4cc6-4b4e-9515-b136d86e97d7",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "1242c1c8-42de-4f25-a89c-d7aa546a1448",
+            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "Kaf1onYk8eUNG-UaThkHy",
+            "instanceUuid": "",
+            "state": 0,
+            "title": { "0": "enable \nvcam", "1": "disable \nvcam" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "ae7bbb67-8bc9-4662-97ae-c0ae8b9f4755",
+              "name": "Disable Virtual Cam"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "6ddfb373-fc41-4812-a619-ca31bf9a5230",
+              "name": "Enable Virtual Cam"
+            }
+          },
+          "State": 0,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
+        },
         "3,2": {
           "ActionID": "d1a84564-71c7-41a2-9448-a12460556377",
           "LinkedTitle": true,
