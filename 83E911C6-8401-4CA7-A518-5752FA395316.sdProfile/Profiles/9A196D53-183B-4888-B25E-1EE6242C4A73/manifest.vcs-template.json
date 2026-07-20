@@ -1,0 +1,488 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,0": {
+          "ActionID": "4f4123a4-c3b7-4e19-a5f2-e50d1d774825",
+          "LinkedTitle": false,
+          "Name": "Switch Profile",
+          "Plugin": {
+            "Name": "Switch Profile",
+            "UUID": "com.elgato.streamdeck.profile.rotate",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "DeviceUUID": "",
+            "PageIndex": 1,
+            "ProfileUUID": "83e911c6-8401-4ca7-a518-5752fa395316"
+          },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 12,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "Image": "Images/67E0BJ95DT7Q3ETKMC1055KEJ0Z.png",
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "Title": "Home",
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.elgato.streamdeck.profile.rotate"
+        },
+        "0,1": {
+          "ActionID": "5ddeea72-c1d1-40a3-939a-2cd820a86f8d",
+          "LinkedTitle": true,
+          "Name": "Record",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "isInMultiAction": false },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "com.elgato.obsstudio.record"
+        },
+        "1,0": {
+          "ActionID": "58f4bdad-0c59-491e-8565-fe2d14c2d343",
+          "LinkedTitle": true,
+          "Name": "Hotkey",
+          "Plugin": {
+            "Name": "Activate a Key Command",
+            "UUID": "com.elgato.streamdeck.system.hotkey",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "Coalesce": true,
+            "Hotkeys": [
+              {
+                "KeyCmd": false,
+                "KeyCtrl": true,
+                "KeyModifiers": 7,
+                "KeyOption": true,
+                "KeyShift": true,
+                "NativeCode": 69,
+                "QTKeyCode": 69,
+                "VKeyCode": 69
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              }
+            ]
+          },
+          "State": 0,
+          "States": [{ "Title": "rec on" }],
+          "UUID": "com.elgato.streamdeck.system.hotkey"
+        },
+        "1,1": {
+          "ActionID": "e4b31b93-dbd1-416c-9926-c328bc9dc5eb",
+          "LinkedTitle": true,
+          "Name": "Hotkey",
+          "Plugin": {
+            "Name": "Activate a Key Command",
+            "UUID": "com.elgato.streamdeck.system.hotkey",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "Coalesce": true,
+            "Hotkeys": [
+              {
+                "KeyCmd": false,
+                "KeyCtrl": true,
+                "KeyModifiers": 7,
+                "KeyOption": true,
+                "KeyShift": true,
+                "NativeCode": 68,
+                "QTKeyCode": 68,
+                "VKeyCode": 68
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              }
+            ]
+          },
+          "State": 0,
+          "States": [{ "Title": "rec off" }],
+          "UUID": "com.elgato.streamdeck.system.hotkey"
+        },
+        "1,2": {
+          "ActionID": "19af6689-3ba8-4661-8821-8ea91074f170",
+          "LinkedTitle": true,
+          "Name": "Previous Song",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": { "keyImage": "", "tokenExists": true, "version": "2.9" },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 19,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.barraider.spotifyprev"
+        },
+        "2,0": {
+          "ActionID": "ef2e9a62-9b04-4516-8c63-240a07aa1a73",
+          "LinkedTitle": true,
+          "Name": "Shuffle Mode",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": {
+            "keyImage": "",
+            "shuffleOffImage": "",
+            "tokenExists": true,
+            "version": "2.9"
+          },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 19,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            },
+            {},
+            {}
+          ],
+          "UUID": "com.barraider.spotifyshuffle"
+        },
+        "2,1": {
+          "ActionID": "3e1bdba1-3ce9-45e5-9e46-b4796fd3ee48",
+          "LinkedTitle": true,
+          "Name": "Repeat Mode",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": {
+            "keyImage": "",
+            "repeatOffImage": null,
+            "repeatTrackImage": null,
+            "tokenExists": true,
+            "version": "2.9"
+          },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 19,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            },
+            {},
+            {},
+            {}
+          ],
+          "UUID": "com.barraider.spotifyrepeat"
+        },
+        "2,2": {
+          "ActionID": "5ae063dd-4bd2-43db-b8f7-c5033cfd7abb",
+          "LinkedTitle": true,
+          "Name": "Play/Pause",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": {
+            "albumArtDisplayMode": 0,
+            "deviceNameSelected": null,
+            "devices": null,
+            "devicesSelected": "",
+            "keyImage": "",
+            "pauseImage": null,
+            "pauseText": "",
+            "showSongImage": true,
+            "showSongName": true,
+            "showTimeElapsed": true,
+            "showTimeRemaining": false,
+            "songFileName": "",
+            "songFilePrefix": "",
+            "songFileSuffix": "",
+            "songFormat": 0,
+            "songNameFontSize": "40",
+            "timeElapsedFontSize": "40",
+            "tokenExists": false,
+            "version": "2.9"
+          },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 19,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            },
+            {}
+          ],
+          "UUID": "com.barraider.spotifyplaypause"
+        },
+        "3,0": {
+          "ActionID": "a74bd1b5-4d97-4848-92f0-68bf2feaf4b3",
+          "LinkedTitle": true,
+          "Name": "Volume Set",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": {
+            "keyImage": null,
+            "showVolumeLevel": true,
+            "tokenExists": true,
+            "version": "2.9",
+            "volumeParam": "100"
+          },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 16,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "Title": "100%",
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.barraider.spotifyvolset"
+        },
+        "3,1": {
+          "ActionID": "0fd389cc-1401-498c-87ff-206bf461b9a4",
+          "LinkedTitle": true,
+          "Name": "Volume Set",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": {
+            "keyImage": null,
+            "showVolumeLevel": false,
+            "tokenExists": true,
+            "version": "2.9",
+            "volumeParam": "80"
+          },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 16,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "Title": "80%",
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.barraider.spotifyvolset"
+        },
+        "3,2": {
+          "ActionID": "470d45fe-e2d9-4298-920c-f30c49ad4c34",
+          "LinkedTitle": true,
+          "Name": "Next Song",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": { "keyImage": "", "tokenExists": true, "version": "2.9" },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 19,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.barraider.spotifynext"
+        },
+        "4,0": {
+          "ActionID": "e748c208-76c5-4fa7-8db9-0b0d2dbe5c69",
+          "LinkedTitle": true,
+          "Name": "Volume Up",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": {
+            "keyImage": null,
+            "showVolumeLevel": true,
+            "tokenExists": true,
+            "version": "2.9",
+            "volumeParam": "10"
+          },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 16,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.barraider.spotifyvolup"
+        },
+        "4,1": {
+          "ActionID": "fca2cd3b-bb49-45cb-b538-a9b564cd87db",
+          "LinkedTitle": true,
+          "Name": "Volume Down",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": {
+            "keyImage": null,
+            "showVolumeLevel": true,
+            "tokenExists": true,
+            "version": "2.9",
+            "volumeParam": "10"
+          },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 16,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.barraider.spotifyvoldown"
+        },
+        "4,2": {
+          "ActionID": "1b44ba78-95ca-4029-94c4-363822360416",
+          "LinkedTitle": true,
+          "Name": "Next Page",
+          "Plugin": {
+            "Name": "Pages",
+            "UUID": "com.elgato.streamdeck.page",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.page.next"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}

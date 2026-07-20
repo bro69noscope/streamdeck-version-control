@@ -1,0 +1,371 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,0": {
+          "ActionID": "de97c1a5-bc1e-49b6-966f-98d7d2974eef",
+          "LinkedTitle": true,
+          "Name": "Stream",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "isInMultiAction": false, "longpress": false },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "com.elgato.obsstudio.stream"
+        },
+        "0,1": {
+          "ActionID": "c7395fe9-a3b8-4b97-8ce6-143a61944f62",
+          "LinkedTitle": true,
+          "Name": "Record",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "isInMultiAction": false },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "com.elgato.obsstudio.record"
+        },
+        "0,2": {
+          "ActionID": "eb8d6096-a43c-45ba-adbb-ea76e0594430",
+          "LinkedTitle": true,
+          "Name": "Previous Page",
+          "Plugin": {
+            "Name": "Pages",
+            "UUID": "com.elgato.streamdeck.page",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.page.previous"
+        },
+        "1,0": {
+          "ActionID": "e11ce298-3137-4294-b083-af474c88ca05",
+          "LinkedTitle": true,
+          "Name": "Hotkey",
+          "Plugin": {
+            "Name": "Activate a Key Command",
+            "UUID": "com.elgato.streamdeck.system.hotkey",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "Coalesce": true,
+            "Hotkeys": [
+              {
+                "KeyCmd": false,
+                "KeyCtrl": true,
+                "KeyModifiers": 7,
+                "KeyOption": true,
+                "KeyShift": true,
+                "NativeCode": 69,
+                "QTKeyCode": 69,
+                "VKeyCode": 69
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              }
+            ]
+          },
+          "State": 0,
+          "States": [{ "Title": "rec on" }],
+          "UUID": "com.elgato.streamdeck.system.hotkey"
+        },
+        "1,1": {
+          "ActionID": "62731863-43c1-49e8-a983-7c5a1efb4412",
+          "LinkedTitle": true,
+          "Name": "Hotkey",
+          "Plugin": {
+            "Name": "Activate a Key Command",
+            "UUID": "com.elgato.streamdeck.system.hotkey",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "Coalesce": true,
+            "Hotkeys": [
+              {
+                "KeyCmd": false,
+                "KeyCtrl": true,
+                "KeyModifiers": 7,
+                "KeyOption": true,
+                "KeyShift": true,
+                "NativeCode": 68,
+                "QTKeyCode": 68,
+                "VKeyCode": 68
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              }
+            ]
+          },
+          "State": 0,
+          "States": [{ "Title": "rec off" }],
+          "UUID": "com.elgato.streamdeck.system.hotkey"
+        },
+        "1,2": {
+          "ActionID": "042074e9-deaf-4a5b-b4d3-2ea321c8dba7",
+          "LinkedTitle": true,
+          "Name": "Multimedia",
+          "Plugin": {
+            "Name": "Multimedia",
+            "UUID": "com.elgato.streamdeck.system.multimedia",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "actionIdx": 0 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.system.multimedia"
+        },
+        "2,0": {
+          "ActionID": "59ed6b84-3c63-412a-aa55-a3afe5227bf4",
+          "LinkedTitle": true,
+          "Name": "Brightness",
+          "Plugin": {
+            "Name": "Brightness",
+            "UUID": "com.elgato.streamdeck.system.keybrightness",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "actionIdx": 2 },
+          "State": 0,
+          "States": [{ "Title": "bright" }],
+          "UUID": "com.elgato.streamdeck.system.keybrightness"
+        },
+        "2,1": {
+          "ActionID": "85312bd3-03e3-419d-8f60-6621e8b2d25a",
+          "Actions": [
+            {
+              "Actions": [
+                {
+                  "ActionID": "d03be038-dc93-4688-8401-240daf810fa0",
+                  "LinkedTitle": true,
+                  "Name": "Close",
+                  "Plugin": {
+                    "Name": "Close",
+                    "UUID": "com.elgato.streamdeck.system.close",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "forceQuit": false,
+                    "path": "C:\\Program Files\\W3Booster\\W3Booster.exe"
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "W3Booster" }],
+                  "UUID": "com.elgato.streamdeck.system.close"
+                },
+                {
+                  "ActionID": "7394543c-729d-4f76-954a-81f2ca59a523",
+                  "LinkedTitle": true,
+                  "Name": "Open",
+                  "Plugin": {
+                    "Name": "Open",
+                    "UUID": "com.elgato.streamdeck.system.open",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "path": "\"C:\\Program Files\\W3Booster\\W3Booster.exe\""
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "W3Booster" }],
+                  "UUID": "com.elgato.streamdeck.system.open"
+                }
+              ]
+            },
+            { "Actions": [] }
+          ],
+          "LinkedTitle": true,
+          "Name": "Multi Action",
+          "Plugin": {
+            "Name": "Multi Action",
+            "UUID": "com.elgato.streamdeck.multiactions",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{ "Title": "W3Booster" }],
+          "UUID": "com.elgato.streamdeck.multiactions.routine"
+        },
+        "2,2": {
+          "ActionID": "aedfd324-8fb1-49e5-a009-5f2ff0dbabfd",
+          "LinkedTitle": true,
+          "Name": "Multimedia",
+          "Plugin": {
+            "Name": "Multimedia",
+            "UUID": "com.elgato.streamdeck.system.multimedia",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.system.multimedia"
+        },
+        "3,0": {
+          "ActionID": "2e41a84a-8687-4b99-8b3b-39c7fcf1244e",
+          "LinkedTitle": true,
+          "Name": "Brightness",
+          "Plugin": {
+            "Name": "Brightness",
+            "UUID": "com.elgato.streamdeck.system.keybrightness",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "actionIdx": 6 },
+          "State": 0,
+          "States": [{ "Title": "dim" }],
+          "UUID": "com.elgato.streamdeck.system.keybrightness"
+        },
+        "3,1": {
+          "ActionID": "d836fee2-858f-4484-8f2d-4c9a35742f23",
+          "LinkedTitle": true,
+          "Name": "Open Application",
+          "Plugin": {
+            "Name": "Open Application",
+            "UUID": "com.elgato.streamdeck.system.openapp",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "app_name": "Tobii Ghost",
+            "args": "",
+            "bring_to_front": true,
+            "bundle_id": "C:\\Users\\ville\\AppData\\Local\\TobiiGhost\\TobiiGhost.exe",
+            "bundle_path": "C:/Users/ville/AppData/Local/TobiiGhost/TobiiGhost.exe",
+            "exec": "C:/Users/ville/AppData/Local/TobiiGhost/TobiiGhost.exe",
+            "is_bundle": false,
+            "long_press": "quit",
+            "source": "C:/Users/ville/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Tobii/Tobii Ghost.lnk"
+          },
+          "State": 0,
+          "States": [{ "Title": "Tobii\nGhost" }],
+          "UUID": "com.elgato.streamdeck.system.openapp"
+        },
+        "3,2": {
+          "ActionID": "d37e5984-2236-4a87-9248-3286a1b961a4",
+          "LinkedTitle": true,
+          "Name": "Multimedia",
+          "Plugin": {
+            "Name": "Multimedia",
+            "UUID": "com.elgato.streamdeck.system.multimedia",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "actionIdx": 2 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.system.multimedia"
+        },
+        "4,0": {
+          "ActionID": "67099fee-1434-4e3f-bf24-754ca95424c5",
+          "LinkedTitle": true,
+          "Name": "Sleep",
+          "Plugin": {
+            "Name": "Sleep",
+            "UUID": "com.elgato.streamdeck.system.sleep",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.system.sleep"
+        },
+        "4,1": {
+          "ActionID": "d42df121-c258-4032-8be4-3de836d57422",
+          "LinkedTitle": true,
+          "Name": "Open Application",
+          "Plugin": {
+            "Name": "Open Application",
+            "UUID": "com.elgato.streamdeck.system.openapp",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "app_name": "OBS Studio (64bit)",
+            "args": "",
+            "bring_to_front": true,
+            "bundle_id": "C:\\Program Files\\obs-studio\\bin\\64bit\\obs64.exe",
+            "bundle_path": "C:/Program Files/obs-studio/bin/64bit/obs64.exe",
+            "exec": "C:/Program Files/obs-studio/bin/64bit/obs64.exe",
+            "is_bundle": false,
+            "long_press": "quit",
+            "source": "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/OBS Studio/OBS Studio (64bit).lnk"
+          },
+          "State": 0,
+          "States": [{ "Title": "OBS\nStudio" }],
+          "UUID": "com.elgato.streamdeck.system.openapp"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}
