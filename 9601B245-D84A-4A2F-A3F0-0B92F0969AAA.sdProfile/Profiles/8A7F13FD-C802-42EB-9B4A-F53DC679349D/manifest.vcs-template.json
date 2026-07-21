@@ -1,0 +1,26 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,3": {
+          "ActionID": "c1b360ac-c5a3-4722-afd2-1dbbdab1869f",
+          "LinkedTitle": true,
+          "Name": "Previous Page",
+          "Plugin": {
+            "Name": "Pages",
+            "UUID": "com.elgato.streamdeck.page",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.page.previous"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}
