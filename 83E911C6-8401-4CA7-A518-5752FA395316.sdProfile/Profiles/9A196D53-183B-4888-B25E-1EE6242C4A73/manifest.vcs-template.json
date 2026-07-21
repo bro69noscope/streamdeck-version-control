@@ -289,7 +289,7 @@
             "songFormat": 0,
             "songNameFontSize": "40",
             "timeElapsedFontSize": "40",
-            "tokenExists": false,
+            "tokenExists": true,
             "version": "2.9"
           },
           "State": 0,

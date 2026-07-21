@@ -361,6 +361,21 @@
           "State": 0,
           "States": [{ "Title": "OBS\nStudio" }],
           "UUID": "com.elgato.streamdeck.system.openapp"
+        },
+        "4,2": {
+          "ActionID": "a0da9e0e-8ca7-4d84-9298-4b6d013c90c8",
+          "LinkedTitle": true,
+          "Name": "Next Page",
+          "Plugin": {
+            "Name": "Pages",
+            "UUID": "com.elgato.streamdeck.page",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.page.next"
         }
       },
       "Type": "Keypad"
