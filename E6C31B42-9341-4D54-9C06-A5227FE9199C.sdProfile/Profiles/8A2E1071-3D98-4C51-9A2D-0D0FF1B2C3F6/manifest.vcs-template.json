@@ -1,0 +1,118 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,0": {
+          "ActionID": "c6ed9f9e-3e96-49ea-a4d2-04c20bdcdb22",
+          "LinkedTitle": true,
+          "Name": "Switch Profile",
+          "Plugin": {
+            "Name": "Switch Profile",
+            "UUID": "com.elgato.streamdeck.profile.rotate",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "DeviceUUID": "",
+            "PageIndex": 1,
+            "ProfileUUID": "08f1cb5e-ca39-47f0-9924-8d181f508a8c"
+          },
+          "State": 0,
+          "States": [{ "Title": "AOE" }],
+          "UUID": "com.elgato.streamdeck.profile.rotate"
+        },
+        "0,2": {
+          "ActionID": "1559add8-778b-4086-88ca-874f2978e681",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "1e4670eb-de58-46fd-8689-ee9a0ca5a1e4",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "chartSteps": 16,
+            "controller": "Keypad",
+            "dialPressAction": { "args": [], "id": "", "name": "" },
+            "dialReleaseAction": { "args": [], "id": "", "name": "" },
+            "id": "H7jUDRq1-vWSOlo3Dv89y",
+            "instanceUuid": "",
+            "keyDownAction": {
+              "args": [],
+              "id": "75e9b2ad-0446-43c5-a842-ceb1ca70a896",
+              "name": "brb_set_test"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "rotateAction": { "args": [], "id": "", "name": "" },
+            "textColor": "#dcdcdc",
+            "title": { "0": "brb test" },
+            "touchLongAction": { "args": [], "id": "", "name": "" },
+            "touchTapAction": { "args": [], "id": "", "name": "" },
+            "type": "sparkline",
+            "value": null,
+            "valueHistory": []
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "0,3": {
+          "ActionID": "85dfee80-5cdf-4903-968a-ad1c7392fe9a",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "dd819a7e-04f5-4a3a-abfa-562ebd3e4cb8",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "m99-ppQk0DJa8bs1ijKaM",
+            "instanceUuid": "",
+            "keyDownAction": {
+              "args": [],
+              "id": "b485a409-a30f-4f98-9d85-a27f6e5c60c3",
+              "name": "ftp_scene_screencap"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "screencap" }
+          },
+          "State": 0,
+          "States": [{ "Image": "Images/5ONHPWWKIH5PRFH11CMC9KHDM8Z.png" }],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "1,0": {
+          "ActionID": "0f345574-185d-4a50-9f87-8e966a1e9dfe",
+          "LinkedTitle": true,
+          "Name": "Switch Profile",
+          "Plugin": {
+            "Name": "Switch Profile",
+            "UUID": "com.elgato.streamdeck.profile.rotate",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "DeviceUUID": "",
+            "PageIndex": 1,
+            "ProfileUUID": "9601b245-d84a-4a2f-a3f0-0b92f0969aaa"
+          },
+          "State": 0,
+          "States": [{ "Title": "HOME" }],
+          "UUID": "com.elgato.streamdeck.profile.rotate"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}

@@ -1,0 +1,10 @@
+{
+  "Device": { "Model": "20GAT9901", "UUID": "@(1)[4057/108/CL30I1A05137]" },
+  "Name": "film_the_process_4x8",
+  "Pages": {
+    "Current": "8a2e1071-3d98-4c51-9a2d-0d0ff1b2c3f6",
+    "Default": "01011678-54ac-49c1-9f2e-d5cef4b99c69",
+    "Pages": ["8a2e1071-3d98-4c51-9a2d-0d0ff1b2c3f6"]
+  },
+  "Version": "3.0"
+}
