@@ -284,10 +284,6 @@
             "_uuid": "410f9235-be70-452b-86fc-2948c163858d",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
-            "chartSteps": 16,
-            "controller": "Keypad",
-            "dialPressAction": { "args": [], "id": "", "name": "" },
-            "dialReleaseAction": { "args": [], "id": "", "name": "" },
             "id": "TjAx95TV0LhiLgYMv5mel",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
             "keyDownAction": {
@@ -297,14 +293,7 @@
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
-            "rotateAction": { "args": [], "id": "", "name": "" },
-            "textColor": "#dcdcdc",
-            "title": { "0": "zoom" },
-            "touchLongAction": { "args": [], "id": "", "name": "" },
-            "touchTapAction": { "args": [], "id": "", "name": "" },
-            "type": "sparkline",
-            "value": null,
-            "valueHistory": []
+            "title": { "0": "zoom" }
           },
           "State": 0,
           "States": [{}],
