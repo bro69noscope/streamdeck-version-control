@@ -2,6 +2,25 @@
   "Controllers": [
     {
       "Actions": {
+        "0,0": {
+          "ActionID": "8dd67a12-d5b4-4673-8ef8-cb0cf4f1eab9",
+          "LinkedTitle": true,
+          "Name": "Switch Profile",
+          "Plugin": {
+            "Name": "Switch Profile",
+            "UUID": "com.elgato.streamdeck.profile.rotate",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "DeviceUUID": "",
+            "PageIndex": 1,
+            "ProfileUUID": "08f1cb5e-ca39-47f0-9924-8d181f508a8c"
+          },
+          "State": 0,
+          "States": [{ "Title": "AOE" }],
+          "UUID": "com.elgato.streamdeck.profile.rotate"
+        },
         "0,1": {
           "ActionID": "a3e9fc70-2550-49f6-bb6e-e9a7722d10b7",
           "LinkedTitle": true,
@@ -54,10 +73,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": {
-            "scene": "scene_screencap_center_monitor",
-            "target": "preview"
-          },
+          "Settings": { "scene": "scene_screencap", "target": "preview" },
           "State": 0,
           "States": [
             {
@@ -69,19 +85,23 @@
           "UUID": "com.elgato.obsstudio.scene"
         },
         "1,0": {
-          "ActionID": "2f364208-507a-47cd-905c-cc3b922f5cd3",
+          "ActionID": "47bd291e-2aef-43a4-b73d-4205140c3f39",
           "LinkedTitle": true,
-          "Name": "Create Folder",
+          "Name": "Switch Profile",
           "Plugin": {
-            "Name": "Create Folder",
-            "UUID": "com.elgato.streamdeck.profile.openchild",
+            "Name": "Switch Profile",
+            "UUID": "com.elgato.streamdeck.profile.rotate",
             "Version": "1.0"
           },
           "Resources": null,
-          "Settings": { "ProfileUUID": "c39232a6-69ae-43d9-8634-fe89386f5ca1" },
+          "Settings": {
+            "DeviceUUID": "",
+            "PageIndex": 1,
+            "ProfileUUID": "9601b245-d84a-4a2f-a3f0-0b92f0969aaa"
+          },
           "State": 0,
-          "States": [{ "Title": "brb" }],
-          "UUID": "com.elgato.streamdeck.profile.openchild"
+          "States": [{ "Title": "HOME" }],
+          "UUID": "com.elgato.streamdeck.profile.rotate"
         },
         "1,1": {
           "ActionID": "9473a751-455d-4569-a187-52007c4204f2",
@@ -143,21 +163,6 @@
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
-        "2,0": {
-          "ActionID": "2781fa17-5dd2-48ac-8a10-e08a2ecea0a5",
-          "LinkedTitle": true,
-          "Name": "Create Folder",
-          "Plugin": {
-            "Name": "Create Folder",
-            "UUID": "com.elgato.streamdeck.profile.openchild",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": { "ProfileUUID": "ce51b19e-95b4-47e7-a500-1c6c89752dde" },
-          "State": 0,
-          "States": [{ "Title": "rare scenes" }],
-          "UUID": "com.elgato.streamdeck.profile.openchild"
-        },
         "3,1": {
           "ActionID": "0d2198a7-4cc6-4b4e-9515-b136d86e97d7",
           "LinkedTitle": true,
@@ -169,11 +174,11 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "1242c1c8-42de-4f25-a89c-d7aa546a1448",
+            "_uuid": "8a795881-210b-425b-bfb4-2a8dd2374070",
             "backgroundColorMap": { "0": null, "1": "" },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
-            "instanceUuid": "",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
             "state": 0,
             "title": { "0": "enable \nvcam", "1": "disable \nvcam" },
             "toggleOffAction": {
@@ -190,35 +195,6 @@
           "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
-        },
-        "3,2": {
-          "ActionID": "d1a84564-71c7-41a2-9448-a12460556377",
-          "LinkedTitle": true,
-          "Name": "Action",
-          "Plugin": {
-            "Name": "Streamer.bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
-          },
-          "Resources": null,
-          "Settings": {
-            "_uuid": "7524d90a-07ba-40c4-b03e-b410a34be568",
-            "backgroundColorMap": { "0": null },
-            "backgroundSrcMap": { "0": "" },
-            "id": "TjAx95TV0LhiLgYMv5mel",
-            "instanceUuid": "",
-            "keyDownAction": {
-              "args": [],
-              "id": "5a63350f-9e97-447c-9d91-990dad7dd458",
-              "name": "Temporary Cam Zoom"
-            },
-            "keyDownLongAction": { "args": [], "id": "", "name": "" },
-            "keyUpAction": { "args": [], "id": "", "name": "" },
-            "title": { "0": "zoom" }
-          },
-          "State": 0,
-          "States": [{}],
-          "UUID": "bot.streamer.streamdeck.action"
         },
         "3,3": {
           "ActionID": "ae7c1f9b-d56f-40eb-8dd4-e86ade5b9796",
@@ -279,6 +255,76 @@
           "States": [{ "Title": "obs&chat" }],
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
+        "4,1": {
+          "ActionID": "2f364208-507a-47cd-905c-cc3b922f5cd3",
+          "LinkedTitle": true,
+          "Name": "Create Folder",
+          "Plugin": {
+            "Name": "Create Folder",
+            "UUID": "com.elgato.streamdeck.profile.openchild",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "ProfileUUID": "c39232a6-69ae-43d9-8634-fe89386f5ca1" },
+          "State": 0,
+          "States": [{ "Title": "brb" }],
+          "UUID": "com.elgato.streamdeck.profile.openchild"
+        },
+        "4,3": {
+          "ActionID": "d1a84564-71c7-41a2-9448-a12460556377",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "410f9235-be70-452b-86fc-2948c163858d",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "chartSteps": 16,
+            "controller": "Keypad",
+            "dialPressAction": { "args": [], "id": "", "name": "" },
+            "dialReleaseAction": { "args": [], "id": "", "name": "" },
+            "id": "TjAx95TV0LhiLgYMv5mel",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+            "keyDownAction": {
+              "args": [],
+              "id": "5a63350f-9e97-447c-9d91-990dad7dd458",
+              "name": "Temporary Cam Zoom"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "rotateAction": { "args": [], "id": "", "name": "" },
+            "textColor": "#dcdcdc",
+            "title": { "0": "zoom" },
+            "touchLongAction": { "args": [], "id": "", "name": "" },
+            "touchTapAction": { "args": [], "id": "", "name": "" },
+            "type": "sparkline",
+            "value": null,
+            "valueHistory": []
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "5,1": {
+          "ActionID": "2781fa17-5dd2-48ac-8a10-e08a2ecea0a5",
+          "LinkedTitle": true,
+          "Name": "Create Folder",
+          "Plugin": {
+            "Name": "Create Folder",
+            "UUID": "com.elgato.streamdeck.profile.openchild",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "ProfileUUID": "ce51b19e-95b4-47e7-a500-1c6c89752dde" },
+          "State": 0,
+          "States": [{ "Title": "rare scenes" }],
+          "UUID": "com.elgato.streamdeck.profile.openchild"
+        },
         "6,0": {
           "ActionID": "0719c2d5-c7c4-4955-8c70-e4b9a542ea0a",
           "LinkedTitle": true,
@@ -315,13 +361,13 @@
           "Settings": {
             "collection": "collection_aoe2",
             "icon": "camera",
-            "scene": "scene_dslr",
+            "scene": "scene_facecam",
             "sceneitemid": 1,
-            "sceneitemname": "capture_dslr",
-            "sceneitemscene": "scene_dslr",
-            "toplevelscene": "scene_dslr"
+            "sceneitemname": "capture_facecam",
+            "sceneitemscene": "scene_facecam",
+            "toplevelscene": "scene_facecam"
           },
-          "State": 1,
+          "State": 0,
           "States": [{ "Title": "cam" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         }
