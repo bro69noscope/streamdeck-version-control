@@ -37,7 +37,7 @@
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "PybWHe_kBSArCb_swBQdZ",
-            "instanceUuid": "",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
             "keyDownAction": {
               "args": [],
               "id": "2d04c060-cab9-49a1-97ef-b3573e48f661",
@@ -118,7 +118,7 @@
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "cc51ea89-4e90-4d6c-8311-4d5abac51ff1",
-            "instanceUuid": "",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
             "keyDownAction": {
               "args": [],
               "id": "9e2a7010-59f9-454c-8ab0-71f8024fe1ad",
@@ -676,7 +676,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "0456f239-17f2-499b-8f05-b3997bb35552",
+                    "_uuid": "117268b3-9e55-4dd6-b5c5-f53bb06f7e9f",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
