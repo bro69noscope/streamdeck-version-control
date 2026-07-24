@@ -956,7 +956,7 @@
           "Resources": null,
           "Settings": {
             "body": "refit",
-            "url": "ws://localhost:50000/windows"
+            "url": "{{REPOSITORY_PYTHON_WS}}/windows"
           },
           "State": 0,
           "States": [
