@@ -1,6 +1,6 @@
 {
   "Device": { "Model": "20GAT9901", "UUID": "@(1)[4057/108/CL30I1A05137]" },
-  "Name": "home_4x8",
+  "Name": "hub_4x8",
   "Pages": {
     "Current": "4189c352-154a-4c8e-a508-39c1a74b637e",
     "Default": "c5cf86da-678c-4c80-9b5a-5657af51911a",

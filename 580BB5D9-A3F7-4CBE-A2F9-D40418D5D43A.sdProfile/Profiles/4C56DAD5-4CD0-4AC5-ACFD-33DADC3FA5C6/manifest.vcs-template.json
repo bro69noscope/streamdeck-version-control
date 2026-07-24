@@ -18,7 +18,7 @@
             "ProfileUUID": "9601b245-d84a-4a2f-a3f0-0b92f0969aaa"
           },
           "State": 0,
-          "States": [{ "Title": "HOME" }],
+          "States": [{ "Title": "HUB" }],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
         "0,3": {
