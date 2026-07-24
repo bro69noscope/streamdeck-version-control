@@ -175,7 +175,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "8a795881-210b-425b-bfb4-2a8dd2374070",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",

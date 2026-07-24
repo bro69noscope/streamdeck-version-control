@@ -35,10 +35,6 @@
             "_uuid": "1e4670eb-de58-46fd-8689-ee9a0ca5a1e4",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
-            "chartSteps": 16,
-            "controller": "Keypad",
-            "dialPressAction": { "args": [], "id": "", "name": "" },
-            "dialReleaseAction": { "args": [], "id": "", "name": "" },
             "id": "H7jUDRq1-vWSOlo3Dv89y",
             "instanceUuid": "",
             "keyDownAction": {
@@ -48,14 +44,7 @@
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
-            "rotateAction": { "args": [], "id": "", "name": "" },
-            "textColor": "#dcdcdc",
-            "title": { "0": "brb test" },
-            "touchLongAction": { "args": [], "id": "", "name": "" },
-            "touchTapAction": { "args": [], "id": "", "name": "" },
-            "type": "sparkline",
-            "value": null,
-            "valueHistory": []
+            "title": { "0": "brb test" }
           },
           "State": 0,
           "States": [{}],
