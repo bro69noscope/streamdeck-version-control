@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_lounge", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/0AR0VQK9LL6A1A1GB4W35LJH2CZ.png",
@@ -49,7 +49,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_screencap", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/NCDS37QJI15LLEQFRSRT8V4Q6SZ.png",
@@ -240,6 +240,87 @@
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
         "6,3": {
+          "ActionID": "d1a84564-71c7-41a2-9448-a12460556377",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "708bab6b-1701-4443-b215-f4156ca1a90e",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "TjAx95TV0LhiLgYMv5mel",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+            "keyDownAction": {
+              "args": [],
+              "id": "5a63350f-9e97-447c-9d91-990dad7dd458",
+              "name": "Temporary Cam Zoom"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "zoom" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "7,0": {
+          "ActionID": "8dd67a12-d5b4-4673-8ef8-cb0cf4f1eab9",
+          "LinkedTitle": true,
+          "Name": "Switch Profile",
+          "Plugin": {
+            "Name": "Switch Profile",
+            "UUID": "com.elgato.streamdeck.profile.rotate",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "DeviceUUID": "",
+            "PageIndex": 1,
+            "ProfileUUID": "08f1cb5e-ca39-47f0-9924-8d181f508a8c"
+          },
+          "State": 0,
+          "States": [{ "Title": "AOE" }],
+          "UUID": "com.elgato.streamdeck.profile.rotate"
+        },
+        "7,2": {
+          "ActionID": "0d2198a7-4cc6-4b4e-9515-b136d86e97d7",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "2db00f28-8e0c-47c5-92f5-57d41058e858",
+            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "Kaf1onYk8eUNG-UaThkHy",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+            "state": 1,
+            "title": { "0": "enable \nvcam", "1": "disable \nvcam" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "ae7bbb67-8bc9-4662-97ae-c0ae8b9f4755",
+              "name": "Disable Virtual Cam"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "6ddfb373-fc41-4812-a619-ca31bf9a5230",
+              "name": "Enable Virtual Cam"
+            }
+          },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
+        },
+        "7,3": {
           "ActionID": "ae7c1f9b-d56f-40eb-8dd4-e86ade5b9796",
           "LinkedTitle": true,
           "Name": "Hotkey",
@@ -297,87 +378,6 @@
           "State": 0,
           "States": [{ "Title": "obs&chat" }],
           "UUID": "com.elgato.streamdeck.system.hotkey"
-        },
-        "7,0": {
-          "ActionID": "8dd67a12-d5b4-4673-8ef8-cb0cf4f1eab9",
-          "LinkedTitle": true,
-          "Name": "Switch Profile",
-          "Plugin": {
-            "Name": "Switch Profile",
-            "UUID": "com.elgato.streamdeck.profile.rotate",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {
-            "DeviceUUID": "",
-            "PageIndex": 1,
-            "ProfileUUID": "08f1cb5e-ca39-47f0-9924-8d181f508a8c"
-          },
-          "State": 0,
-          "States": [{ "Title": "AOE" }],
-          "UUID": "com.elgato.streamdeck.profile.rotate"
-        },
-        "7,2": {
-          "ActionID": "0d2198a7-4cc6-4b4e-9515-b136d86e97d7",
-          "LinkedTitle": true,
-          "Name": "Action Switch",
-          "Plugin": {
-            "Name": "Streamer.bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
-          },
-          "Resources": null,
-          "Settings": {
-            "_uuid": "2db00f28-8e0c-47c5-92f5-57d41058e858",
-            "backgroundColorMap": { "0": null, "1": "" },
-            "backgroundSrcMap": { "0": "", "1": "" },
-            "id": "Kaf1onYk8eUNG-UaThkHy",
-            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "state": 1,
-            "title": { "0": "enable \nvcam", "1": "disable \nvcam" },
-            "toggleOffAction": {
-              "args": [],
-              "id": "ae7bbb67-8bc9-4662-97ae-c0ae8b9f4755",
-              "name": "Disable Virtual Cam"
-            },
-            "toggleOnAction": {
-              "args": [],
-              "id": "6ddfb373-fc41-4812-a619-ca31bf9a5230",
-              "name": "Enable Virtual Cam"
-            }
-          },
-          "State": 1,
-          "States": [{}, {}],
-          "UUID": "bot.streamer.streamdeck.action-switch"
-        },
-        "7,3": {
-          "ActionID": "d1a84564-71c7-41a2-9448-a12460556377",
-          "LinkedTitle": true,
-          "Name": "Action",
-          "Plugin": {
-            "Name": "Streamer.bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
-          },
-          "Resources": null,
-          "Settings": {
-            "_uuid": "1b4bad99-2c42-46c9-906e-b3a157d3f4f8",
-            "backgroundColorMap": { "0": null },
-            "backgroundSrcMap": { "0": "" },
-            "id": "TjAx95TV0LhiLgYMv5mel",
-            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "keyDownAction": {
-              "args": [],
-              "id": "5a63350f-9e97-447c-9d91-990dad7dd458",
-              "name": "Temporary Cam Zoom"
-            },
-            "keyDownLongAction": { "args": [], "id": "", "name": "" },
-            "keyUpAction": { "args": [], "id": "", "name": "" },
-            "title": { "0": "zoom" }
-          },
-          "State": 0,
-          "States": [{}],
-          "UUID": "bot.streamer.streamdeck.action"
         }
       },
       "Type": "Keypad"
