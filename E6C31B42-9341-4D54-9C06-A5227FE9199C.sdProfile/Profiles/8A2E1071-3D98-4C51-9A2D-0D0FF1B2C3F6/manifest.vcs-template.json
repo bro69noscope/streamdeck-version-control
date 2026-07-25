@@ -334,6 +334,65 @@
           "State": 0,
           "States": [{ "Title": "AOE" }],
           "UUID": "com.elgato.streamdeck.profile.rotate"
+        },
+        "7,3": {
+          "ActionID": "947b7ac0-1a2d-4c14-9a37-f287cd8de43e",
+          "LinkedTitle": true,
+          "Name": "Hotkey",
+          "Plugin": {
+            "Name": "Activate a Key Command",
+            "UUID": "com.elgato.streamdeck.system.hotkey",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "Coalesce": true,
+            "Hotkeys": [
+              {
+                "KeyCmd": false,
+                "KeyCtrl": true,
+                "KeyModifiers": 7,
+                "KeyOption": true,
+                "KeyShift": true,
+                "NativeCode": 125,
+                "QTKeyCode": 16777277,
+                "VKeyCode": 125
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              }
+            ]
+          },
+          "State": 0,
+          "States": [{ "Title": "obs&chat" }],
+          "UUID": "com.elgato.streamdeck.system.hotkey"
         }
       },
       "Type": "Keypad"
