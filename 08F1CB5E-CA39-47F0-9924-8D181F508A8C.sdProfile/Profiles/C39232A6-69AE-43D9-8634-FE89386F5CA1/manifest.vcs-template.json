@@ -17,7 +17,7 @@
           "States": [{}],
           "UUID": "com.elgato.streamdeck.profile.backtoparent"
         },
-        "0,1": {
+        "0,3": {
           "ActionID": "68235d12-1b97-4557-b4eb-1ae07b0a5afc",
           "LinkedTitle": true,
           "Name": "Action",
@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "c11c80af-b2dd-410f-a719-90957b7bb9f2",
+            "_uuid": "7d3508be-9c1a-4785-8d6f-272126c8a792",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "J1vi8ktQ7QvMLL2cN_GKL",
@@ -46,7 +46,7 @@
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
-        "1,0": {
+        "2,2": {
           "ActionID": "3680ff7d-24f7-4530-8218-2f4683b1946e",
           "LinkedTitle": true,
           "Name": "Action",
@@ -57,7 +57,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "87349c11-8322-4231-9df6-06d75a3b968e",
+            "_uuid": "a0767bb8-cd11-4062-8429-c11674c47b7b",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "h7SB9NWhEaF1SLDzOOgxk",
@@ -75,7 +75,7 @@
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
-        "2,0": {
+        "3,2": {
           "ActionID": "a1b9249a-7e4a-4631-87b5-f30b8e810ccb",
           "LinkedTitle": true,
           "Name": "Action",
@@ -86,7 +86,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "39b0c368-3cac-490e-8519-76a5ff26b3be",
+            "_uuid": "085b0fea-8966-4813-b2d2-798d98af7798",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "v7TUnNf6pDFTGMuuNqhyg",
@@ -104,7 +104,7 @@
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
-        "3,0": {
+        "4,2": {
           "ActionID": "20740cb4-c17e-4b50-9c1f-5ab4d896f005",
           "LinkedTitle": true,
           "Name": "Action",
@@ -115,7 +115,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "9ab5d40e-731b-4cf5-aec0-3a593b663f36",
+            "_uuid": "4b4f52ce-868f-4d41-90c7-e54033aaa6ba",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "AY_y5mrw00LaQNyNuffOx",
@@ -133,7 +133,7 @@
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
-        "4,0": {
+        "5,2": {
           "ActionID": "2883b3e3-a423-4ec5-a55b-2d92223a9e20",
           "LinkedTitle": true,
           "Name": "Action",
@@ -144,7 +144,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "3c84abc0-8b00-47dd-8b72-4643c457693f",
+            "_uuid": "f9f50100-aac1-478f-96a5-68abb7f6634e",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "3oTe5hkPEpQMTH3jQ15cy",

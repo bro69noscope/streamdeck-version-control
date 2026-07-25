@@ -16,6 +16,63 @@
           "State": 0,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.page.previous"
+        },
+        "1,0": {
+          "ActionID": "7e54014a-e715-456d-98e3-fe4af958c4f8",
+          "Actions": [
+            {
+              "Actions": [
+                {
+                  "ActionID": "1cb1c562-090f-490e-90cf-0ad21c353a84",
+                  "LinkedTitle": true,
+                  "Name": "Close",
+                  "Plugin": {
+                    "Name": "Close",
+                    "UUID": "com.elgato.streamdeck.system.close",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "forceQuit": false,
+                    "path": "C:\\Program Files\\W3Booster\\W3Booster.exe"
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "W3Booster" }],
+                  "UUID": "com.elgato.streamdeck.system.close"
+                },
+                {
+                  "ActionID": "5bf2e32c-f3ce-47b6-ad43-7f318759bbe3",
+                  "LinkedTitle": true,
+                  "Name": "Open",
+                  "Plugin": {
+                    "Name": "Open",
+                    "UUID": "com.elgato.streamdeck.system.open",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "path": "\"C:\\Program Files\\W3Booster\\W3Booster.exe\""
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "W3Booster" }],
+                  "UUID": "com.elgato.streamdeck.system.open"
+                }
+              ]
+            },
+            { "Actions": [] }
+          ],
+          "LinkedTitle": true,
+          "Name": "Multi Action",
+          "Plugin": {
+            "Name": "Multi Action",
+            "UUID": "com.elgato.streamdeck.multiactions",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{ "Title": "W3Booster" }],
+          "UUID": "com.elgato.streamdeck.multiactions.routine"
         }
       },
       "Type": "Keypad"

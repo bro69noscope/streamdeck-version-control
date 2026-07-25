@@ -180,78 +180,6 @@
           "States": [{}],
           "UUID": "com.elgato.streamdeck.system.multimedia"
         },
-        "2,0": {
-          "ActionID": "59ed6b84-3c63-412a-aa55-a3afe5227bf4",
-          "LinkedTitle": true,
-          "Name": "Brightness",
-          "Plugin": {
-            "Name": "Brightness",
-            "UUID": "com.elgato.streamdeck.system.keybrightness",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": { "actionIdx": 2 },
-          "State": 0,
-          "States": [{ "Title": "bright" }],
-          "UUID": "com.elgato.streamdeck.system.keybrightness"
-        },
-        "2,1": {
-          "ActionID": "85312bd3-03e3-419d-8f60-6621e8b2d25a",
-          "Actions": [
-            {
-              "Actions": [
-                {
-                  "ActionID": "d03be038-dc93-4688-8401-240daf810fa0",
-                  "LinkedTitle": true,
-                  "Name": "Close",
-                  "Plugin": {
-                    "Name": "Close",
-                    "UUID": "com.elgato.streamdeck.system.close",
-                    "Version": "1.0"
-                  },
-                  "Resources": null,
-                  "Settings": {
-                    "forceQuit": false,
-                    "path": "C:\\Program Files\\W3Booster\\W3Booster.exe"
-                  },
-                  "State": 0,
-                  "States": [{ "Title": "W3Booster" }],
-                  "UUID": "com.elgato.streamdeck.system.close"
-                },
-                {
-                  "ActionID": "7394543c-729d-4f76-954a-81f2ca59a523",
-                  "LinkedTitle": true,
-                  "Name": "Open",
-                  "Plugin": {
-                    "Name": "Open",
-                    "UUID": "com.elgato.streamdeck.system.open",
-                    "Version": "1.0"
-                  },
-                  "Resources": null,
-                  "Settings": {
-                    "path": "\"C:\\Program Files\\W3Booster\\W3Booster.exe\""
-                  },
-                  "State": 0,
-                  "States": [{ "Title": "W3Booster" }],
-                  "UUID": "com.elgato.streamdeck.system.open"
-                }
-              ]
-            },
-            { "Actions": [] }
-          ],
-          "LinkedTitle": true,
-          "Name": "Multi Action",
-          "Plugin": {
-            "Name": "Multi Action",
-            "UUID": "com.elgato.streamdeck.multiactions",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {},
-          "State": 0,
-          "States": [{ "Title": "W3Booster" }],
-          "UUID": "com.elgato.streamdeck.multiactions.routine"
-        },
         "2,2": {
           "ActionID": "aedfd324-8fb1-49e5-a009-5f2ff0dbabfd",
           "LinkedTitle": true,
@@ -268,44 +196,26 @@
           "UUID": "com.elgato.streamdeck.system.multimedia"
         },
         "3,0": {
-          "ActionID": "2e41a84a-8687-4b99-8b3b-39c7fcf1244e",
+          "ActionID": "5f9638f1-c7e3-4833-843f-9137680503eb",
           "LinkedTitle": true,
-          "Name": "Brightness",
+          "Name": "Open",
           "Plugin": {
-            "Name": "Brightness",
-            "UUID": "com.elgato.streamdeck.system.keybrightness",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": { "actionIdx": 6 },
-          "State": 0,
-          "States": [{ "Title": "dim" }],
-          "UUID": "com.elgato.streamdeck.system.keybrightness"
-        },
-        "3,1": {
-          "ActionID": "d836fee2-858f-4484-8f2d-4c9a35742f23",
-          "LinkedTitle": true,
-          "Name": "Open Application",
-          "Plugin": {
-            "Name": "Open Application",
-            "UUID": "com.elgato.streamdeck.system.openapp",
+            "Name": "Open",
+            "UUID": "com.elgato.streamdeck.system.open",
             "Version": "1.0"
           },
           "Resources": null,
           "Settings": {
-            "app_name": "Tobii Ghost",
-            "args": "",
-            "bring_to_front": true,
-            "bundle_id": "C:\\Users\\ville\\AppData\\Local\\TobiiGhost\\TobiiGhost.exe",
-            "bundle_path": "C:/Users/ville/AppData/Local/TobiiGhost/TobiiGhost.exe",
-            "exec": "C:/Users/ville/AppData/Local/TobiiGhost/TobiiGhost.exe",
-            "is_bundle": false,
-            "long_press": "quit",
-            "source": "C:/Users/ville/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Tobii/Tobii Ghost.lnk"
+            "path": "\"C:\\Users\\ville\\myfiles\\git-repos\\woertsposzibllen4me\\external\\streamdeck\\utils\\quit-streamdeck\\quit-streamdeck.vbs\""
           },
           "State": 0,
-          "States": [{ "Title": "Tobii\nGhost" }],
-          "UUID": "com.elgato.streamdeck.system.openapp"
+          "States": [
+            {
+              "Image": "Images/NIIE5R81HH3IL3V5R9MB115B28Z.png",
+              "Title": "quit-stre."
+            }
+          ],
+          "UUID": "com.elgato.streamdeck.system.open"
         },
         "3,2": {
           "ActionID": "d37e5984-2236-4a87-9248-3286a1b961a4",
@@ -323,21 +233,6 @@
           "UUID": "com.elgato.streamdeck.system.multimedia"
         },
         "4,0": {
-          "ActionID": "67099fee-1434-4e3f-bf24-754ca95424c5",
-          "LinkedTitle": true,
-          "Name": "Sleep",
-          "Plugin": {
-            "Name": "Sleep",
-            "UUID": "com.elgato.streamdeck.system.sleep",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {},
-          "State": 0,
-          "States": [{}],
-          "UUID": "com.elgato.streamdeck.system.sleep"
-        },
-        "4,1": {
           "ActionID": "d42df121-c258-4032-8be4-3de836d57422",
           "LinkedTitle": true,
           "Name": "Open Application",
@@ -360,6 +255,31 @@
           },
           "State": 0,
           "States": [{ "Title": "OBS\nStudio" }],
+          "UUID": "com.elgato.streamdeck.system.openapp"
+        },
+        "4,1": {
+          "ActionID": "d836fee2-858f-4484-8f2d-4c9a35742f23",
+          "LinkedTitle": true,
+          "Name": "Open Application",
+          "Plugin": {
+            "Name": "Open Application",
+            "UUID": "com.elgato.streamdeck.system.openapp",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "app_name": "Tobii Ghost",
+            "args": "",
+            "bring_to_front": true,
+            "bundle_id": "C:\\Users\\ville\\AppData\\Local\\TobiiGhost\\TobiiGhost.exe",
+            "bundle_path": "C:/Users/ville/AppData/Local/TobiiGhost/TobiiGhost.exe",
+            "exec": "C:/Users/ville/AppData/Local/TobiiGhost/TobiiGhost.exe",
+            "is_bundle": false,
+            "long_press": "quit",
+            "source": "C:/Users/ville/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Tobii/Tobii Ghost.lnk"
+          },
+          "State": 0,
+          "States": [{ "Title": "Tobii\nGhost" }],
           "UUID": "com.elgato.streamdeck.system.openapp"
         },
         "4,2": {
