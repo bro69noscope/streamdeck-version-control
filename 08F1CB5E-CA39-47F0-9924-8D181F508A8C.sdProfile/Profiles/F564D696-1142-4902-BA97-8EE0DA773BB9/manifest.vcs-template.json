@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_lounge", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/0AR0VQK9LL6A1A1GB4W35LJH2CZ.png",
@@ -238,6 +238,29 @@
           "State": 0,
           "States": [{ "Title": "HUB" }],
           "UUID": "com.elgato.streamdeck.profile.rotate"
+        },
+        "6,2": {
+          "ActionID": "fe1771e0-3881-47eb-b4e3-ec9e0d0bbb8f",
+          "LinkedTitle": true,
+          "Name": "Source Visibility",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": {
+            "collection": "collection_aoe2",
+            "icon": "game_capture",
+            "scene": "scene_tobii",
+            "sceneitemid": 1,
+            "sceneitemname": "capture_eyetracker_tobii",
+            "sceneitemscene": "scene_tobii",
+            "toplevelscene": "scene_tobii"
+          },
+          "State": 1,
+          "States": [{ "Title": "tobii" }, {}],
+          "UUID": "com.elgato.obsstudio.source"
         },
         "6,3": {
           "ActionID": "d1a84564-71c7-41a2-9448-a12460556377",
