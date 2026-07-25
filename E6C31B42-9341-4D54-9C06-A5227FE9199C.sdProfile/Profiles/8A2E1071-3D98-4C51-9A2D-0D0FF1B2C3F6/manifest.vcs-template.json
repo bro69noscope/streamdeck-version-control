@@ -297,6 +297,39 @@
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
+        "4,3": {
+          "ActionID": "0e5eef59-8fa8-4ddc-8d05-2e57f71a4f38",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "2f811aec-3c9c-4256-94f2-953293ebf0a5",
+            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "BXyczN33poFtnKa3jUAoV",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "state": 1,
+            "title": { "0": "tobii off", "1": "tobii on" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "6f17c6a8-b9b8-4334-91ff-e7ff5a3babdc",
+              "name": "hide tobii"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "b8be51c1-ef8d-4be8-938b-1e5cecfb3c29",
+              "name": "show tobii"
+            }
+          },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
+        },
         "6,0": {
           "ActionID": "0f345574-185d-4a50-9f87-8e966a1e9dfe",
           "LinkedTitle": true,
