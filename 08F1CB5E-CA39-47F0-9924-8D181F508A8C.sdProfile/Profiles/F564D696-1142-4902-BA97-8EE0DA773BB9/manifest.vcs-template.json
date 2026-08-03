@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_lounge", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/0AR0VQK9LL6A1A1GB4W35LJH2CZ.png",
@@ -213,7 +213,7 @@
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "state": 1,
+            "state": 0,
             "title": { "0": "enable \nvcam", "1": "disable \nvcam" },
             "toggleOffAction": {
               "args": [],
@@ -226,7 +226,7 @@
               "name": "Enable Virtual Cam"
             }
           },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
