@@ -109,6 +109,65 @@
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
         "1,1": {
+          "ActionID": "ef2e9a62-9b04-4516-8c63-240a07aa1a73",
+          "LinkedTitle": true,
+          "Name": "Shuffle Mode",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": {
+            "keyImage": "",
+            "shuffleOffImage": "",
+            "tokenExists": true,
+            "version": "2.9"
+          },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 19,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            },
+            {},
+            {}
+          ],
+          "UUID": "com.barraider.spotifyshuffle"
+        },
+        "1,2": {
+          "ActionID": "19af6689-3ba8-4661-8821-8ea91074f170",
+          "LinkedTitle": true,
+          "Name": "Previous Song",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": { "keyImage": "", "tokenExists": true, "version": "2.9" },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 19,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.barraider.spotifyprev"
+        },
+        "2,0": {
           "ActionID": "e4b31b93-dbd1-416c-9926-c328bc9dc5eb",
           "LinkedTitle": true,
           "Name": "Hotkey",
@@ -166,65 +225,6 @@
           "State": 0,
           "States": [{ "Title": "rec off" }],
           "UUID": "com.elgato.streamdeck.system.hotkey"
-        },
-        "1,2": {
-          "ActionID": "19af6689-3ba8-4661-8821-8ea91074f170",
-          "LinkedTitle": true,
-          "Name": "Previous Song",
-          "Plugin": {
-            "Name": "Spotify Integration",
-            "UUID": "com.barraider.spotify",
-            "Version": "3.3"
-          },
-          "Resources": null,
-          "Settings": { "keyImage": "", "tokenExists": true, "version": "2.9" },
-          "State": 0,
-          "States": [
-            {
-              "FontFamily": "",
-              "FontSize": 19,
-              "FontStyle": "",
-              "FontUnderline": false,
-              "OutlineThickness": 2,
-              "ShowTitle": true,
-              "TitleAlignment": "bottom",
-              "TitleColor": "#ffffff"
-            }
-          ],
-          "UUID": "com.barraider.spotifyprev"
-        },
-        "2,0": {
-          "ActionID": "ef2e9a62-9b04-4516-8c63-240a07aa1a73",
-          "LinkedTitle": true,
-          "Name": "Shuffle Mode",
-          "Plugin": {
-            "Name": "Spotify Integration",
-            "UUID": "com.barraider.spotify",
-            "Version": "3.3"
-          },
-          "Resources": null,
-          "Settings": {
-            "keyImage": "",
-            "shuffleOffImage": "",
-            "tokenExists": true,
-            "version": "2.9"
-          },
-          "State": 0,
-          "States": [
-            {
-              "FontFamily": "",
-              "FontSize": 19,
-              "FontStyle": "",
-              "FontUnderline": false,
-              "OutlineThickness": 2,
-              "ShowTitle": true,
-              "TitleAlignment": "bottom",
-              "TitleColor": "#ffffff"
-            },
-            {},
-            {}
-          ],
-          "UUID": "com.barraider.spotifyshuffle"
         },
         "2,1": {
           "ActionID": "3e1bdba1-3ce9-45e5-9e46-b4796fd3ee48",
@@ -289,7 +289,7 @@
             "songFormat": 0,
             "songNameFontSize": "40",
             "timeElapsedFontSize": "40",
-            "tokenExists": false,
+            "tokenExists": true,
             "version": "2.9"
           },
           "State": 0,

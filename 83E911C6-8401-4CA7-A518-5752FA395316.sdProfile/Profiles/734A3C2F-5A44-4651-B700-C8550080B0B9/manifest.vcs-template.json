@@ -2,21 +2,6 @@
   "Controllers": [
     {
       "Actions": {
-        "0,0": {
-          "ActionID": "de97c1a5-bc1e-49b6-966f-98d7d2974eef",
-          "LinkedTitle": true,
-          "Name": "Stream",
-          "Plugin": {
-            "Name": "OBS Studio",
-            "UUID": "com.elgato.obsstudio",
-            "Version": "3.0.3.31"
-          },
-          "Resources": null,
-          "Settings": { "isInMultiAction": false, "longpress": false },
-          "State": 1,
-          "States": [{}, {}],
-          "UUID": "com.elgato.obsstudio.stream"
-        },
         "0,1": {
           "ActionID": "c7395fe9-a3b8-4b97-8ce6-143a61944f62",
           "LinkedTitle": true,
@@ -107,6 +92,80 @@
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
         "1,1": {
+          "ActionID": "878d3e53-5088-4f85-bf8b-02b272e7fe83",
+          "LinkedTitle": true,
+          "Name": "Hotkey",
+          "Plugin": {
+            "Name": "Activate a Key Command",
+            "UUID": "com.elgato.streamdeck.system.hotkey",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "Coalesce": true,
+            "Hotkeys": [
+              {
+                "KeyCmd": false,
+                "KeyCtrl": true,
+                "KeyModifiers": 7,
+                "KeyOption": true,
+                "KeyShift": true,
+                "NativeCode": 119,
+                "QTKeyCode": 16777271,
+                "VKeyCode": 119
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              }
+            ]
+          },
+          "State": 0,
+          "States": [{ "Title": "obs center" }],
+          "UUID": "com.elgato.streamdeck.system.hotkey"
+        },
+        "1,2": {
+          "ActionID": "042074e9-deaf-4a5b-b4d3-2ea321c8dba7",
+          "LinkedTitle": true,
+          "Name": "Multimedia",
+          "Plugin": {
+            "Name": "Multimedia",
+            "UUID": "com.elgato.streamdeck.system.multimedia",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "actionIdx": 0 },
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.system.multimedia"
+        },
+        "2,0": {
           "ActionID": "62731863-43c1-49e8-a983-7c5a1efb4412",
           "LinkedTitle": true,
           "Name": "Hotkey",
@@ -165,20 +224,64 @@
           "States": [{ "Title": "rec off" }],
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
-        "1,2": {
-          "ActionID": "042074e9-deaf-4a5b-b4d3-2ea321c8dba7",
+        "2,1": {
+          "ActionID": "fe2ebdb3-60c0-4229-96f2-cc0d20da9863",
           "LinkedTitle": true,
-          "Name": "Multimedia",
+          "Name": "Hotkey",
           "Plugin": {
-            "Name": "Multimedia",
-            "UUID": "com.elgato.streamdeck.system.multimedia",
+            "Name": "Activate a Key Command",
+            "UUID": "com.elgato.streamdeck.system.hotkey",
             "Version": "1.0"
           },
           "Resources": null,
-          "Settings": { "actionIdx": 0 },
+          "Settings": {
+            "Coalesce": true,
+            "Hotkeys": [
+              {
+                "KeyCmd": false,
+                "KeyCtrl": true,
+                "KeyModifiers": 7,
+                "KeyOption": true,
+                "KeyShift": true,
+                "NativeCode": 118,
+                "QTKeyCode": 16777270,
+                "VKeyCode": 118
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              }
+            ]
+          },
           "State": 0,
-          "States": [{}],
-          "UUID": "com.elgato.streamdeck.system.multimedia"
+          "States": [{ "Title": "obs right" }],
+          "UUID": "com.elgato.streamdeck.system.hotkey"
         },
         "2,2": {
           "ActionID": "aedfd324-8fb1-49e5-a009-5f2ff0dbabfd",
