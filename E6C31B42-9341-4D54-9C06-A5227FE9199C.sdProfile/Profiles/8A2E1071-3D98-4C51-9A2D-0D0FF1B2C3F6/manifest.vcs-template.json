@@ -159,7 +159,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "f261123b-baf7-44c0-809b-921beae2569b",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "BXyczN33poFtnKa3jUAoV",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
@@ -221,7 +221,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "b4cfc8b8-b64d-4287-9952-624ef411df56",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "BXyczN33poFtnKa3jUAoV",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
@@ -242,6 +242,46 @@
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
+        "4,2": {
+          "ActionID": "59165f6a-b707-4aff-91f8-90482a6a6a60",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "fb26c475-f914-4efe-ba16-d51c1824b0d7",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "chartSteps": 16,
+            "controller": "Keypad",
+            "dialPressAction": { "args": [], "id": "", "name": "" },
+            "dialReleaseAction": { "args": [], "id": "", "name": "" },
+            "id": "H7jUDRq1-vWSOlo3Dv89y",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "keyDownAction": {
+              "args": [],
+              "id": "7ebb29d2-03f0-4138-9bdb-805848dfe3c6",
+              "name": "brb end"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "rotateAction": { "args": [], "id": "", "name": "" },
+            "textColor": "#dcdcdc",
+            "title": { "0": "brb end" },
+            "touchLongAction": { "args": [], "id": "", "name": "" },
+            "touchTapAction": { "args": [], "id": "", "name": "" },
+            "type": "sparkline",
+            "value": null,
+            "valueHistory": []
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
         "4,3": {
           "ActionID": "0e5eef59-8fa8-4ddc-8d05-2e57f71a4f38",
           "LinkedTitle": true,
@@ -254,7 +294,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "2f811aec-3c9c-4256-94f2-953293ebf0a5",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "BXyczN33poFtnKa3jUAoV",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
