@@ -1,0 +1,171 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,0": {
+          "ActionID": "4020b244-7c16-416b-bd5b-c62fbdeaae62",
+          "LinkedTitle": true,
+          "Name": "Parent Folder",
+          "Plugin": {
+            "Name": "Open Parent Folder",
+            "UUID": "com.elgato.streamdeck.profile.backtoparent",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.profile.backtoparent"
+        },
+        "0,1": {
+          "ActionID": "59165f6a-b707-4aff-91f8-90482a6a6a60",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "affc497b-6c30-4516-93c6-a82a6214cce0",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "H7jUDRq1-vWSOlo3Dv89y",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "keyDownAction": {
+              "args": [],
+              "id": "7ebb29d2-03f0-4138-9bdb-805848dfe3c6",
+              "name": "brb end"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "brb end" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "1,0": {
+          "ActionID": "1559add8-778b-4086-88ca-874f2978e681",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "602ae907-3f36-4ea5-b5fe-d01462e7dc92",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "H7jUDRq1-vWSOlo3Dv89y",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "keyDownAction": {
+              "args": [],
+              "id": "75e9b2ad-0446-43c5-a842-ceb1ca70a896",
+              "name": "brb_set_test"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "brb 1" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "2,0": {
+          "ActionID": "b7e4a094-86c1-4b41-9f89-3bb4bdfa9fb8",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "5a7171ce-1903-490a-9f6b-70ea0a305a1d",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "H7jUDRq1-vWSOlo3Dv89y",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "keyDownAction": {
+              "args": [],
+              "id": "9eaf9fe4-3e97-427f-96ed-bedfa57aa581",
+              "name": "brb set 2"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "brb 2" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "3,0": {
+          "ActionID": "c6c1cce7-1182-44e9-b1df-dd095d5f2726",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "e5783ead-3280-4d0e-9055-58fd5738d021",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "H7jUDRq1-vWSOlo3Dv89y",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "keyDownAction": {
+              "args": [],
+              "id": "863b0d18-d706-429f-b801-69a71419dd2c",
+              "name": "brb set 5"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "brb 5" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "4,0": {
+          "ActionID": "d9472f06-aeee-4d2b-b940-2abac3e67ee7",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "a9a5925a-2a46-4cae-b700-13edc2fbe0e7",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "H7jUDRq1-vWSOlo3Dv89y",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "keyDownAction": {
+              "args": [],
+              "id": "495959d5-a6fe-429f-bf0b-7c02a4c46526",
+              "name": "brb input"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "brb X" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}
