@@ -35,139 +35,6 @@
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
         "0,1": {
-          "ActionID": "5ddeea72-c1d1-40a3-939a-2cd820a86f8d",
-          "LinkedTitle": true,
-          "Name": "Record",
-          "Plugin": {
-            "Name": "OBS Studio",
-            "UUID": "com.elgato.obsstudio",
-            "Version": "3.0.3.31"
-          },
-          "Resources": null,
-          "Settings": { "isInMultiAction": false },
-          "State": 1,
-          "States": [{}, {}],
-          "UUID": "com.elgato.obsstudio.record"
-        },
-        "1,0": {
-          "ActionID": "58f4bdad-0c59-491e-8565-fe2d14c2d343",
-          "LinkedTitle": true,
-          "Name": "Hotkey",
-          "Plugin": {
-            "Name": "Activate a Key Command",
-            "UUID": "com.elgato.streamdeck.system.hotkey",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {
-            "Coalesce": true,
-            "Hotkeys": [
-              {
-                "KeyCmd": false,
-                "KeyCtrl": true,
-                "KeyModifiers": 7,
-                "KeyOption": true,
-                "KeyShift": true,
-                "NativeCode": 69,
-                "QTKeyCode": 69,
-                "VKeyCode": 69
-              },
-              {
-                "KeyCmd": false,
-                "KeyCtrl": false,
-                "KeyModifiers": 0,
-                "KeyOption": false,
-                "KeyShift": false,
-                "NativeCode": 146,
-                "QTKeyCode": 33554431,
-                "VKeyCode": -1
-              },
-              {
-                "KeyCmd": false,
-                "KeyCtrl": false,
-                "KeyModifiers": 0,
-                "KeyOption": false,
-                "KeyShift": false,
-                "NativeCode": 146,
-                "QTKeyCode": 33554431,
-                "VKeyCode": -1
-              },
-              {
-                "KeyCmd": false,
-                "KeyCtrl": false,
-                "KeyModifiers": 0,
-                "KeyOption": false,
-                "KeyShift": false,
-                "NativeCode": 146,
-                "QTKeyCode": 33554431,
-                "VKeyCode": -1
-              }
-            ]
-          },
-          "State": 0,
-          "States": [{ "Title": "rec on" }],
-          "UUID": "com.elgato.streamdeck.system.hotkey"
-        },
-        "1,1": {
-          "ActionID": "ef2e9a62-9b04-4516-8c63-240a07aa1a73",
-          "LinkedTitle": true,
-          "Name": "Shuffle Mode",
-          "Plugin": {
-            "Name": "Spotify Integration",
-            "UUID": "com.barraider.spotify",
-            "Version": "3.3"
-          },
-          "Resources": null,
-          "Settings": {
-            "keyImage": "",
-            "shuffleOffImage": "",
-            "tokenExists": true,
-            "version": "2.9"
-          },
-          "State": 0,
-          "States": [
-            {
-              "FontFamily": "",
-              "FontSize": 19,
-              "FontStyle": "",
-              "FontUnderline": false,
-              "OutlineThickness": 2,
-              "ShowTitle": true,
-              "TitleAlignment": "bottom",
-              "TitleColor": "#ffffff"
-            },
-            {},
-            {}
-          ],
-          "UUID": "com.barraider.spotifyshuffle"
-        },
-        "1,2": {
-          "ActionID": "19af6689-3ba8-4661-8821-8ea91074f170",
-          "LinkedTitle": true,
-          "Name": "Previous Song",
-          "Plugin": {
-            "Name": "Spotify Integration",
-            "UUID": "com.barraider.spotify",
-            "Version": "3.3"
-          },
-          "Resources": null,
-          "Settings": { "keyImage": "", "tokenExists": true, "version": "2.9" },
-          "State": 0,
-          "States": [
-            {
-              "FontFamily": "",
-              "FontSize": 19,
-              "FontStyle": "",
-              "FontUnderline": false,
-              "OutlineThickness": 2,
-              "ShowTitle": true,
-              "TitleAlignment": "bottom",
-              "TitleColor": "#ffffff"
-            }
-          ],
-          "UUID": "com.barraider.spotifyprev"
-        },
-        "2,0": {
           "ActionID": "e4b31b93-dbd1-416c-9926-c328bc9dc5eb",
           "LinkedTitle": true,
           "Name": "Hotkey",
@@ -226,6 +93,172 @@
           "States": [{ "Title": "rec off" }],
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
+        "0,2": {
+          "ActionID": "ef2e9a62-9b04-4516-8c63-240a07aa1a73",
+          "LinkedTitle": true,
+          "Name": "Shuffle Mode",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": {
+            "keyImage": "",
+            "shuffleOffImage": "",
+            "tokenExists": true,
+            "version": "2.9"
+          },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 19,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            },
+            {},
+            {}
+          ],
+          "UUID": "com.barraider.spotifyshuffle"
+        },
+        "1,0": {
+          "ActionID": "5ddeea72-c1d1-40a3-939a-2cd820a86f8d",
+          "LinkedTitle": true,
+          "Name": "Record",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "isInMultiAction": false },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "com.elgato.obsstudio.record"
+        },
+        "1,1": {
+          "ActionID": "58f4bdad-0c59-491e-8565-fe2d14c2d343",
+          "LinkedTitle": true,
+          "Name": "Hotkey",
+          "Plugin": {
+            "Name": "Activate a Key Command",
+            "UUID": "com.elgato.streamdeck.system.hotkey",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "Coalesce": true,
+            "Hotkeys": [
+              {
+                "KeyCmd": false,
+                "KeyCtrl": true,
+                "KeyModifiers": 7,
+                "KeyOption": true,
+                "KeyShift": true,
+                "NativeCode": 69,
+                "QTKeyCode": 69,
+                "VKeyCode": 69
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              }
+            ]
+          },
+          "State": 0,
+          "States": [{ "Title": "rec on" }],
+          "UUID": "com.elgato.streamdeck.system.hotkey"
+        },
+        "1,2": {
+          "ActionID": "19af6689-3ba8-4661-8821-8ea91074f170",
+          "LinkedTitle": true,
+          "Name": "Previous Song",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": { "keyImage": "", "tokenExists": true, "version": "2.9" },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 19,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            }
+          ],
+          "UUID": "com.barraider.spotifyprev"
+        },
+        "2,0": {
+          "ActionID": "8ad3f82d-4a3c-4bb4-ab1d-9022b046b99f",
+          "LinkedTitle": true,
+          "Name": "Liked Song Toggle",
+          "Plugin": {
+            "Name": "Spotify Integration",
+            "UUID": "com.barraider.spotify",
+            "Version": "3.3"
+          },
+          "Resources": null,
+          "Settings": {
+            "keyImage": "",
+            "likeOffImage": "",
+            "tokenExists": true,
+            "version": "2.9"
+          },
+          "State": 0,
+          "States": [
+            {
+              "FontFamily": "",
+              "FontSize": 14,
+              "FontStyle": "",
+              "FontUnderline": false,
+              "OutlineThickness": 2,
+              "ShowTitle": true,
+              "TitleAlignment": "bottom",
+              "TitleColor": "#ffffff"
+            },
+            {},
+            {}
+          ],
+          "UUID": "com.barraider.spotifylikesong"
+        },
         "2,1": {
           "ActionID": "3e1bdba1-3ce9-45e5-9e46-b4796fd3ee48",
           "LinkedTitle": true,
@@ -274,7 +307,12 @@
           "Settings": {
             "albumArtDisplayMode": 0,
             "deviceNameSelected": null,
-            "devices": null,
+            "devices": [
+              {
+                "id": "9ffd3d29422b9856501497fb6927fba1d31ce2a2",
+                "name": "DEKSTOP-69URSS"
+              }
+            ],
             "devicesSelected": "",
             "keyImage": "",
             "pauseImage": null,
