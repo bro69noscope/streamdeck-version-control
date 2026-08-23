@@ -100,7 +100,7 @@
           "Plugin": {
             "Name": "Spotify Integration",
             "UUID": "com.barraider.spotify",
-            "Version": "3.3"
+            "Version": "3.3.2"
           },
           "Resources": null,
           "Settings": {
@@ -207,7 +207,7 @@
           "Plugin": {
             "Name": "Spotify Integration",
             "UUID": "com.barraider.spotify",
-            "Version": "3.3"
+            "Version": "3.3.2"
           },
           "Resources": null,
           "Settings": { "keyImage": "", "tokenExists": true, "version": "2.9" },
@@ -227,13 +227,13 @@
           "UUID": "com.barraider.spotifyprev"
         },
         "2,0": {
-          "ActionID": "8ad3f82d-4a3c-4bb4-ab1d-9022b046b99f",
+          "ActionID": "5806047d-f4bf-4a83-b75c-d301477946d2",
           "LinkedTitle": true,
           "Name": "Liked Song Toggle",
           "Plugin": {
             "Name": "Spotify Integration",
             "UUID": "com.barraider.spotify",
-            "Version": "3.3"
+            "Version": "3.3.2"
           },
           "Resources": null,
           "Settings": {
@@ -266,7 +266,7 @@
           "Plugin": {
             "Name": "Spotify Integration",
             "UUID": "com.barraider.spotify",
-            "Version": "3.3"
+            "Version": "3.3.2"
           },
           "Resources": null,
           "Settings": {
@@ -301,7 +301,7 @@
           "Plugin": {
             "Name": "Spotify Integration",
             "UUID": "com.barraider.spotify",
-            "Version": "3.3"
+            "Version": "3.3.2"
           },
           "Resources": null,
           "Settings": {
@@ -353,7 +353,7 @@
           "Plugin": {
             "Name": "Spotify Integration",
             "UUID": "com.barraider.spotify",
-            "Version": "3.3"
+            "Version": "3.3.2"
           },
           "Resources": null,
           "Settings": {
@@ -386,7 +386,7 @@
           "Plugin": {
             "Name": "Spotify Integration",
             "UUID": "com.barraider.spotify",
-            "Version": "3.3"
+            "Version": "3.3.2"
           },
           "Resources": null,
           "Settings": {
@@ -419,7 +419,7 @@
           "Plugin": {
             "Name": "Spotify Integration",
             "UUID": "com.barraider.spotify",
-            "Version": "3.3"
+            "Version": "3.3.2"
           },
           "Resources": null,
           "Settings": { "keyImage": "", "tokenExists": true, "version": "2.9" },
@@ -445,7 +445,7 @@
           "Plugin": {
             "Name": "Spotify Integration",
             "UUID": "com.barraider.spotify",
-            "Version": "3.3"
+            "Version": "3.3.2"
           },
           "Resources": null,
           "Settings": {
@@ -477,7 +477,7 @@
           "Plugin": {
             "Name": "Spotify Integration",
             "UUID": "com.barraider.spotify",
-            "Version": "3.3"
+            "Version": "3.3.2"
           },
           "Resources": null,
           "Settings": {
