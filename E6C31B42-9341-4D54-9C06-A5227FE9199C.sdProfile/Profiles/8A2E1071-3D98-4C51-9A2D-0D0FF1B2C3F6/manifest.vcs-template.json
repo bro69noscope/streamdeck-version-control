@@ -87,7 +87,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "f261123b-baf7-44c0-809b-921beae2569b",
-            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundColorMap": { "0": null, "1": "" },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "BXyczN33poFtnKa3jUAoV",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
@@ -120,7 +120,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "b4cfc8b8-b64d-4287-9952-624ef411df56",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "BXyczN33poFtnKa3jUAoV",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
@@ -188,10 +188,6 @@
             "_uuid": "5d2c8f56-a370-4c13-8a53-fd6f3a4206ad",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
-            "chartSteps": 16,
-            "controller": "Keypad",
-            "dialPressAction": { "args": [], "id": "", "name": "" },
-            "dialReleaseAction": { "args": [], "id": "", "name": "" },
             "id": "H7jUDRq1-vWSOlo3Dv89y",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
             "keyDownAction": {
@@ -201,14 +197,7 @@
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
-            "rotateAction": { "args": [], "id": "", "name": "" },
-            "textColor": "#dcdcdc",
-            "title": { "0": "refresh\nalerts" },
-            "touchLongAction": { "args": [], "id": "", "name": "" },
-            "touchTapAction": { "args": [], "id": "", "name": "" },
-            "type": "sparkline",
-            "value": null,
-            "valueHistory": []
+            "title": { "0": "refresh\nalerts" }
           },
           "State": 0,
           "States": [{}],
