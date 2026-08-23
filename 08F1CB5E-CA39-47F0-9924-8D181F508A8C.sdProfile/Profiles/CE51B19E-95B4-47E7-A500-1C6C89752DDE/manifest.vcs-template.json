@@ -49,7 +49,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_facecam", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/KSG77QABDD52F0H6O52LKH65MCZ.png",

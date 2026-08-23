@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_lounge", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/0AR0VQK9LL6A1A1GB4W35LJH2CZ.png",
@@ -249,7 +249,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "7f2f986a-fa8a-420d-84fe-df768a3a8f63",
-            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundColorMap": { "0": null, "1": "" },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
