@@ -34,7 +34,7 @@
           "Resources": null,
           "Settings": {
             "body": "free all slots",
-            "url": "{{REPOSITORY_PYTHON_WS}}/database"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/database"
           },
           "State": 0,
           "States": [
@@ -52,7 +52,7 @@
           "Resources": null,
           "Settings": {
             "body": "get windows",
-            "url": "{{REPOSITORY_PYTHON_WS}}/test"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/test"
           },
           "State": 0,
           "States": [
@@ -75,7 +75,7 @@
           "Resources": null,
           "Settings": {
             "body": "pregamespy start",
-            "url": "{{REPOSITORY_PYTHON_WS}}/subprocess"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
           "State": 0,
           "States": [
@@ -98,7 +98,7 @@
           "Resources": null,
           "Settings": {
             "body": "pregamespy stop",
-            "url": "{{REPOSITORY_PYTHON_WS}}/subprocess"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
           "State": 0,
           "States": [
@@ -121,7 +121,7 @@
           "Resources": null,
           "Settings": {
             "body": "pregamespy unlock",
-            "url": "{{REPOSITORY_PYTHON_WS}}/subprocess"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
           "State": 0,
           "States": [
@@ -139,7 +139,7 @@
           "Resources": null,
           "Settings": {
             "body": "pregamespy test different message",
-            "url": "{{REPOSITORY_PYTHON_WS}}/subprocess"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
           "State": 0,
           "States": [
@@ -162,7 +162,7 @@
           "Resources": null,
           "Settings": {
             "body": "shopwatcher start",
-            "url": "{{REPOSITORY_PYTHON_WS}}/subprocess"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
           "State": 0,
           "States": [
@@ -185,7 +185,7 @@
           "Resources": null,
           "Settings": {
             "body": "shopwatcher stop",
-            "url": "{{REPOSITORY_PYTHON_WS}}/subprocess"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
           "State": 0,
           "States": [
@@ -208,7 +208,7 @@
           "Resources": null,
           "Settings": {
             "body": "shopwatcher unlock",
-            "url": "{{REPOSITORY_PYTHON_WS}}/subprocess"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
           "State": 0,
           "States": [
@@ -234,7 +234,7 @@
           "Resources": null,
           "Settings": {
             "body": "refit_server",
-            "url": "{{REPOSITORY_PYTHON_WS}}/windows"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
           "State": 0,
           "States": [
@@ -262,7 +262,7 @@
           "Resources": null,
           "Settings": {
             "body": "refit",
-            "url": "{{REPOSITORY_PYTHON_WS}}/windows"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
           "State": 0,
           "States": [

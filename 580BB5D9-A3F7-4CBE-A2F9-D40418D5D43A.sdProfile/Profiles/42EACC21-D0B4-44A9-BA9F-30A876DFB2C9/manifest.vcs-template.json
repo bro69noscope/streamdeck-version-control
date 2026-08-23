@@ -19,7 +19,7 @@
           "Resources": null,
           "Settings": {
             "body": "bring to top",
-            "url": "{{REPOSITORY_PYTHON_WS}}/windows"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
           "State": 0,
           "States": [
@@ -37,7 +37,7 @@
           "Resources": null,
           "Settings": {
             "body": "readjust",
-            "url": "{{REPOSITORY_PYTHON_WS}}/windows"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
           "State": 0,
           "States": [

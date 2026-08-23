@@ -245,7 +245,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "8651c611-c1e4-4110-b657-f74137180a60",
+                    "_uuid": "cfaa2303-26e6-40cf-b40f-42153d1c4475",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
@@ -932,7 +932,7 @@
           "Resources": null,
           "Settings": {
             "body": "refit",
-            "url": "{{REPOSITORY_PYTHON_WS}}/windows"
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
           "State": 0,
           "States": [
