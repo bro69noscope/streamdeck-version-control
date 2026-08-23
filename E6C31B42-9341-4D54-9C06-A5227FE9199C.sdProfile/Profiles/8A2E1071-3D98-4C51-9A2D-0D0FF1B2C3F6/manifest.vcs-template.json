@@ -233,6 +233,35 @@
           "States": [{ "Title": "HUB" }],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
+        "6,3": {
+          "ActionID": "2c09a0ed-64ba-4294-ba28-dae3cb798bdb",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "aefeb524-8dfc-4835-a73b-5346cb6c0d28",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "H7jUDRq1-vWSOlo3Dv89y",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "keyDownAction": {
+              "args": [],
+              "id": "964ba814-12a8-4089-8ea9-b445e744a22f",
+              "name": "skip ongoing alert"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "skip\nalert" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
         "7,0": {
           "ActionID": "c6ed9f9e-3e96-49ea-a4d2-04c20bdcdb22",
           "LinkedTitle": true,
