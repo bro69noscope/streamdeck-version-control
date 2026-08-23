@@ -155,6 +155,46 @@
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
+        "4,3": {
+          "ActionID": "c7bd5e89-2849-4c26-b0dc-f3038a3dd0b4",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "d9dbd981-0ec2-4d6d-8648-e92fd1240876",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "chartSteps": 16,
+            "controller": "Keypad",
+            "dialPressAction": { "args": [], "id": "", "name": "" },
+            "dialReleaseAction": { "args": [], "id": "", "name": "" },
+            "id": "H7jUDRq1-vWSOlo3Dv89y",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+            "keyDownAction": {
+              "args": [],
+              "id": "a50651eb-eaad-43fb-86ad-1ac315808a75",
+              "name": "refresh alerts"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "rotateAction": { "args": [], "id": "", "name": "" },
+            "textColor": "#dcdcdc",
+            "title": { "0": "refresh\nalerts" },
+            "touchLongAction": { "args": [], "id": "", "name": "" },
+            "touchTapAction": { "args": [], "id": "", "name": "" },
+            "type": "sparkline",
+            "value": null,
+            "valueHistory": []
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
         "5,0": {
           "ActionID": "9b140cba-ebbc-4a4e-8488-a39c2b048ae0",
           "LinkedTitle": true,
