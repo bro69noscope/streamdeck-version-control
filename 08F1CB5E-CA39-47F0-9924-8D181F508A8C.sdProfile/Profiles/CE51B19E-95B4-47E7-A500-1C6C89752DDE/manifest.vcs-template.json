@@ -49,7 +49,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_facecam", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/KSG77QABDD52F0H6O52LKH65MCZ.png",
@@ -70,34 +70,13 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_browser", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/LO3VWD4GD11D1CHR743T7FVFM8Z.png",
               "Title": "brave"
             },
             { "Image": "Images/ELHDTAN63P5573NJIP8M54DSMOZ.png" }
-          ],
-          "UUID": "com.elgato.obsstudio.scene"
-        },
-        "1,1": {
-          "ActionID": "03464364-24d0-4376-adaa-aebb2644825d",
-          "LinkedTitle": true,
-          "Name": "Scene",
-          "Plugin": {
-            "Name": "OBS Studio",
-            "UUID": "com.elgato.obsstudio",
-            "Version": "3.0.3.31"
-          },
-          "Resources": null,
-          "Settings": { "scene": "scene_wezterm", "target": "preview" },
-          "State": 1,
-          "States": [
-            {
-              "Image": "Images/IDI2WN2TO9509F46REHTK0R5JCZ.png",
-              "Title": "wezterm"
-            },
-            { "Image": "Images/PNVOHAR40D709BIME0HAVEPV9KZ.png" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         }

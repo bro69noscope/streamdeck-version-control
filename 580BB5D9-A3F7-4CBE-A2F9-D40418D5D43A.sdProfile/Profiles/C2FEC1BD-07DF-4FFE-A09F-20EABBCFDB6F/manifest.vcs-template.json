@@ -22,7 +22,9 @@
             "Version": "1.0"
           },
           "Resources": null,
-          "Settings": { "path": "\"{{STREAMING_REPO_PATH}}run_server.bat\"" },
+          "Settings": {
+            "path": "\"{{STREAMING_REPO_PATH}}run_server.bat\""
+          },
           "State": 0,
           "States": [{ "Title": "run_server" }],
           "UUID": "com.elgato.streamdeck.system.open"
