@@ -49,7 +49,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_screencap", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/NCDS37QJI15LLEQFRSRT8V4Q6SZ.png",
@@ -87,8 +87,11 @@
           "Settings": { "scene": "scene_capture_age", "target": "preview" },
           "State": 1,
           "States": [
-            { "Image": "Images/D4OMRPLA350WHF1122HOD7M6LGZ.png" },
-            { "Image": "Images/D7CQG9Q1N569FB246J3BMN8FF4Z.png" }
+            {
+              "Image": "Images/98AGNGEC7L1AWCWBA3KHIAF7JSZ.png",
+              "Title": "capture\nage"
+            },
+            { "Image": "Images/10HWOAEI6P1VF984C89RNKL6L0Z.png" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -127,10 +130,10 @@
           "State": 1,
           "States": [
             {
-              "Image": "Images/9220ARD79H1IJ1BNA45QB8R3WKZ.png",
-              "Title": "aoe2"
+              "Image": "Images/VRCFA42KCH46J89R2KN26GAW9CZ.png",
+              "Title": "aoe2\ngame"
             },
-            { "Image": "Images/CVM2NKFD9H20L9CO17VIOAWFCKZ.png" }
+            { "Image": "Images/N61OA1NJFP4QBDK4KI9N2EKJE4Z.png" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -222,7 +225,7 @@
             "sceneitemscene": "scene_facecam",
             "toplevelscene": "scene_facecam"
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "cam" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },

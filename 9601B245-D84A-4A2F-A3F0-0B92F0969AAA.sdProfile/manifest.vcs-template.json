@@ -4,10 +4,7 @@
   "Pages": {
     "Current": "4189c352-154a-4c8e-a508-39c1a74b637e",
     "Default": "c5cf86da-678c-4c80-9b5a-5657af51911a",
-    "Pages": [
-      "4189c352-154a-4c8e-a508-39c1a74b637e",
-      "8a7f13fd-c802-42eb-9b4a-f53dc679349d"
-    ]
+    "Pages": ["4189c352-154a-4c8e-a508-39c1a74b637e"]
   },
   "Version": "3.0"
 }
