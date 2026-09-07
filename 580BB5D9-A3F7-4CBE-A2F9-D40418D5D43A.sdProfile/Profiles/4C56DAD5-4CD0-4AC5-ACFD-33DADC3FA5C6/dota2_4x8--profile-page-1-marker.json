@@ -1,8 +1,9 @@
 {
-  "vcs-flag": "daf4c3f87bf1e9f4ff21dda32c249124",
+  "vcs-flag": "26da96f07d2c5298af9353bd871f22ae",
   "name": "dota2_4x8",
-  "desc": "",
+  "desc": "testing",
   "type": "profile-page",
+  "pageIndex": 1,
   "parents": null,
   "fullChainDisplay": "dota2_4x8"
 }

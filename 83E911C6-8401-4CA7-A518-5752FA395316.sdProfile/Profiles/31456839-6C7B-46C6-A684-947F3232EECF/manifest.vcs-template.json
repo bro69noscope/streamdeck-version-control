@@ -73,6 +73,21 @@
           "State": 0,
           "States": [{ "Title": "W3Booster" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
+        },
+        "4,2": {
+          "ActionID": "735b6bdc-2a7e-47cf-a535-4886a04add79",
+          "LinkedTitle": true,
+          "Name": "Next Page",
+          "Plugin": {
+            "Name": "Pages",
+            "UUID": "com.elgato.streamdeck.page",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.page.next"
         }
       },
       "Type": "Keypad"

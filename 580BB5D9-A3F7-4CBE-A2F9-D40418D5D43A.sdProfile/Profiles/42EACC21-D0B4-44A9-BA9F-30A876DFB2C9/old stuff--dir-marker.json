@@ -3,6 +3,7 @@
   "name": "old stuff",
   "desc": "",
   "type": "dir",
+  "pageIndex": null,
   "parents": "Scripts",
   "fullChainDisplay": "Scripts > old stuff"
 }

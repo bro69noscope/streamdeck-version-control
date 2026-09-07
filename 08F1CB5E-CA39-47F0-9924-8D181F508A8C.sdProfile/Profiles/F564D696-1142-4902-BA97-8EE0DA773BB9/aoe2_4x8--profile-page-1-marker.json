@@ -3,6 +3,7 @@
   "name": "aoe2_4x8",
   "desc": "",
   "type": "profile-page",
+  "pageIndex": 1,
   "parents": null,
   "fullChainDisplay": "aoe2_4x8"
 }

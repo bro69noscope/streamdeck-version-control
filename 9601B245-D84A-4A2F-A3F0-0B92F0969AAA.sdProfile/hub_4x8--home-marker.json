@@ -1,8 +1,9 @@
 {
-  "vcs-flag": "990587a401394db793c5ff502f6eeff5",
+  "vcs-flag": "bf5fb04cafd4887223a6ed3a3deb5974",
   "name": "hub_4x8",
   "desc": "",
   "type": "home",
+  "pageIndex": null,
   "parents": null,
   "fullChainDisplay": "hub_4x8"
 }

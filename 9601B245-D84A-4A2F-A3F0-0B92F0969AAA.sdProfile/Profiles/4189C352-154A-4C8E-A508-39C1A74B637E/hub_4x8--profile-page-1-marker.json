@@ -3,6 +3,7 @@
   "name": "hub_4x8",
   "desc": "",
   "type": "profile-page",
+  "pageIndex": 1,
   "parents": null,
   "fullChainDisplay": "hub_4x8"
 }

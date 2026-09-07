@@ -1,0 +1,41 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,2": {
+          "ActionID": "33a3f8a3-1b91-4ed5-995b-e1ce86e6f9f3",
+          "LinkedTitle": true,
+          "Name": "Previous Page",
+          "Plugin": {
+            "Name": "Pages",
+            "UUID": "com.elgato.streamdeck.page",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.page.previous"
+        },
+        "4,0": {
+          "ActionID": "2a97dc27-c241-4cb8-a756-1dea58697de8",
+          "LinkedTitle": true,
+          "Name": "Record",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "isInMultiAction": false },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "com.elgato.obsstudio.record"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}

@@ -3,6 +3,7 @@
   "name": "Scripts",
   "desc": "",
   "type": "dir",
+  "pageIndex": null,
   "parents": null,
   "fullChainDisplay": "Scripts"
 }

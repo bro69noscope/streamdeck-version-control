@@ -1,8 +1,9 @@
 {
-  "vcs-flag": "678c42913aba4eaca8de4995161a02ca",
+  "vcs-flag": "fc5546258bda73020ec59d83a99e3145",
   "name": "aoe2_4x8",
   "desc": "",
   "type": "home",
+  "pageIndex": null,
   "parents": null,
   "fullChainDisplay": "aoe2_4x8"
 }

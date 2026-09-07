@@ -1,8 +1,9 @@
 {
-  "vcs-flag": "6e2e99c0334146ada594a1e22fe408bc",
+  "vcs-flag": "0bbc53a540a9b82c583f74486c4a03b4",
   "name": "dota2_4x8",
   "desc": "",
   "type": "home",
+  "pageIndex": null,
   "parents": null,
   "fullChainDisplay": "dota2_4x8"
 }
