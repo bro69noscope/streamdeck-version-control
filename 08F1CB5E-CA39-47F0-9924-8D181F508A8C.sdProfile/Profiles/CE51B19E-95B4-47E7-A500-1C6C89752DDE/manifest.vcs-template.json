@@ -31,10 +31,10 @@
           "State": 1,
           "States": [
             {
-              "Image": "Images/ANI5J6I0QP0THAWFQTIHRRN3D4Z.png",
+              "Image": "Images/lnk__gen__scene_zoom-icon__active.png",
               "Title": "zoom"
             },
-            { "Image": "Images/VLO9BA4OB93DDEO7IA1R3QQL7OZ.png" }
+            { "Image": "Images/lnk__gen__scene_zoom-icon__inactive.png" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -52,10 +52,10 @@
           "State": 1,
           "States": [
             {
-              "Image": "Images/KSG77QABDD52F0H6O52LKH65MCZ.png",
+              "Image": "Images/lnk__gen__scene_facecam-icon__active.png",
               "Title": "dslr"
             },
-            { "Image": "Images/NN3H3S0TPH7B51H6SMK98374FGZ.png" }
+            { "Image": "Images/lnk__gen__scene_facecam-icon__inactive.png" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -73,10 +73,10 @@
           "State": 1,
           "States": [
             {
-              "Image": "Images/LO3VWD4GD11D1CHR743T7FVFM8Z.png",
+              "Image": "Images/lnk__gen__scene_browser-icon__active.jpg",
               "Title": "brave"
             },
-            { "Image": "Images/ELHDTAN63P5573NJIP8M54DSMOZ.png" }
+            { "Image": "Images/lnk__gen__scene_browser-icon__inactive.jpg" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         }

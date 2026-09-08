@@ -31,10 +31,10 @@
           "State": 1,
           "States": [
             {
-              "Image": "Images/0AR0VQK9LL6A1A1GB4W35LJH2CZ.png",
+              "Image": "Images/lnk__gen__scene_lounge-icon__active.png",
               "Title": "lounge"
             },
-            { "Image": "Images/LD49HKWQG15AT1VCONT9128E18Z.png" }
+            { "Image": "Images/lnk__gen__scene_lounge-icon__inactive.png" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -48,14 +48,16 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene_screencap", "target": "preview" },
-          "State": 1,
+          "Settings": { "scene": "scene_center_monitor", "target": "preview" },
+          "State": 0,
           "States": [
             {
-              "Image": "Images/NCDS37QJI15LLEQFRSRT8V4Q6SZ.png",
+              "Image": "Images/lnk__gen__scene_center_monitor-icon__active.png",
               "Title": "center\nscreen"
             },
-            { "Image": "Images/61FCR01VI12VH6MPFFSA3GEK9CZ.png" }
+            {
+              "Image": "Images/lnk__gen__scene_center_monitor-icon__inactive.png"
+            }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -88,10 +90,10 @@
           "State": 1,
           "States": [
             {
-              "Image": "Images/98AGNGEC7L1AWCWBA3KHIAF7JSZ.png",
+              "Image": "Images/gen__scene_capture_age-icon__active.jpg",
               "Title": "capture\nage"
             },
-            { "Image": "Images/10HWOAEI6P1VF984C89RNKL6L0Z.png" }
+            { "Image": "Images/gen__scene_capture_age-icon__inactive.jpg" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -109,10 +111,10 @@
           "State": 1,
           "States": [
             {
-              "Image": "Images/45TM7JNOAP1MJ4HTP9GW100QB8Z.png",
+              "Image": "Images/lnk__gen__scene_vlc-icon__active.webp",
               "Title": "vlc"
             },
-            { "Image": "Images/P9KQGO4SSL591FWSF7GR8M9S2OZ.png" }
+            { "Image": "Images/lnk__gen__scene_vlc-icon__inactive.webp" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -130,10 +132,10 @@
           "State": 1,
           "States": [
             {
-              "Image": "Images/VRCFA42KCH46J89R2KN26GAW9CZ.png",
+              "Image": "Images/gen__scene_aoe2-icon__active.png",
               "Title": "aoe2\ngame"
             },
-            { "Image": "Images/N61OA1NJFP4QBDK4KI9N2EKJE4Z.png" }
+            { "Image": "Images/gen__scene_aoe2-icon__inactive.png" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -151,10 +153,10 @@
           "State": 1,
           "States": [
             {
-              "Image": "Images/ROJ8RAAFW51QL78SVRTBRVNI4CZ.png",
+              "Image": "Images/lnk__gen__scene_osu-icon__active.png",
               "Title": "osu"
             },
-            { "Image": "Images/HO75SPBREP13JC78FTMW2SO264Z.png" }
+            { "Image": "Images/lnk__gen__scene_osu-icon__inactive.png" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -225,7 +227,7 @@
             "sceneitemscene": "scene_facecam",
             "toplevelscene": "scene_facecam"
           },
-          "State": 1,
+          "State": 0,
           "States": [{ "Title": "cam" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
