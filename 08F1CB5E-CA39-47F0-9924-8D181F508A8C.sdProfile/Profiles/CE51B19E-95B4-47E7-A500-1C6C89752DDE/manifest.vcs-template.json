@@ -70,7 +70,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_browser", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/LO3VWD4GD11D1CHR743T7FVFM8Z.png",
