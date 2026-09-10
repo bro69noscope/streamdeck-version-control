@@ -345,30 +345,6 @@
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
-        "7,0": {
-          "ActionID": "8dd67a12-d5b4-4673-8ef8-cb0cf4f1eab9",
-          "LinkedTitle": true,
-          "Name": "Switch Profile",
-          "Plugin": {
-            "Name": "Switch Profile",
-            "UUID": "com.elgato.streamdeck.profile.rotate",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {
-            "DeviceUUID": "",
-            "PageIndex": 1,
-            "ProfileUUID": "08f1cb5e-ca39-47f0-9924-8d181f508a8c"
-          },
-          "State": 0,
-          "States": [
-            {
-              "Image": "Images/lnk__gen__profile_aoe2_4x8-icon.jpg",
-              "Title": "AOE"
-            }
-          ],
-          "UUID": "com.elgato.streamdeck.profile.rotate"
-        },
         "7,2": {
           "ActionID": "fe1771e0-3881-47eb-b4e3-ec9e0d0bbb8f",
           "LinkedTitle": true,
