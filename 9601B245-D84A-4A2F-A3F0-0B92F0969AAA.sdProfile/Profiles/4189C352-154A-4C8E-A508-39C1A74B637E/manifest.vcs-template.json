@@ -18,7 +18,12 @@
             "ProfileUUID": "580bb5d9-a3f7-4cbe-a2f9-d40418d5d43a"
           },
           "State": 0,
-          "States": [{ "Title": "DOTA" }],
+          "States": [
+            {
+              "Image": "Images/lnk__gen__profile_dota2_4x8-icon.png",
+              "Title": "DOTA"
+            }
+          ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
         "5,0": {
@@ -37,7 +42,12 @@
             "ProfileUUID": "e6c31b42-9341-4d54-9c06-a5227fe9199c"
           },
           "State": 0,
-          "States": [{ "Title": "FTP" }],
+          "States": [
+            {
+              "Image": "Images/lnk__gen__profile_ftp_4x8-icon.jpg",
+              "Title": "FTP"
+            }
+          ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
         "6,0": {
@@ -56,7 +66,12 @@
             "ProfileUUID": "9601b245-d84a-4a2f-a3f0-0b92f0969aaa"
           },
           "State": 0,
-          "States": [{ "Title": "HUB" }],
+          "States": [
+            {
+              "Image": "Images/lnk__gen__profile_hub_4x8-icon.png",
+              "Title": "HUB"
+            }
+          ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
         "7,0": {
@@ -75,7 +90,12 @@
             "ProfileUUID": "08f1cb5e-ca39-47f0-9924-8d181f508a8c"
           },
           "State": 0,
-          "States": [{ "Title": "AOE" }],
+          "States": [
+            {
+              "Image": "Images/lnk__gen__profile_aoe2_4x8-icon.jpg",
+              "Title": "AOE"
+            }
+          ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         }
       },

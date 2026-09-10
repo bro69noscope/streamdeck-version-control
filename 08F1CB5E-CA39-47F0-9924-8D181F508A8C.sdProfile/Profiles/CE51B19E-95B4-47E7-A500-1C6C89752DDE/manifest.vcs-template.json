@@ -53,7 +53,7 @@
           "States": [
             {
               "Image": "Images/lnk__gen__scene_facecam-icon__active.png",
-              "Title": "dslr"
+              "Title": "facecam"
             },
             { "Image": "Images/lnk__gen__scene_facecam-icon__inactive.png" }
           ],
@@ -74,7 +74,7 @@
           "States": [
             {
               "Image": "Images/lnk__gen__scene_browser-icon__active.jpg",
-              "Title": "brave"
+              "Title": "browser"
             },
             { "Image": "Images/lnk__gen__scene_browser-icon__inactive.jpg" }
           ],

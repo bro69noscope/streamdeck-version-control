@@ -219,7 +219,12 @@
             "ProfileUUID": "9601b245-d84a-4a2f-a3f0-0b92f0969aaa"
           },
           "State": 0,
-          "States": [{ "Title": "HUB" }],
+          "States": [
+            {
+              "Image": "Images/lnk__gen__profile_hub_4x8-icon.png",
+              "Title": "HUB"
+            }
+          ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
         "6,3": {
@@ -267,7 +272,12 @@
             "ProfileUUID": "08f1cb5e-ca39-47f0-9924-8d181f508a8c"
           },
           "State": 0,
-          "States": [{ "Title": "AOE" }],
+          "States": [
+            {
+              "Image": "Images/lnk__gen__profile_aoe2_4x8-icon.jpg",
+              "Title": "AOE"
+            }
+          ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
         "7,2": {
