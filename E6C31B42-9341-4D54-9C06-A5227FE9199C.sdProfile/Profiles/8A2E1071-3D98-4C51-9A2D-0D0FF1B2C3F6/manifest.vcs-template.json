@@ -17,6 +17,72 @@
           "States": [{ "Title": "brb" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
+        "0,1": {
+          "ActionID": "e50a53a4-ee3b-423a-80dc-e7b293d00e5b",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "5aa1c97a-fc97-457c-8259-d8694236257a",
+            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "O48n0suO3coUUtCrsqLf_",
+            "instanceUuid": "",
+            "state": 1,
+            "title": { "0": "aux send 1\naudio", "1": "aux send 1\naudio" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "edefa931-2ec5-4207-b31f-bcfaa55bbdf4",
+              "name": "mute aux send 1"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "b3972f10-293d-4378-b7dd-f910a771795f",
+              "name": "unmute aux send 1"
+            }
+          },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
+        },
+        "0,2": {
+          "ActionID": "95ab3eeb-ba8b-47b9-8d28-aaadb35a0699",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "508afab0-3913-41a4-b8d0-f4471883ca94",
+            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "O48n0suO3coUUtCrsqLf_",
+            "instanceUuid": "",
+            "state": 1,
+            "title": { "0": "11/12 audio", "1": "11/12 audio" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "34344d2e-0b40-4bcc-85c6-da95fd7bd99d",
+              "name": "mute 11/12 channels"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "aa46a27d-eef4-4f00-9c5b-520e33588535",
+              "name": "unmute 11/12 channels"
+            }
+          },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
+        },
         "0,3": {
           "ActionID": "85dfee80-5cdf-4903-968a-ad1c7392fe9a",
           "LinkedTitle": true,
@@ -45,6 +111,105 @@
           "State": 0,
           "States": [{ "Image": "Images/5ONHPWWKIH5PRFH11CMC9KHDM8Z.png" }],
           "UUID": "bot.streamer.streamdeck.action"
+        },
+        "1,0": {
+          "ActionID": "655f5356-a6cc-47a6-be1c-079bd69afb18",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "fa79c62f-5de2-4b7c-8ff5-88ea8ed0e3af",
+            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "9aHEa0DFJltQW45AgJBJR",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "state": 0,
+            "title": { "0": "usb out\naudio", "1": "usb out\naudio" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "ecec52cf-bda3-495c-a3d5-e800682176d7",
+              "name": "mute usb out"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "e4bf0f0d-350e-40f7-b2d4-5f9226b181c0",
+              "name": "unmute usb out (mute all others)"
+            }
+          },
+          "State": 0,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
+        },
+        "1,1": {
+          "ActionID": "8b075d6e-dc2e-46a2-ba33-e49876aba015",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "1139761c-1de3-4cfd-8250-98b055c56a38",
+            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "9aHEa0DFJltQW45AgJBJR",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "state": 0,
+            "title": { "0": " 5/6 audio", "1": " 5/6 audio" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "ce4a8588-ada7-45ba-9385-9f891c424326",
+              "name": "mute 5/6 channels"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "16f70f42-e06c-4b80-9841-52424dc3708d",
+              "name": "unmute 5/6 channels"
+            }
+          },
+          "State": 0,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
+        },
+        "1,2": {
+          "ActionID": "601a22ab-f051-46ec-99d0-dd90be51186a",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "88962600-a858-485c-81df-ccb9ada00c28",
+            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "9aHEa0DFJltQW45AgJBJR",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "state": 0,
+            "title": { "0": "7/8 audio", "1": "7/8 audio" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "37c52aa7-fcd7-45c1-b382-f24344b159d2",
+              "name": "mute 7/8 channels"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "a97ebd94-664e-47e8-8506-3a5c47264b85",
+              "name": "unmute 7/8 channels"
+            }
+          },
+          "State": 0,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
         },
         "1,3": {
           "ActionID": "52bb3bbd-00f4-4350-8a8e-a4b3e089cfb3",
@@ -296,7 +461,7 @@
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "state": 0,
+            "state": 1,
             "title": { "0": "enable \nvcam", "1": "disable \nvcam" },
             "toggleOffAction": {
               "args": [],
@@ -309,7 +474,7 @@
               "name": "Enable Virtual Cam"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
