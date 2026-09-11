@@ -49,7 +49,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_facecam", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_facecam-icon__active.png",
