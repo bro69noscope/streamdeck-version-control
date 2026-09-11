@@ -2,6 +2,28 @@
   "Controllers": [
     {
       "Actions": {
+        "0,0": {
+          "ActionID": "5f9638f1-c7e3-4833-843f-9137680503eb",
+          "LinkedTitle": true,
+          "Name": "Open",
+          "Plugin": {
+            "Name": "Open",
+            "UUID": "com.elgato.streamdeck.system.open",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "path": "\"C:\\Users\\ville\\myfiles\\git-repos\\woertsposzibllen4me\\external\\streamdeck\\utils\\quit-streamdeck\\quit-streamdeck.vbs\""
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/NIIE5R81HH3IL3V5R9MB115B28Z.png",
+              "Title": "quit-stre."
+            }
+          ],
+          "UUID": "com.elgato.streamdeck.system.open"
+        },
         "0,1": {
           "ActionID": "c7395fe9-a3b8-4b97-8ce6-143a61944f62",
           "LinkedTitle": true,
@@ -92,63 +114,114 @@
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
         "1,1": {
-          "ActionID": "878d3e53-5088-4f85-bf8b-02b272e7fe83",
+          "ActionID": "848259e6-5ca0-4058-91d3-21f897747ad2",
+          "Actions": [
+            {
+              "Actions": [
+                {
+                  "ActionID": "878d3e53-5088-4f85-bf8b-02b272e7fe83",
+                  "LinkedTitle": true,
+                  "Name": "Hotkey",
+                  "Plugin": {
+                    "Name": "Activate a Key Command",
+                    "UUID": "com.elgato.streamdeck.system.hotkey",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "Coalesce": true,
+                    "Hotkeys": [
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": true,
+                        "KeyModifiers": 7,
+                        "KeyOption": true,
+                        "KeyShift": true,
+                        "NativeCode": 119,
+                        "QTKeyCode": 16777271,
+                        "VKeyCode": 119
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      }
+                    ]
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "obs center" }],
+                  "UUID": "com.elgato.streamdeck.system.hotkey"
+                },
+                {
+                  "ActionID": "f94cf611-72bb-4f39-b14e-328d167f7fa5",
+                  "LinkedTitle": true,
+                  "Name": "Action",
+                  "Plugin": {
+                    "Name": "Streamer.bot",
+                    "UUID": "bot.streamer.streamdeck",
+                    "Version": "1.1.1.2"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "_uuid": "93774948-afad-4b4d-b2e9-d09931627dcc",
+                    "backgroundColorMap": { "0": null },
+                    "backgroundSrcMap": { "0": "" },
+                    "id": "yqd4NbCOt_sXk9ldjWiSK",
+                    "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+                    "keyDownAction": {
+                      "args": [],
+                      "id": "d70c66c9-450d-4f56-a8f7-51d3f221b52c",
+                      "name": "set docks for center monitor"
+                    },
+                    "keyDownLongAction": { "args": [], "id": "", "name": "" },
+                    "keyUpAction": { "args": [], "id": "", "name": "" },
+                    "title": { "0": "set docks for center monitor" }
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "set docks for center monitor" }],
+                  "UUID": "bot.streamer.streamdeck.action"
+                }
+              ]
+            },
+            { "Actions": [] }
+          ],
           "LinkedTitle": true,
-          "Name": "Hotkey",
+          "Name": "Multi Action",
           "Plugin": {
-            "Name": "Activate a Key Command",
-            "UUID": "com.elgato.streamdeck.system.hotkey",
+            "Name": "Multi Action",
+            "UUID": "com.elgato.streamdeck.multiactions",
             "Version": "1.0"
           },
           "Resources": null,
-          "Settings": {
-            "Coalesce": true,
-            "Hotkeys": [
-              {
-                "KeyCmd": false,
-                "KeyCtrl": true,
-                "KeyModifiers": 7,
-                "KeyOption": true,
-                "KeyShift": true,
-                "NativeCode": 119,
-                "QTKeyCode": 16777271,
-                "VKeyCode": 119
-              },
-              {
-                "KeyCmd": false,
-                "KeyCtrl": false,
-                "KeyModifiers": 0,
-                "KeyOption": false,
-                "KeyShift": false,
-                "NativeCode": 146,
-                "QTKeyCode": 33554431,
-                "VKeyCode": -1
-              },
-              {
-                "KeyCmd": false,
-                "KeyCtrl": false,
-                "KeyModifiers": 0,
-                "KeyOption": false,
-                "KeyShift": false,
-                "NativeCode": 146,
-                "QTKeyCode": 33554431,
-                "VKeyCode": -1
-              },
-              {
-                "KeyCmd": false,
-                "KeyCtrl": false,
-                "KeyModifiers": 0,
-                "KeyOption": false,
-                "KeyShift": false,
-                "NativeCode": 146,
-                "QTKeyCode": 33554431,
-                "VKeyCode": -1
-              }
-            ]
-          },
+          "Settings": {},
           "State": 0,
           "States": [{ "Title": "obs center" }],
-          "UUID": "com.elgato.streamdeck.system.hotkey"
+          "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
         "1,2": {
           "ActionID": "042074e9-deaf-4a5b-b4d3-2ea321c8dba7",
@@ -225,63 +298,114 @@
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
         "2,1": {
-          "ActionID": "fe2ebdb3-60c0-4229-96f2-cc0d20da9863",
+          "ActionID": "e15ee8aa-5ad0-44d2-9b4e-08af94032b07",
+          "Actions": [
+            {
+              "Actions": [
+                {
+                  "ActionID": "fe2ebdb3-60c0-4229-96f2-cc0d20da9863",
+                  "LinkedTitle": true,
+                  "Name": "Hotkey",
+                  "Plugin": {
+                    "Name": "Activate a Key Command",
+                    "UUID": "com.elgato.streamdeck.system.hotkey",
+                    "Version": "1.0"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "Coalesce": true,
+                    "Hotkeys": [
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": true,
+                        "KeyModifiers": 7,
+                        "KeyOption": true,
+                        "KeyShift": true,
+                        "NativeCode": 118,
+                        "QTKeyCode": 16777270,
+                        "VKeyCode": 118
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      },
+                      {
+                        "KeyCmd": false,
+                        "KeyCtrl": false,
+                        "KeyModifiers": 0,
+                        "KeyOption": false,
+                        "KeyShift": false,
+                        "NativeCode": 146,
+                        "QTKeyCode": 33554431,
+                        "VKeyCode": -1
+                      }
+                    ]
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "obs right" }],
+                  "UUID": "com.elgato.streamdeck.system.hotkey"
+                },
+                {
+                  "ActionID": "b0e31a3f-1d9e-4d2e-9b87-d2f76d43768f",
+                  "LinkedTitle": true,
+                  "Name": "Action",
+                  "Plugin": {
+                    "Name": "Streamer.bot",
+                    "UUID": "bot.streamer.streamdeck",
+                    "Version": "1.1.1.2"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "_uuid": "5e113eb8-70ab-485e-a2da-8331a0eaf590",
+                    "backgroundColorMap": { "0": null },
+                    "backgroundSrcMap": { "0": "" },
+                    "id": "nUBaYDm6SmCp_QFkS8N8Z",
+                    "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+                    "keyDownAction": {
+                      "args": [],
+                      "id": "8737d48c-cc69-443d-a98f-63e4e9e09655",
+                      "name": "set docks for right monitor"
+                    },
+                    "keyDownLongAction": { "args": [], "id": "", "name": "" },
+                    "keyUpAction": { "args": [], "id": "", "name": "" },
+                    "title": { "0": "set docks for right monitor" }
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "set docks for right monitor" }],
+                  "UUID": "bot.streamer.streamdeck.action"
+                }
+              ]
+            },
+            { "Actions": [] }
+          ],
           "LinkedTitle": true,
-          "Name": "Hotkey",
+          "Name": "Multi Action",
           "Plugin": {
-            "Name": "Activate a Key Command",
-            "UUID": "com.elgato.streamdeck.system.hotkey",
+            "Name": "Multi Action",
+            "UUID": "com.elgato.streamdeck.multiactions",
             "Version": "1.0"
           },
           "Resources": null,
-          "Settings": {
-            "Coalesce": true,
-            "Hotkeys": [
-              {
-                "KeyCmd": false,
-                "KeyCtrl": true,
-                "KeyModifiers": 7,
-                "KeyOption": true,
-                "KeyShift": true,
-                "NativeCode": 118,
-                "QTKeyCode": 16777270,
-                "VKeyCode": 118
-              },
-              {
-                "KeyCmd": false,
-                "KeyCtrl": false,
-                "KeyModifiers": 0,
-                "KeyOption": false,
-                "KeyShift": false,
-                "NativeCode": 146,
-                "QTKeyCode": 33554431,
-                "VKeyCode": -1
-              },
-              {
-                "KeyCmd": false,
-                "KeyCtrl": false,
-                "KeyModifiers": 0,
-                "KeyOption": false,
-                "KeyShift": false,
-                "NativeCode": 146,
-                "QTKeyCode": 33554431,
-                "VKeyCode": -1
-              },
-              {
-                "KeyCmd": false,
-                "KeyCtrl": false,
-                "KeyModifiers": 0,
-                "KeyOption": false,
-                "KeyShift": false,
-                "NativeCode": 146,
-                "QTKeyCode": 33554431,
-                "VKeyCode": -1
-              }
-            ]
-          },
+          "Settings": {},
           "State": 0,
           "States": [{ "Title": "obs right" }],
-          "UUID": "com.elgato.streamdeck.system.hotkey"
+          "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
         "2,2": {
           "ActionID": "aedfd324-8fb1-49e5-a009-5f2ff0dbabfd",
@@ -298,28 +422,6 @@
           "States": [{}],
           "UUID": "com.elgato.streamdeck.system.multimedia"
         },
-        "3,0": {
-          "ActionID": "5f9638f1-c7e3-4833-843f-9137680503eb",
-          "LinkedTitle": true,
-          "Name": "Open",
-          "Plugin": {
-            "Name": "Open",
-            "UUID": "com.elgato.streamdeck.system.open",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {
-            "path": "\"C:\\Users\\ville\\myfiles\\git-repos\\woertsposzibllen4me\\external\\streamdeck\\utils\\quit-streamdeck\\quit-streamdeck.vbs\""
-          },
-          "State": 0,
-          "States": [
-            {
-              "Image": "Images/NIIE5R81HH3IL3V5R9MB115B28Z.png",
-              "Title": "quit-stre."
-            }
-          ],
-          "UUID": "com.elgato.streamdeck.system.open"
-        },
         "3,2": {
           "ActionID": "d37e5984-2236-4a87-9248-3286a1b961a4",
           "LinkedTitle": true,
@@ -334,71 +436,6 @@
           "State": 0,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.system.multimedia"
-        },
-        "4,0": {
-          "ActionID": "d42df121-c258-4032-8be4-3de836d57422",
-          "LinkedTitle": true,
-          "Name": "Open Application",
-          "Plugin": {
-            "Name": "Open Application",
-            "UUID": "com.elgato.streamdeck.system.openapp",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {
-            "app_name": "OBS Studio (64bit)",
-            "args": "",
-            "bring_to_front": true,
-            "bundle_id": "C:\\Program Files\\obs-studio\\bin\\64bit\\obs64.exe",
-            "bundle_path": "C:/Program Files/obs-studio/bin/64bit/obs64.exe",
-            "exec": "C:/Program Files/obs-studio/bin/64bit/obs64.exe",
-            "is_bundle": false,
-            "long_press": "quit",
-            "source": "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/OBS Studio/OBS Studio (64bit).lnk"
-          },
-          "State": 0,
-          "States": [{ "Title": "OBS\nStudio" }],
-          "UUID": "com.elgato.streamdeck.system.openapp"
-        },
-        "4,1": {
-          "ActionID": "d836fee2-858f-4484-8f2d-4c9a35742f23",
-          "LinkedTitle": true,
-          "Name": "Open Application",
-          "Plugin": {
-            "Name": "Open Application",
-            "UUID": "com.elgato.streamdeck.system.openapp",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {
-            "app_name": "Tobii Ghost",
-            "args": "",
-            "bring_to_front": true,
-            "bundle_id": "C:\\Users\\ville\\AppData\\Local\\TobiiGhost\\TobiiGhost.exe",
-            "bundle_path": "C:/Users/ville/AppData/Local/TobiiGhost/TobiiGhost.exe",
-            "exec": "C:/Users/ville/AppData/Local/TobiiGhost/TobiiGhost.exe",
-            "is_bundle": false,
-            "long_press": "quit",
-            "source": "C:/Users/ville/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Tobii/Tobii Ghost.lnk"
-          },
-          "State": 0,
-          "States": [{ "Title": "Tobii\nGhost" }],
-          "UUID": "com.elgato.streamdeck.system.openapp"
-        },
-        "4,2": {
-          "ActionID": "a0da9e0e-8ca7-4d84-9298-4b6d013c90c8",
-          "LinkedTitle": true,
-          "Name": "Next Page",
-          "Plugin": {
-            "Name": "Pages",
-            "UUID": "com.elgato.streamdeck.page",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {},
-          "State": 0,
-          "States": [{}],
-          "UUID": "com.elgato.streamdeck.page.next"
         }
       },
       "Type": "Keypad"
