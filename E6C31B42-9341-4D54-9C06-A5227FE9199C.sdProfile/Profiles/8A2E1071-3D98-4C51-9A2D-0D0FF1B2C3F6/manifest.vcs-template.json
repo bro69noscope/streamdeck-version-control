@@ -29,7 +29,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "5aa1c97a-fc97-457c-8259-d8694236257a",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "O48n0suO3coUUtCrsqLf_",
             "instanceUuid": "",
@@ -62,7 +62,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "508afab0-3913-41a4-b8d0-f4471883ca94",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "O48n0suO3coUUtCrsqLf_",
             "instanceUuid": "",
@@ -124,7 +124,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "fa79c62f-5de2-4b7c-8ff5-88ea8ed0e3af",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "9aHEa0DFJltQW45AgJBJR",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
@@ -252,7 +252,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "f261123b-baf7-44c0-809b-921beae2569b",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "BXyczN33poFtnKa3jUAoV",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
