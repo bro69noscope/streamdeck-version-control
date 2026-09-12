@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_lounge", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_lounge-icon__active.png",
@@ -49,7 +49,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_center_monitor", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_center_monitor-icon__active.png",
@@ -307,12 +307,12 @@
             "collection": "collection_aoe2",
             "icon": "browser",
             "scene": "scene_alerts",
-            "sceneitemid": 3,
-            "sceneitemname": "browser_streamelements_alert",
+            "sceneitemid": 4,
+            "sceneitemname": "browser_streamerbot_alerts",
             "sceneitemscene": "scene_alerts",
             "toplevelscene": "scene_alerts"
           },
-          "State": 1,
+          "State": 0,
           "States": [{ "Title": "alerts" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
