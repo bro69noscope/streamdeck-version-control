@@ -49,7 +49,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_center_monitor", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_center_monitor-icon__active.png",
@@ -176,7 +176,7 @@
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "state": 0,
+            "state": 1,
             "title": { "0": "tobii prod", "1": "tobii ftp" },
             "toggleOffAction": {
               "args": [],
@@ -189,7 +189,7 @@
               "name": "set tobii to ftp"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -390,14 +390,14 @@
           "Resources": null,
           "Settings": {
             "collection": "collection_aoe2",
-            "icon": "game_capture",
+            "icon": "scene",
             "scene": "scene_center_monitor",
-            "sceneitemid": 1,
-            "sceneitemname": "capture_eyetracker",
-            "sceneitemscene": "scene_tobii",
-            "toplevelscene": "scene_tobii"
+            "sceneitemid": 5,
+            "sceneitemname": "scene_tobii",
+            "sceneitemscene": "scene_center_monitor",
+            "toplevelscene": "scene_center_monitor"
           },
-          "State": 1,
+          "State": 0,
           "States": [{ "Title": "tobii" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
