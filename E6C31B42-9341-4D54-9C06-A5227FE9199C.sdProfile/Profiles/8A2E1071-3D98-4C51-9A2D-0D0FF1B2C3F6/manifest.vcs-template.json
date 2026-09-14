@@ -490,12 +490,12 @@
           "Resources": null,
           "Settings": {
             "_uuid": "a828a4c9-5a7b-4ff9-8b29-7360af051a86",
-            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundColorMap": { "0": null, "1": "" },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "state": 0,
-            "title": { "0": "enable \nvcam", "1": "disable \nvcam" },
+            "state": 1,
+            "title": { "0": "vcam", "1": "vcam" },
             "toggleOffAction": {
               "args": [],
               "id": "ae7bbb67-8bc9-4662-97ae-c0ae8b9f4755",
@@ -507,7 +507,7 @@
               "name": "Enable Virtual Cam"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },

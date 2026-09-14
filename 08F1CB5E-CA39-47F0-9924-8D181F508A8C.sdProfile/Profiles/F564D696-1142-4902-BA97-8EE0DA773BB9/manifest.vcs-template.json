@@ -194,9 +194,9 @@
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
         "4,3": {
-          "ActionID": "c7bd5e89-2849-4c26-b0dc-f3038a3dd0b4",
+          "ActionID": "0d2198a7-4cc6-4b4e-9515-b136d86e97d7",
           "LinkedTitle": true,
-          "Name": "Action",
+          "Name": "Action Switch",
           "Plugin": {
             "Name": "Streamer.bot",
             "UUID": "bot.streamer.streamdeck",
@@ -204,23 +204,27 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "d9dbd981-0ec2-4d6d-8648-e92fd1240876",
-            "backgroundColorMap": { "0": null },
-            "backgroundSrcMap": { "0": "" },
-            "id": "H7jUDRq1-vWSOlo3Dv89y",
+            "_uuid": "5e1970c7-4922-4993-9117-233da509d3ea",
+            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "keyDownAction": {
+            "state": 1,
+            "title": { "0": "vcam", "1": "vcam" },
+            "toggleOffAction": {
               "args": [],
-              "id": "a50651eb-eaad-43fb-86ad-1ac315808a75",
-              "name": "refresh alerts"
+              "id": "ae7bbb67-8bc9-4662-97ae-c0ae8b9f4755",
+              "name": "Disable Virtual Cam"
             },
-            "keyDownLongAction": { "args": [], "id": "", "name": "" },
-            "keyUpAction": { "args": [], "id": "", "name": "" },
-            "title": { "0": "refresh\nalerts" }
+            "toggleOnAction": {
+              "args": [],
+              "id": "6ddfb373-fc41-4812-a619-ca31bf9a5230",
+              "name": "Enable Virtual Cam"
+            }
           },
-          "State": 0,
-          "States": [{}],
-          "UUID": "bot.streamer.streamdeck.action"
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
         },
         "5,0": {
           "ActionID": "9b140cba-ebbc-4a4e-8488-a39c2b048ae0",
@@ -270,9 +274,9 @@
           "UUID": "com.elgato.obsstudio.source"
         },
         "5,3": {
-          "ActionID": "0d2198a7-4cc6-4b4e-9515-b136d86e97d7",
+          "ActionID": "c7bd5e89-2849-4c26-b0dc-f3038a3dd0b4",
           "LinkedTitle": true,
-          "Name": "Action Switch",
+          "Name": "Action",
           "Plugin": {
             "Name": "Streamer.bot",
             "UUID": "bot.streamer.streamdeck",
@@ -280,27 +284,23 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "7f2f986a-fa8a-420d-84fe-df768a3a8f63",
-            "backgroundColorMap": { "0": null, "1": "" },
-            "backgroundSrcMap": { "0": "", "1": "" },
-            "id": "Kaf1onYk8eUNG-UaThkHy",
+            "_uuid": "72deea37-7b4d-4a88-8874-ab9d4cf6769e",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "H7jUDRq1-vWSOlo3Dv89y",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "state": 1,
-            "title": { "0": "enable \nvcam", "1": "disable \nvcam" },
-            "toggleOffAction": {
+            "keyDownAction": {
               "args": [],
-              "id": "ae7bbb67-8bc9-4662-97ae-c0ae8b9f4755",
-              "name": "Disable Virtual Cam"
+              "id": "a50651eb-eaad-43fb-86ad-1ac315808a75",
+              "name": "refresh alerts"
             },
-            "toggleOnAction": {
-              "args": [],
-              "id": "6ddfb373-fc41-4812-a619-ca31bf9a5230",
-              "name": "Enable Virtual Cam"
-            }
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "refresh\nalerts" }
           },
-          "State": 1,
-          "States": [{}, {}],
-          "UUID": "bot.streamer.streamdeck.action-switch"
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
         },
         "6,0": {
           "ActionID": "47bd291e-2aef-43a4-b73d-4205140c3f39",
