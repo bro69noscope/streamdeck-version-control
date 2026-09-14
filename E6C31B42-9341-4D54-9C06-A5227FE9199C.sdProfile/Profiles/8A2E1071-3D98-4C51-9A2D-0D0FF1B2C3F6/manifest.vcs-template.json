@@ -392,6 +392,39 @@
           ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
+        "6,2": {
+          "ActionID": "58f555ac-81ef-43cd-bcf1-ef87ecb4e26a",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "eb130be2-4c1b-4870-90d0-c7a2a5ef3186",
+            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "Kaf1onYk8eUNG-UaThkHy",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+            "state": 1,
+            "title": { "0": "tobii prod", "1": "tobii ftp" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "fd4787db-5af6-43dc-8625-78e1f5bb73d7",
+              "name": "set tobii to prod"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "f5c2f04a-ab31-47e6-930f-fd9ac2c4f6ff",
+              "name": "set tobii to ftp"
+            }
+          },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
+        },
         "6,3": {
           "ActionID": "2c09a0ed-64ba-4294-ba28-dae3cb798bdb",
           "LinkedTitle": true,

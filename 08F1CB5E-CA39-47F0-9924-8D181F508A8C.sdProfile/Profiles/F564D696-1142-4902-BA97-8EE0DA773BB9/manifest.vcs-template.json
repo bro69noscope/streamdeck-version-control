@@ -160,6 +160,39 @@
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
+        "4,2": {
+          "ActionID": "cda1886d-2a1d-45b4-bf3f-af13f44113fe",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "8bd2bda9-8aa7-4822-aaae-1977177f85c8",
+            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "Kaf1onYk8eUNG-UaThkHy",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+            "state": 0,
+            "title": { "0": "tobii prod", "1": "tobii ftp" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "fd4787db-5af6-43dc-8625-78e1f5bb73d7",
+              "name": "set tobii to prod"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "f5c2f04a-ab31-47e6-930f-fd9ac2c4f6ff",
+              "name": "set tobii to ftp"
+            }
+          },
+          "State": 0,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
+        },
         "4,3": {
           "ActionID": "c7bd5e89-2849-4c26-b0dc-f3038a3dd0b4",
           "LinkedTitle": true,
@@ -248,7 +281,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "7f2f986a-fa8a-420d-84fe-df768a3a8f63",
-            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundColorMap": { "0": null, "1": "" },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
@@ -364,7 +397,7 @@
             "sceneitemscene": "scene_tobii",
             "toplevelscene": "scene_tobii"
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "tobii" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
