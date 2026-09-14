@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene_lounge", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_lounge-icon__active.png",
@@ -358,13 +358,13 @@
           "Settings": {
             "collection": "collection_aoe2",
             "icon": "game_capture",
-            "scene": "scene_tobii",
+            "scene": "scene_center_monitor",
             "sceneitemid": 1,
-            "sceneitemname": "capture_eyetracker_tobii",
+            "sceneitemname": "capture_eyetracker",
             "sceneitemscene": "scene_tobii",
             "toplevelscene": "scene_tobii"
           },
-          "State": 1,
+          "State": 0,
           "States": [{ "Title": "tobii" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
