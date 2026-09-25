@@ -177,16 +177,16 @@
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
             "state": 1,
-            "title": { "0": "tobii prod", "1": "tobii ftp" },
+            "title": { "0": "eyetracker prod", "1": "eyetracker ftp" },
             "toggleOffAction": {
               "args": [],
               "id": "fd4787db-5af6-43dc-8625-78e1f5bb73d7",
-              "name": "set tobii to prod"
+              "name": "set eyetracker to prod"
             },
             "toggleOnAction": {
               "args": [],
               "id": "f5c2f04a-ab31-47e6-930f-fd9ac2c4f6ff",
-              "name": "set tobii to ftp"
+              "name": "set eyetracker to ftp"
             }
           },
           "State": 1,
@@ -265,12 +265,12 @@
             "icon": "scene",
             "scene": "scene_center_monitor",
             "sceneitemid": 5,
-            "sceneitemname": "scene_tobii",
+            "sceneitemname": "scene_eyetracker",
             "sceneitemscene": "scene_center_monitor",
             "toplevelscene": "scene_center_monitor"
           },
           "State": 1,
-          "States": [{ "Title": "tobii" }, {}],
+          "States": [{ "Title": "eyetracker" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
         "5,3": {
