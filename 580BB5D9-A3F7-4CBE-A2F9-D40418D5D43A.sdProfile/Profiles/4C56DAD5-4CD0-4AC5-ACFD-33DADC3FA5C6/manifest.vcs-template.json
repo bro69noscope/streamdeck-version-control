@@ -170,12 +170,12 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "Dota",
-                    "scene": "METASCENE",
+                    "collection": "collection_dota2",
+                    "scene": "scene_metascene",
                     "sceneitemid": 5,
-                    "sceneitemname": "Cyberbird",
-                    "sceneitemscene": "Music",
-                    "toplevelscene": "# MetaScene Test"
+                    "sceneitemname": "media_music_cyberbird",
+                    "sceneitemscene": "group_music",
+                    "toplevelscene": "scene_metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Play cyberbird" }, {}],
@@ -188,12 +188,12 @@
                   "Plugin": {
                     "Name": "OBS Studio",
                     "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.1.29"
+                    "Version": "3.0.3.31"
                   },
                   "Resources": null,
                   "Settings": {
                     "filter": "Apply LUT - Golden Warm",
-                    "source": "Scenes Clones"
+                    "source": "group_basic_scene_clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Apply warm LUT" }, {}],
@@ -245,7 +245,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "3b57b3e6-ddf7-463d-9648-26954b115c18",
+                    "_uuid": "c4acaedf-8344-474a-8be7-07c4e3b1a52c",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
@@ -374,12 +374,12 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "Dota",
-                    "scene": "METASCENE",
+                    "collection": "collection_dota2",
+                    "scene": "scene_metascene",
                     "sceneitemid": 4,
-                    "sceneitemname": "<< Ladies and gents, we might be back >>",
-                    "sceneitemscene": "Transitions",
-                    "toplevelscene": "METASCENE"
+                    "sceneitemname": "media_video_ladies_gents_might_be_back",
+                    "sceneitemscene": "group_transition_videos",
+                    "toplevelscene": "scene_metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Show \"Ladies and gents\" text" }, {}],
@@ -411,12 +411,12 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "Dota",
-                    "scene": "METASCENE",
+                    "collection": "collection_dota2",
+                    "scene": "scene_metascene",
                     "sceneitemid": 5,
-                    "sceneitemname": "Cyberbird",
-                    "sceneitemscene": "Music",
-                    "toplevelscene": "METASCENE"
+                    "sceneitemname": "media_music_cyberbird",
+                    "sceneitemscene": "group_music",
+                    "toplevelscene": "scene_metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Play cyberbird" }, {}],
@@ -429,12 +429,12 @@
                   "Plugin": {
                     "Name": "OBS Studio",
                     "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.1.29"
+                    "Version": "3.0.3.31"
                   },
                   "Resources": null,
                   "Settings": {
                     "filter": "Apply LUT - Golden Warm",
-                    "source": "Scenes Clones"
+                    "source": "group_basic_scene_clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Apply warm LUT" }, {}],
@@ -452,12 +452,12 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "Dota",
-                    "scene": "METASCENE",
+                    "collection": "collection_dota2",
+                    "scene": "scene_metascene",
                     "sceneitemid": 4,
-                    "sceneitemname": "<< Ladies and gents, we might be back >>",
-                    "sceneitemscene": "Transitions",
-                    "toplevelscene": "METASCENE"
+                    "sceneitemname": "media_video_ladies_gents_might_be_back",
+                    "sceneitemscene": "group_transition_videos",
+                    "toplevelscene": "scene_metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Hide \"Ladies and gents\" text" }, {}],
@@ -638,12 +638,12 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "Dota",
-                    "scene": "METASCENE",
+                    "collection": "collection_dota2",
+                    "scene": "scene_metascene",
                     "sceneitemid": 10,
-                    "sceneitemname": "Narrator: test",
-                    "sceneitemscene": "Voice Clips",
-                    "toplevelscene": "METASCENE"
+                    "sceneitemname": "media_audio_narrator_test",
+                    "sceneitemscene": "group_voice_clips",
+                    "toplevelscene": "scene_metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Play Narrator Clip" }, {}],
@@ -656,12 +656,12 @@
                   "Plugin": {
                     "Name": "OBS Studio",
                     "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.1.29"
+                    "Version": "3.0.3.31"
                   },
                   "Resources": null,
                   "Settings": {
                     "filter": "Apply LUT - GrayScale",
-                    "source": "Scenes Clones"
+                    "source": "group_basic_scene_clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Apply Grayscale LUT" }, {}],
@@ -690,12 +690,12 @@
                   "Plugin": {
                     "Name": "OBS Studio",
                     "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.1.29"
+                    "Version": "3.0.3.31"
                   },
                   "Resources": null,
                   "Settings": {
                     "filter": "Apply LUT - GrayScale",
-                    "source": "Scenes Clones"
+                    "source": "group_basic_scene_clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Remove Grayscale LUT" }, {}],
@@ -713,12 +713,12 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "Dota",
-                    "scene": "METASCENE",
+                    "collection": "collection_dota2",
+                    "scene": "scene_metascene",
                     "sceneitemid": 10,
-                    "sceneitemname": "Narrator: test",
-                    "sceneitemscene": "Voice Clips",
-                    "toplevelscene": "> MetaScene Test"
+                    "sceneitemname": "media_audio_narrator_test",
+                    "sceneitemscene": "group_voice_clips",
+                    "toplevelscene": "scene_metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Stop Narrator Clip" }, {}],
@@ -807,7 +807,7 @@
                     "scene": "METASCENE",
                     "sceneitemid": 10,
                     "sceneitemname": "Narrator: test",
-                    "sceneitemscene": "Voice Clips",
+                    "sceneitemscene": "group_voice_clips",
                     "toplevelscene": "METASCENE"
                   },
                   "State": 1,
@@ -821,12 +821,12 @@
                   "Plugin": {
                     "Name": "OBS Studio",
                     "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.1.29"
+                    "Version": "3.0.3.31"
                   },
                   "Resources": null,
                   "Settings": {
                     "filter": "Apply LUT - GrayScale",
-                    "source": "Scenes Clones"
+                    "source": "group_basic_scene_clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Apply Grayscale LUT" }, {}],
@@ -855,12 +855,12 @@
                   "Plugin": {
                     "Name": "OBS Studio",
                     "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.1.29"
+                    "Version": "3.0.3.31"
                   },
                   "Resources": null,
                   "Settings": {
                     "filter": "Apply LUT - GrayScale",
-                    "source": "Scenes Clones"
+                    "source": "group_basic_scene_clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Remove Grayscale LUT" }, {}],
@@ -882,7 +882,7 @@
                     "scene": "METASCENE",
                     "sceneitemid": 10,
                     "sceneitemname": "Narrator: test",
-                    "sceneitemscene": "Voice Clips",
+                    "sceneitemscene": "group_voice_clips",
                     "toplevelscene": "> MetaScene Test"
                   },
                   "State": 1,
