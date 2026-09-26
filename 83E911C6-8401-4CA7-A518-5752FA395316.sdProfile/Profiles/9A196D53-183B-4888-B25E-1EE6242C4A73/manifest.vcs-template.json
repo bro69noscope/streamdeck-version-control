@@ -307,7 +307,12 @@
           "Settings": {
             "albumArtDisplayMode": 0,
             "deviceNameSelected": null,
-            "devices": [],
+            "devices": [
+              {
+                "id": "9ffd3d29422b9856501497fb6927fba1d31ce2a2",
+                "name": "DEKSTOP-69URSS"
+              }
+            ],
             "devicesSelected": "",
             "keyImage": "",
             "pauseImage": null,

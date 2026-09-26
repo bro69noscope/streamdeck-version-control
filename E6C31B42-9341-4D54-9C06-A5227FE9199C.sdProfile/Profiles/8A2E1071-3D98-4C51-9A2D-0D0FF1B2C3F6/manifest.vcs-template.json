@@ -289,7 +289,7 @@
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "BXyczN33poFtnKa3jUAoV",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
-            "state": 1,
+            "state": 0,
             "title": { "0": "facecam", "1": "facecam" },
             "toggleOffAction": {
               "args": [],
@@ -302,7 +302,7 @@
               "name": "show facecam"
             }
           },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
