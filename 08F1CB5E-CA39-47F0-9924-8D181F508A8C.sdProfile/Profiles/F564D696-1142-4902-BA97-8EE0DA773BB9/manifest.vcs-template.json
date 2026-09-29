@@ -27,7 +27,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene_lounge", "target": "preview" },
+          "Settings": { "scene": "scene__lounge", "target": "preview" },
           "State": 1,
           "States": [
             {
@@ -48,7 +48,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene_center_monitor", "target": "preview" },
+          "Settings": { "scene": "scene__center_monitor", "target": "preview" },
           "State": 1,
           "States": [
             {
@@ -86,7 +86,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene_capture_age", "target": "preview" },
+          "Settings": { "scene": "scene__capture_age", "target": "preview" },
           "State": 1,
           "States": [
             {
@@ -107,7 +107,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene_vlc", "target": "preview" },
+          "Settings": { "scene": "scene__vlc", "target": "preview" },
           "State": 1,
           "States": [
             {
@@ -128,7 +128,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene_aoe2", "target": "preview" },
+          "Settings": { "scene": "scene__aoe2", "target": "preview" },
           "State": 1,
           "States": [
             {
@@ -149,7 +149,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene_osu", "target": "preview" },
+          "Settings": { "scene": "scene__osu", "target": "preview" },
           "State": 1,
           "States": [
             {
@@ -263,11 +263,11 @@
           "Settings": {
             "collection": "collection_aoe2",
             "icon": "scene",
-            "scene": "scene_center_monitor",
+            "scene": "scene__center_monitor",
             "sceneitemid": 5,
-            "sceneitemname": "scene_eyetracker",
-            "sceneitemscene": "scene_center_monitor",
-            "toplevelscene": "scene_center_monitor"
+            "sceneitemname": "scene__eyetracker",
+            "sceneitemscene": "scene__center_monitor",
+            "toplevelscene": "scene__center_monitor"
           },
           "State": 1,
           "States": [{ "Title": "eyetracker" }, {}],
@@ -339,11 +339,11 @@
           "Settings": {
             "collection": "collection_aoe2",
             "icon": "browser",
-            "scene": "scene_alerts",
+            "scene": "scene__alerts",
             "sceneitemid": 4,
             "sceneitemname": "browser_streamerbot_alerts",
-            "sceneitemscene": "scene_alerts",
-            "toplevelscene": "scene_alerts"
+            "sceneitemscene": "scene__alerts",
+            "toplevelscene": "scene__alerts"
           },
           "State": 1,
           "States": [{ "Title": "alerts" }, {}],
@@ -391,11 +391,11 @@
           "Settings": {
             "collection": "collection_aoe2",
             "icon": "camera",
-            "scene": "scene_facecam",
+            "scene": "scene__facecam",
             "sceneitemid": 1,
-            "sceneitemname": "capture_facecam",
-            "sceneitemscene": "scene_facecam",
-            "toplevelscene": "scene_facecam"
+            "sceneitemname": "capture__device__facecam",
+            "sceneitemscene": "scene__facecam",
+            "toplevelscene": "scene__facecam"
           },
           "State": 1,
           "States": [{ "Title": "cam" }, {}],

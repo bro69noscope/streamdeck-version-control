@@ -102,7 +102,7 @@
             "keyDownAction": {
               "args": [],
               "id": "b485a409-a30f-4f98-9d85-a27f6e5c60c3",
-              "name": "set scene_screencap"
+              "name": "set scene__screencap"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -230,7 +230,7 @@
             "keyDownAction": {
               "args": [],
               "id": "dbb95da9-5e23-4d80-b5c3-11cfc11870e2",
-              "name": "set scene_lounge"
+              "name": "set scene__lounge"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },

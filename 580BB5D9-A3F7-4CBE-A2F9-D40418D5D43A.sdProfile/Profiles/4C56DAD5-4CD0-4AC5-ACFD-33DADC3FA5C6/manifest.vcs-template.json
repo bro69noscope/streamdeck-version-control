@@ -375,11 +375,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection_dota2",
-                    "scene": "scene_metascene",
+                    "scene": "scene__metascene",
                     "sceneitemid": 4,
                     "sceneitemname": "media_video_ladies_gents_might_be_back",
                     "sceneitemscene": "group_transition_videos",
-                    "toplevelscene": "scene_metascene"
+                    "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Show \"Ladies and gents\" text" }, {}],
@@ -412,11 +412,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection_dota2",
-                    "scene": "scene_metascene",
+                    "scene": "scene__metascene",
                     "sceneitemid": 5,
                     "sceneitemname": "media_music_cyberbird",
                     "sceneitemscene": "group_music",
-                    "toplevelscene": "scene_metascene"
+                    "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Play cyberbird" }, {}],
@@ -434,7 +434,7 @@
                   "Resources": null,
                   "Settings": {
                     "filter": "Apply LUT - Golden Warm",
-                    "source": "group_basic_scene_clones"
+                    "source": "group_basic_scene__clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Apply warm LUT" }, {}],
@@ -453,11 +453,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection_dota2",
-                    "scene": "scene_metascene",
+                    "scene": "scene__metascene",
                     "sceneitemid": 4,
                     "sceneitemname": "media_video_ladies_gents_might_be_back",
                     "sceneitemscene": "group_transition_videos",
-                    "toplevelscene": "scene_metascene"
+                    "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Hide \"Ladies and gents\" text" }, {}],
@@ -639,11 +639,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection_dota2",
-                    "scene": "scene_metascene",
+                    "scene": "scene__metascene",
                     "sceneitemid": 10,
                     "sceneitemname": "media_audio_narrator_test",
                     "sceneitemscene": "group_voice_clips",
-                    "toplevelscene": "scene_metascene"
+                    "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Play Narrator Clip" }, {}],
@@ -661,7 +661,7 @@
                   "Resources": null,
                   "Settings": {
                     "filter": "Apply LUT - GrayScale",
-                    "source": "group_basic_scene_clones"
+                    "source": "group_basic_scene__clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Apply Grayscale LUT" }, {}],
@@ -695,7 +695,7 @@
                   "Resources": null,
                   "Settings": {
                     "filter": "Apply LUT - GrayScale",
-                    "source": "group_basic_scene_clones"
+                    "source": "group_basic_scene__clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Remove Grayscale LUT" }, {}],
@@ -714,11 +714,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection_dota2",
-                    "scene": "scene_metascene",
+                    "scene": "scene__metascene",
                     "sceneitemid": 10,
                     "sceneitemname": "media_audio_narrator_test",
                     "sceneitemscene": "group_voice_clips",
-                    "toplevelscene": "scene_metascene"
+                    "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Stop Narrator Clip" }, {}],

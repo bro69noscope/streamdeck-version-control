@@ -27,7 +27,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene_zoom", "target": "preview" },
+          "Settings": { "scene": "scene__zoom", "target": "preview" },
           "State": 1,
           "States": [
             {
@@ -48,7 +48,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene_facecam", "target": "preview" },
+          "Settings": { "scene": "scene__facecam", "target": "preview" },
           "State": 1,
           "States": [
             {
@@ -69,7 +69,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene_browser", "target": "preview" },
+          "Settings": { "scene": "scene__browser", "target": "preview" },
           "State": 1,
           "States": [
             {
