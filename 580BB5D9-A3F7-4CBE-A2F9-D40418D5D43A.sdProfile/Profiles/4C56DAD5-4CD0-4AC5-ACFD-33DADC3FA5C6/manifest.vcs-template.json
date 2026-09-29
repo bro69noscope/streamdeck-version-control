@@ -12,9 +12,9 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "METASCENE", "target": "preview" },
+          "Settings": { "scene": "scene__metascene", "target": "preview" },
           "State": 1,
-          "States": [{}, {}],
+          "States": [{ "Title": "metascene" }, {}],
           "UUID": "com.elgato.obsstudio.scene"
         },
         "0,3": {
@@ -27,7 +27,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene_dslr", "target": "preview" },
+          "Settings": { "scene": "scene__facecam", "target": "preview" },
           "State": 1,
           "States": [
             {
@@ -170,12 +170,12 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "collection_dota2",
-                    "scene": "scene_metascene",
+                    "collection": "collection__dota2",
+                    "scene": "scene__metascene",
                     "sceneitemid": 5,
-                    "sceneitemname": "media_music_cyberbird",
-                    "sceneitemscene": "group_music",
-                    "toplevelscene": "scene_metascene"
+                    "sceneitemname": "media_music__cyberbird",
+                    "sceneitemscene": "group__music",
+                    "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
                   "States": [{ "Title": "Play cyberbird" }, {}],
@@ -193,7 +193,7 @@
                   "Resources": null,
                   "Settings": {
                     "filter": "Apply LUT - Golden Warm",
-                    "source": "group_basic_scene_clones"
+                    "source": "group__basic_scene_clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Apply warm LUT" }, {}],
@@ -245,7 +245,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "d9788c2a-7b5f-4f28-84d5-114fb2bce7aa",
+                    "_uuid": "74093a5b-14c4-4a0d-be9a-1c4416a0cf93",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
