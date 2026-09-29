@@ -37,7 +37,7 @@
               "FontUnderline": false,
               "OutlineThickness": 2,
               "ShowTitle": true,
-              "Title": "DSLR",
+              "Title": "facecam",
               "TitleAlignment": "bottom",
               "TitleColor": "#ffffff"
             },
@@ -153,7 +153,7 @@
                       "FontUnderline": false,
                       "OutlineThickness": 2,
                       "ShowTitle": true,
-                      "Title": "# stops any multimedia track",
+                      "Title": "# stop all multimedia tracks",
                       "TitleAlignment": "bottom",
                       "TitleColor": "#ffffff"
                     }
@@ -179,7 +179,7 @@
                     "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
-                  "States": [{ "Title": "Play cyberbird" }, {}],
+                  "States": [{ "Title": "play cyberbird" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
                 {
@@ -197,7 +197,7 @@
                     "source": "group__basic_scene_clones"
                   },
                   "State": 1,
-                  "States": [{ "Title": "Apply warm LUT" }, {}],
+                  "States": [{ "Title": "apply warm lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 }
               ]
@@ -223,7 +223,7 @@
               "Image": "Images/8SWKQ980PP20595NBGM9N4QBE8Z.png",
               "OutlineThickness": 2,
               "ShowTitle": true,
-              "Title": "Cyberbird",
+              "Title": "cyberbird",
               "TitleAlignment": "bottom",
               "TitleColor": "#ffffff"
             }
@@ -258,7 +258,7 @@
                     },
                     "keyDownLongAction": { "args": [], "id": "", "name": "" },
                     "keyUpAction": { "args": [], "id": "", "name": "" },
-                    "title": { "0": "RESET\nALL" }
+                    "title": { "0": "reset\nall" }
                   },
                   "State": 0,
                   "States": [{ "Title": "reset all" }],
@@ -329,7 +329,7 @@
                       "FontUnderline": false,
                       "OutlineThickness": 2,
                       "ShowTitle": true,
-                      "Title": "Press the \"]\" shortcut to stop dota music",
+                      "Title": "press the \"]\" shortcut to stop dota music",
                       "TitleAlignment": "bottom",
                       "TitleColor": "#ffffff"
                     }
@@ -357,7 +357,7 @@
                       "FontUnderline": false,
                       "OutlineThickness": 2,
                       "ShowTitle": true,
-                      "Title": "Stop any multimedia track",
+                      "Title": "stop any multimedia track",
                       "TitleAlignment": "bottom",
                       "TitleColor": "#ffffff"
                     }
@@ -383,7 +383,10 @@
                     "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
-                  "States": [{ "Title": "Show \"Ladies and gents\" text" }, {}],
+                  "States": [
+                    { "Title": "show \"ladies and gents\" media" },
+                    {}
+                  ],
                   "UUID": "com.elgato.obsstudio.source"
                 },
                 {
@@ -398,7 +401,7 @@
                   "Resources": null,
                   "Settings": { "delay": 5700 },
                   "State": 0,
-                  "States": [{ "Title": "Wait 6s" }],
+                  "States": [{ "Title": "wait 6s" }],
                   "UUID": "com.elgato.streamdeck.multiactions.delay"
                 },
                 {
@@ -420,7 +423,7 @@
                     "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
-                  "States": [{ "Title": "Play cyberbird" }, {}],
+                  "States": [{ "Title": "play cyberbird" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
                 {
@@ -438,7 +441,7 @@
                     "source": "group__basic_scene_clones"
                   },
                   "State": 1,
-                  "States": [{ "Title": "Apply warm LUT" }, {}],
+                  "States": [{ "Title": "apply warm lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
                 {
@@ -461,7 +464,10 @@
                     "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
-                  "States": [{ "Title": "Hide \"Ladies and gents\" text" }, {}],
+                  "States": [
+                    { "Title": "hide \"ladies and gents\" media" },
+                    {}
+                  ],
                   "UUID": "com.elgato.obsstudio.source"
                 }
               ]
@@ -487,7 +493,7 @@
               "Image": "Images/2GA8CFLL990PJB4MQCBVOPNEAOZ.png",
               "OutlineThickness": 2,
               "ShowTitle": true,
-              "Title": "Ladies\nand\ngents +\nCyberbird",
+              "Title": "ladies\nand\ngents +\ncyberbird",
               "TitleAlignment": "bottom",
               "TitleColor": "#ffffff"
             }
@@ -549,7 +555,7 @@
             "title": { "0": "" }
           },
           "State": 0,
-          "States": [{ "Title": "Retarded\nMates" }],
+          "States": [{ "Title": "retarded\nmates" }],
           "UUID": "bot.streamer.streamdeck.action"
         },
         "6,0": {
@@ -623,7 +629,7 @@
                     "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
-                  "States": [{ "Title": "Play Narrator Clip" }, {}],
+                  "States": [{ "Title": "play narrator clip" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
                 {
@@ -641,7 +647,7 @@
                     "source": "group__basic_scene_clones"
                   },
                   "State": 1,
-                  "States": [{ "Title": "Apply Grayscale LUT" }, {}],
+                  "States": [{ "Title": "apply drayscale lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
                 {
@@ -675,7 +681,7 @@
                     "source": "group_basic_scene__clones"
                   },
                   "State": 1,
-                  "States": [{ "Title": "Remove Grayscale LUT" }, {}],
+                  "States": [{ "Title": "remove grayscale lUT" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
                 {
@@ -698,7 +704,7 @@
                     "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
-                  "States": [{ "Title": "Stop Narrator Clip" }, {}],
+                  "States": [{ "Title": "stop narrator clip" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
                 {
@@ -738,7 +744,7 @@
           "Resources": null,
           "Settings": {},
           "State": 0,
-          "States": [{ "Title": "Narrator \nTest" }],
+          "States": [{ "Title": "narrator \ntest" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
         "7,0": {
@@ -780,7 +786,7 @@
           "States": [
             {
               "Image": "Images/479KQQGGR145H5B4IBQ70NCKA4Z.webp",
-              "Title": "Scripts"
+              "Title": "scripts"
             }
           ],
           "UUID": "com.elgato.streamdeck.profile.openchild"
@@ -803,7 +809,7 @@
           "States": [
             {
               "Image": "Images/4W7N2TNIMP3WN1GHB1FW8M29M4Z.webp",
-              "Title": "PRETTY\nSCRIPTS"
+              "Title": "pretty\nscripts"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
