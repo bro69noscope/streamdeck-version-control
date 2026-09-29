@@ -3,6 +3,30 @@
     {
       "Actions": {
         "4,0": {
+          "ActionID": "30492a60-6e1f-4794-84fe-29c8e6707303",
+          "LinkedTitle": true,
+          "Name": "Switch Profile",
+          "Plugin": {
+            "Name": "Switch Profile",
+            "UUID": "com.elgato.streamdeck.profile.rotate",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "DeviceUUID": "",
+            "PageIndex": 1,
+            "ProfileUUID": "08f1cb5e-ca39-47f0-9924-8d181f508a8c"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/lnk__gen__profile_aoe2_4x8-icon.jpg",
+              "Title": "AOE"
+            }
+          ],
+          "UUID": "com.elgato.streamdeck.profile.rotate"
+        },
+        "5,0": {
           "ActionID": "7f2a6f56-e317-4597-871f-471de6b12d53",
           "LinkedTitle": true,
           "Name": "Switch Profile",
@@ -26,7 +50,7 @@
           ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
-        "5,0": {
+        "6,0": {
           "ActionID": "cd4e41fd-e8c9-4f7c-ab44-c5a239501a17",
           "LinkedTitle": true,
           "Name": "Switch Profile",
@@ -50,7 +74,7 @@
           ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
-        "6,0": {
+        "7,0": {
           "ActionID": "617e002e-736a-4abd-8104-5ab6f6fb3553",
           "LinkedTitle": true,
           "Name": "Switch Profile",
@@ -70,30 +94,6 @@
             {
               "Image": "Images/lnk__gen__profile_hub_4x8-icon.png",
               "Title": "HUB"
-            }
-          ],
-          "UUID": "com.elgato.streamdeck.profile.rotate"
-        },
-        "7,0": {
-          "ActionID": "30492a60-6e1f-4794-84fe-29c8e6707303",
-          "LinkedTitle": true,
-          "Name": "Switch Profile",
-          "Plugin": {
-            "Name": "Switch Profile",
-            "UUID": "com.elgato.streamdeck.profile.rotate",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {
-            "DeviceUUID": "",
-            "PageIndex": 1,
-            "ProfileUUID": "08f1cb5e-ca39-47f0-9924-8d181f508a8c"
-          },
-          "State": 0,
-          "States": [
-            {
-              "Image": "Images/lnk__gen__profile_aoe2_4x8-icon.jpg",
-              "Title": "AOE"
             }
           ],
           "UUID": "com.elgato.streamdeck.profile.rotate"

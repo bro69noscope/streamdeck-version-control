@@ -172,7 +172,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "8bd2bda9-8aa7-4822-aaae-1977177f85c8",
-            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundColorMap": { "0": null, "1": "" },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
@@ -205,11 +205,11 @@
           "Resources": null,
           "Settings": {
             "_uuid": "5e1970c7-4922-4993-9117-233da509d3ea",
-            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundColorMap": { "0": null, "1": "" },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "state": 1,
+            "state": 0,
             "title": { "0": "vcam", "1": "vcam" },
             "toggleOffAction": {
               "args": [],
@@ -222,33 +222,9 @@
               "name": "Enable Virtual Cam"
             }
           },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
-        },
-        "5,0": {
-          "ActionID": "9b140cba-ebbc-4a4e-8488-a39c2b048ae0",
-          "LinkedTitle": true,
-          "Name": "Switch Profile",
-          "Plugin": {
-            "Name": "Switch Profile",
-            "UUID": "com.elgato.streamdeck.profile.rotate",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {
-            "DeviceUUID": "",
-            "PageIndex": 1,
-            "ProfileUUID": "e6c31b42-9341-4d54-9c06-a5227fe9199c"
-          },
-          "State": 0,
-          "States": [
-            {
-              "Image": "Images/lnk__gen__profile_ftp_4x8-icon.jpg",
-              "Title": "FTP"
-            }
-          ],
-          "UUID": "com.elgato.streamdeck.profile.rotate"
         },
         "5,2": {
           "ActionID": "fe1771e0-3881-47eb-b4e3-ec9e0d0bbb8f",
@@ -303,7 +279,7 @@
           "UUID": "bot.streamer.streamdeck.action"
         },
         "6,0": {
-          "ActionID": "47bd291e-2aef-43a4-b73d-4205140c3f39",
+          "ActionID": "9b140cba-ebbc-4a4e-8488-a39c2b048ae0",
           "LinkedTitle": true,
           "Name": "Switch Profile",
           "Plugin": {
@@ -315,13 +291,13 @@
           "Settings": {
             "DeviceUUID": "",
             "PageIndex": 1,
-            "ProfileUUID": "9601b245-d84a-4a2f-a3f0-0b92f0969aaa"
+            "ProfileUUID": "e6c31b42-9341-4d54-9c06-a5227fe9199c"
           },
           "State": 0,
           "States": [
             {
-              "Image": "Images/lnk__gen__profile_hub_4x8-icon.png",
-              "Title": "HUB"
+              "Image": "Images/lnk__gen__profile_ftp_4x8-icon.jpg",
+              "Title": "FTP"
             }
           ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
@@ -377,6 +353,30 @@
           "State": 0,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
+        },
+        "7,0": {
+          "ActionID": "47bd291e-2aef-43a4-b73d-4205140c3f39",
+          "LinkedTitle": true,
+          "Name": "Switch Profile",
+          "Plugin": {
+            "Name": "Switch Profile",
+            "UUID": "com.elgato.streamdeck.profile.rotate",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "DeviceUUID": "",
+            "PageIndex": 1,
+            "ProfileUUID": "9601b245-d84a-4a2f-a3f0-0b92f0969aaa"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/lnk__gen__profile_hub_4x8-icon.png",
+              "Title": "HUB"
+            }
+          ],
+          "UUID": "com.elgato.streamdeck.profile.rotate"
         },
         "7,2": {
           "ActionID": "cfd14c5d-fd29-4318-8490-d022e73d1a1f",
