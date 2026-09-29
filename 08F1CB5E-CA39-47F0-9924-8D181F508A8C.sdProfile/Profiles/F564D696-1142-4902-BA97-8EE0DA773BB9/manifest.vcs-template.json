@@ -73,7 +73,7 @@
           "Resources": null,
           "Settings": { "ProfileUUID": "ce51b19e-95b4-47e7-a500-1c6c89752dde" },
           "State": 0,
-          "States": [{ "Title": "rare scenes" }],
+          "States": [{ "Title": "rare\nscenes" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
         "1,2": {
@@ -205,7 +205,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "5e1970c7-4922-4993-9117-233da509d3ea",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
@@ -398,7 +398,7 @@
             "toplevelscene": "scene__facecam"
           },
           "State": 1,
-          "States": [{ "Title": "cam" }, {}],
+          "States": [{ "Title": "facecam" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
         "7,3": {

@@ -4,6 +4,6 @@
   "desc": "",
   "type": "dir",
   "pageIndex": null,
-  "parents": "Scripts",
-  "fullChainDisplay": "Scripts > old stuff"
+  "parents": "scripts",
+  "fullChainDisplay": "scripts > old stuff"
 }

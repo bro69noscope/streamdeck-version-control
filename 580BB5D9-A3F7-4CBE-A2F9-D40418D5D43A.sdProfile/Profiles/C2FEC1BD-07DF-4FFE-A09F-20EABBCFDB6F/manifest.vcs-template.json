@@ -22,17 +22,20 @@
             "Version": "1.0"
           },
           "Resources": null,
-          "Settings": {
-            "path": "\"{{STREAMING_REPO_PATH}}run_server.bat\""
-          },
+          "Settings": { "path": "\"{{STREAMING_REPO_PATH}}run_server.bat\"" },
           "State": 0,
-          "States": [{ "Title": "run_server" }],
+          "States": [{ "Title": "launch\nserver" }],
           "UUID": "com.elgato.streamdeck.system.open"
         },
         "0,2": {
           "ActionID": "68eec9d7-3ed7-40b9-8fe4-2c829565e299",
           "LinkedTitle": true,
           "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.1.0"
+          },
           "Resources": null,
           "Settings": {
             "body": "free all slots",
@@ -42,7 +45,7 @@
           "States": [
             {
               "Image": "Images/GBIO1GGW9L6D59077E4SBIJ10SZ.png",
-              "Title": "DB\nFree all\nslots"
+              "Title": "free all\ndb slots"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -51,6 +54,11 @@
           "ActionID": "40810a8f-2398-4801-93ed-214de259c1f2",
           "LinkedTitle": true,
           "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.1.0"
+          },
           "Resources": null,
           "Settings": {
             "body": "get windows",
@@ -60,7 +68,7 @@
           "States": [
             {
               "Image": "Images/AKPF6248810SD4O3QO8MDHWWCSZ.png",
-              "Title": "Get all\nwindows\nname\nin DB"
+              "Title": "get all\nwindow\nnames\nin db"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -83,7 +91,7 @@
           "States": [
             {
               "Image": "Images/6AVEPAWDQP1VFC8S4H90IGVLBGZ.webp",
-              "Title": "Start \nPreGame\nDetector"
+              "Title": "start \npregame\nspy"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -106,7 +114,7 @@
           "States": [
             {
               "Image": "Images/RCKAC9NJV92C5D4OD7B4I995IGZ.webp",
-              "Title": "Stop\nPreGame\nDetector"
+              "Title": "stop\npregame\nspy"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -129,7 +137,7 @@
           "States": [
             {
               "Image": "Images/LJHERCDTWD4PLCT51CDTAO4OWGZ.webp",
-              "Title": "Unlock\nPreGame\nDetector"
+              "Title": "unlock\npregame\nspy"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -138,6 +146,11 @@
           "ActionID": "bc91cdcc-374d-4f7e-8c50-2e5cae9768ad",
           "LinkedTitle": true,
           "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.1.0"
+          },
           "Resources": null,
           "Settings": {
             "body": "pregamespy test different message",
@@ -147,7 +160,7 @@
           "States": [
             {
               "Image": "Images/MJ8T720FSD2GN1QCQMTLOVA5N0Z.webp",
-              "Title": "Test\nPreGame\nDetector"
+              "Title": "test\npregame\nspy"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -170,7 +183,7 @@
           "States": [
             {
               "Image": "Images/TG70NMOCAD6QH0148BRHSDRIJCZ.webp",
-              "Title": "Start \nShop\nWatcher"
+              "Title": "start \nshop\nwatcher"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -193,7 +206,7 @@
           "States": [
             {
               "Image": "Images/BH276STMI947LE0BJ5A3DT9E2GZ.webp",
-              "Title": "Stop\nShop\nWatcher"
+              "Title": "stop\nshop\nwatcher"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -222,7 +235,7 @@
               "Image": "Images/2RS9RTF2H94JRF1VSKAB2TM3OGZ.webp",
               "OutlineThickness": 2,
               "ShowTitle": true,
-              "Title": "Unlock\nShop\nWatcher",
+              "Title": "unlock\nshop\nwatcher",
               "TitleAlignment": "bottom",
               "TitleColor": "#ffffff"
             }
@@ -242,7 +255,7 @@
           "States": [
             {
               "Image": "Images/F23467H3AH7GJDK0203N90NCKOZ.webp",
-              "Title": "SHOW\nSERVER"
+              "Title": "show\nserver"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -270,7 +283,7 @@
           "States": [
             {
               "Image": "Images/JQ1F5Q98CT2JH237607KNW25SCZ.webp",
-              "Title": "PRETTY\nSCRIPTS"
+              "Title": "pretty\nscripts"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
