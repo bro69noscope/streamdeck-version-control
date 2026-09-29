@@ -174,7 +174,7 @@
                     "collection": "collection__dota2",
                     "scene": "scene__metascene",
                     "sceneitemid": 5,
-                    "sceneitemname": "media_music__cyberbird",
+                    "sceneitemname": "media__music__cyberbird",
                     "sceneitemscene": "group__music",
                     "toplevelscene": "scene__metascene"
                   },
@@ -378,7 +378,7 @@
                     "collection": "collection__dota2",
                     "scene": "scene__metascene",
                     "sceneitemid": 4,
-                    "sceneitemname": "media_video__ladies_gents_might_be_back",
+                    "sceneitemname": "media__video__ladies_gents_might_be_back",
                     "sceneitemscene": "group__transition_videos",
                     "toplevelscene": "scene__metascene"
                   },
@@ -418,7 +418,7 @@
                     "collection": "collection__dota2",
                     "scene": "scene__metascene",
                     "sceneitemid": 5,
-                    "sceneitemname": "media_music__cyberbird",
+                    "sceneitemname": "media__music__cyberbird",
                     "sceneitemscene": "group__music",
                     "toplevelscene": "scene__metascene"
                   },
@@ -459,7 +459,7 @@
                     "collection": "collection__dota2",
                     "scene": "scene__metascene",
                     "sceneitemid": 4,
-                    "sceneitemname": "media_video__ladies_gents_might_be_back",
+                    "sceneitemname": "media__video__ladies_gents_might_be_back",
                     "sceneitemscene": "group__transition_videos",
                     "toplevelscene": "scene__metascene"
                   },
@@ -624,7 +624,7 @@
                     "collection": "collection__dota2",
                     "scene": "scene__metascene",
                     "sceneitemid": 10,
-                    "sceneitemname": "media_audio__narrator_test",
+                    "sceneitemname": "media__audio__narrator_test",
                     "sceneitemscene": "group__voice_clips",
                     "toplevelscene": "scene__metascene"
                   },
@@ -699,7 +699,7 @@
                     "collection": "collection__dota2",
                     "scene": "scene__metascene",
                     "sceneitemid": 10,
-                    "sceneitemname": "media_audio__narrator_test",
+                    "sceneitemname": "media__audio__narrator_test",
                     "sceneitemscene": "group__voice_clips",
                     "toplevelscene": "scene__metascene"
                   },

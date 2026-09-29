@@ -102,11 +102,11 @@
             "keyDownAction": {
               "args": [],
               "id": "b485a409-a30f-4f98-9d85-a27f6e5c60c3",
-              "name": "set scene__screencap"
+              "name": "set scene__center_monitor"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
-            "title": { "0": "screencap" }
+            "title": { "0": "center\nmonitor" }
           },
           "State": 0,
           "States": [{ "Image": "Images/5ONHPWWKIH5PRFH11CMC9KHDM8Z.png" }],

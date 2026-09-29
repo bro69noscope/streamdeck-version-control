@@ -317,7 +317,7 @@
             "icon": "browser",
             "scene": "scene__alerts",
             "sceneitemid": 4,
-            "sceneitemname": "browser_streamerbot_alerts",
+            "sceneitemname": "browser__streamerbot_alerts",
             "sceneitemscene": "scene__alerts",
             "toplevelscene": "scene__alerts"
           },
