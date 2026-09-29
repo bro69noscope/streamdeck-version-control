@@ -48,6 +48,7 @@
               "FontUnderline": false,
               "OutlineThickness": 2,
               "ShowTitle": true,
+              "Title": "facecam",
               "TitleAlignment": "bottom",
               "TitleColor": "#ffffff"
             }
@@ -192,7 +193,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "filter": "Apply LUT - Golden Warm",
+                    "filter": "filter__lut__warm_goldish",
                     "source": "group__basic_scene_clones"
                   },
                   "State": 1,
@@ -245,7 +246,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "bcbdfc84-24b7-43b2-98b6-6d2496aecc23",
+                    "_uuid": "412693a4-5ea2-4498-8501-5d8b1ec2bf75",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
@@ -374,11 +375,11 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "collection_dota2",
+                    "collection": "collection__dota2",
                     "scene": "scene__metascene",
                     "sceneitemid": 4,
-                    "sceneitemname": "media_video_ladies_gents_might_be_back",
-                    "sceneitemscene": "group_transition_videos",
+                    "sceneitemname": "media_video__ladies_gents_might_be_back",
+                    "sceneitemscene": "group__transition_videos",
                     "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
@@ -411,11 +412,11 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "collection_dota2",
+                    "collection": "collection__dota2",
                     "scene": "scene__metascene",
                     "sceneitemid": 5,
-                    "sceneitemname": "media_music_cyberbird",
-                    "sceneitemscene": "group_music",
+                    "sceneitemname": "media_music__cyberbird",
+                    "sceneitemscene": "group__music",
                     "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
@@ -433,8 +434,8 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "filter": "Apply LUT - Golden Warm",
-                    "source": "group_basic_scene__clones"
+                    "filter": "filter__lut__warm_goldish",
+                    "source": "group__basic_scene_clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Apply warm LUT" }, {}],
@@ -452,11 +453,11 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "collection_dota2",
+                    "collection": "collection__dota2",
                     "scene": "scene__metascene",
                     "sceneitemid": 4,
-                    "sceneitemname": "media_video_ladies_gents_might_be_back",
-                    "sceneitemscene": "group_transition_videos",
+                    "sceneitemname": "media_video__ladies_gents_might_be_back",
+                    "sceneitemscene": "group__transition_videos",
                     "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
@@ -587,20 +588,20 @@
                   "Plugin": {
                     "Name": "OBS Studio",
                     "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.1.29"
+                    "Version": "3.0.3.31"
                   },
                   "Resources": null,
                   "Settings": {
                     "isInMultiAction": true,
                     "mode": "toggle",
-                    "source": "MG12XU Stereo USB Mix",
-                    "step": 1,
+                    "source": "audio__mixer_usb_out",
+                    "step": -15,
                     "style": "static",
                     "type": "set",
-                    "volume": 0.552
+                    "volume": 0.558
                   },
-                  "State": 1,
-                  "States": [{ "Title": "Lower USB mix by 15db" }, {}],
+                  "State": 0,
+                  "States": [{ "Title": "set usb out mix to -15db" }, {}],
                   "UUID": "com.elgato.obsstudio.mixeraudio"
                 },
                 {
@@ -614,11 +615,11 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "collection_dota2",
+                    "collection": "collection__dota2",
                     "scene": "scene__metascene",
                     "sceneitemid": 10,
-                    "sceneitemname": "media_audio_narrator_test",
-                    "sceneitemscene": "group_voice_clips",
+                    "sceneitemname": "media_audio__narrator_test",
+                    "sceneitemscene": "group__voice_clips",
                     "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
@@ -636,8 +637,8 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "filter": "Apply LUT - GrayScale",
-                    "source": "group_basic_scene__clones"
+                    "filter": "filter__lut__grayscale",
+                    "source": "group__basic_scene_clones"
                   },
                   "State": 1,
                   "States": [{ "Title": "Apply Grayscale LUT" }, {}],
@@ -689,11 +690,11 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "collection": "collection_dota2",
+                    "collection": "collection__dota2",
                     "scene": "scene__metascene",
                     "sceneitemid": 10,
-                    "sceneitemname": "media_audio_narrator_test",
-                    "sceneitemscene": "group_voice_clips",
+                    "sceneitemname": "media_audio__narrator_test",
+                    "sceneitemscene": "group__voice_clips",
                     "toplevelscene": "scene__metascene"
                   },
                   "State": 1,
@@ -707,185 +708,20 @@
                   "Plugin": {
                     "Name": "OBS Studio",
                     "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.1.29"
+                    "Version": "3.0.3.31"
                   },
                   "Resources": null,
                   "Settings": {
                     "isInMultiAction": true,
                     "mode": "toggle",
                     "source": "MG12XU Stereo USB Mix",
-                    "step": 1,
+                    "step": 14,
                     "style": "static",
                     "type": "set",
                     "volume": 1
                   },
                   "State": 1,
-                  "States": [{ "Title": "Reset USB mix to 0db" }, {}],
-                  "UUID": "com.elgato.obsstudio.mixeraudio"
-                }
-              ]
-            },
-            { "Actions": [] }
-          ],
-          "LinkedTitle": true,
-          "Name": "Multi Action",
-          "Plugin": {
-            "Name": "Multi Action",
-            "UUID": "com.elgato.streamdeck.multiactions",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": {},
-          "State": 0,
-          "States": [{ "Title": "Narrator \nTest" }],
-          "UUID": "com.elgato.streamdeck.multiactions.routine"
-        },
-        "6,3": {
-          "ActionID": "fcfc0c7b-fc06-4ecb-ba12-b07223a867f3",
-          "Actions": [
-            {
-              "Actions": [
-                {
-                  "ActionID": "c6fad485-52b5-43f7-8323-eaae1a815026",
-                  "LinkedTitle": true,
-                  "Name": "Audio Mixer",
-                  "Plugin": {
-                    "Name": "OBS Studio",
-                    "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.1.29"
-                  },
-                  "Resources": null,
-                  "Settings": {
-                    "isInMultiAction": true,
-                    "mode": "toggle",
-                    "source": "MG12XU Stereo USB Mix",
-                    "step": 1,
-                    "style": "static",
-                    "type": "set",
-                    "volume": 0.552
-                  },
-                  "State": 1,
-                  "States": [{ "Title": "Lower USB mix by 15db" }, {}],
-                  "UUID": "com.elgato.obsstudio.mixeraudio"
-                },
-                {
-                  "ActionID": "5e9f2da2-6c54-414f-8068-553d2eb52d1b",
-                  "LinkedTitle": true,
-                  "Name": "Source Visibility",
-                  "Plugin": {
-                    "Name": "OBS Studio",
-                    "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.3.31"
-                  },
-                  "Resources": null,
-                  "Settings": {
-                    "collection": "Dota",
-                    "scene": "METASCENE",
-                    "sceneitemid": 10,
-                    "sceneitemname": "Narrator: test",
-                    "sceneitemscene": "group_voice_clips",
-                    "toplevelscene": "METASCENE"
-                  },
-                  "State": 1,
-                  "States": [{ "Title": "Play Narrator Clip" }, {}],
-                  "UUID": "com.elgato.obsstudio.source"
-                },
-                {
-                  "ActionID": "fb4aeb69-d715-4779-9590-586f20b6401e",
-                  "LinkedTitle": true,
-                  "Name": "Filter",
-                  "Plugin": {
-                    "Name": "OBS Studio",
-                    "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.3.31"
-                  },
-                  "Resources": null,
-                  "Settings": {
-                    "filter": "Apply LUT - GrayScale",
-                    "source": "group_basic_scene_clones"
-                  },
-                  "State": 1,
-                  "States": [{ "Title": "Apply Grayscale LUT" }, {}],
-                  "UUID": "com.elgato.obsstudio.filter.state"
-                },
-                {
-                  "ActionID": "fabad47d-2cbc-4d83-af6f-e06ed1420c53",
-                  "LinkedTitle": true,
-                  "Name": "Delay",
-                  "Plugin": {
-                    "Name": "Multi Action",
-                    "UUID": "com.elgato.streamdeck.multiactions",
-                    "Version": "1.0"
-                  },
-                  "Resources": null,
-                  "Settings": { "delay": 11300 },
-                  "State": 0,
-                  "States": [{ "Title": "wait 11.3s" }],
-                  "UUID": "com.elgato.streamdeck.multiactions.delay"
-                },
-                {
-                  "ActionID": "0812dad5-d443-44ca-a57e-7e99aa351d1c",
-                  "LinkedTitle": true,
-                  "Name": "Filter",
-                  "OverrideState": 1,
-                  "Plugin": {
-                    "Name": "OBS Studio",
-                    "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.3.31"
-                  },
-                  "Resources": null,
-                  "Settings": {
-                    "filter": "Apply LUT - GrayScale",
-                    "source": "group_basic_scene_clones"
-                  },
-                  "State": 1,
-                  "States": [{ "Title": "Remove Grayscale LUT" }, {}],
-                  "UUID": "com.elgato.obsstudio.filter.state"
-                },
-                {
-                  "ActionID": "ba598f7f-295b-44eb-9988-a04f45b68651",
-                  "LinkedTitle": true,
-                  "Name": "Source Visibility",
-                  "OverrideState": 1,
-                  "Plugin": {
-                    "Name": "OBS Studio",
-                    "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.3.31"
-                  },
-                  "Resources": null,
-                  "Settings": {
-                    "collection": "Dota",
-                    "scene": "METASCENE",
-                    "sceneitemid": 10,
-                    "sceneitemname": "Narrator: test",
-                    "sceneitemscene": "group_voice_clips",
-                    "toplevelscene": "> MetaScene Test"
-                  },
-                  "State": 1,
-                  "States": [{ "Title": "Stop Narrator Clip" }, {}],
-                  "UUID": "com.elgato.obsstudio.source"
-                },
-                {
-                  "ActionID": "5f1b4ec4-9195-4a57-a4c9-3b01073b4c1e",
-                  "LinkedTitle": true,
-                  "Name": "Audio Mixer",
-                  "Plugin": {
-                    "Name": "OBS Studio",
-                    "UUID": "com.elgato.obsstudio",
-                    "Version": "3.0.1.29"
-                  },
-                  "Resources": null,
-                  "Settings": {
-                    "isInMultiAction": true,
-                    "mode": "toggle",
-                    "source": "MG12XU Stereo USB Mix",
-                    "step": 1,
-                    "style": "static",
-                    "type": "set",
-                    "volume": 1
-                  },
-                  "State": 1,
-                  "States": [{ "Title": "Reset USB mix to 0db" }, {}],
+                  "States": [{ "Title": "set usb out mix by to 0 db" }, {}],
                   "UUID": "com.elgato.obsstudio.mixeraudio"
                 }
               ]
