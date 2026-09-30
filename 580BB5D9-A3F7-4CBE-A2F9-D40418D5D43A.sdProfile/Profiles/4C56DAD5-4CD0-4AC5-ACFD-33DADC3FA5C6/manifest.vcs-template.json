@@ -13,7 +13,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__metascene", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "metascene" }, {}],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -172,13 +172,13 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__metascene",
-                    "sceneitemid": 5,
+                    "scene": "scene__gameplay__music_media",
+                    "sceneitemid": 1,
                     "sceneitemname": "media__music__cyberbird",
-                    "sceneitemscene": "group__music",
-                    "toplevelscene": "scene__metascene"
+                    "sceneitemscene": "scene__gameplay__music_media",
+                    "toplevelscene": "scene__gameplay__music_media"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "play cyberbird" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -194,9 +194,9 @@
                   "Resources": null,
                   "Settings": {
                     "filter": "filter__lut__warm_goldish",
-                    "source": "group__basic_scene_clones"
+                    "source": "scene__gameplay__fundamental_sources"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "apply warm lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 }
@@ -223,7 +223,7 @@
               "Image": "Images/8SWKQ980PP20595NBGM9N4QBE8Z.png",
               "OutlineThickness": 2,
               "ShowTitle": true,
-              "Title": "cyberbird",
+              "Title": "cyberbird\nwarm lut",
               "TitleAlignment": "bottom",
               "TitleColor": "#ffffff"
             }
@@ -246,7 +246,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "ef1d5e5b-eddc-44b4-9a82-da6ae87a3f2e",
+                    "_uuid": "4418b67f-5765-43a7-b462-1534414ba7f6",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
@@ -376,11 +376,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__metascene",
+                    "scene": "scene__gameplay__overlayed_media",
                     "sceneitemid": 4,
                     "sceneitemname": "media__video__ladies_gents_might_be_back",
-                    "sceneitemscene": "group__transition_videos",
-                    "toplevelscene": "scene__metascene"
+                    "sceneitemscene": "scene__gameplay__overlayed_media",
+                    "toplevelscene": "scene__gameplay__overlayed_media"
                   },
                   "State": 1,
                   "States": [
@@ -416,13 +416,13 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__metascene",
-                    "sceneitemid": 5,
+                    "scene": "scene__gameplay__music_media",
+                    "sceneitemid": 1,
                     "sceneitemname": "media__music__cyberbird",
-                    "sceneitemscene": "group__music",
-                    "toplevelscene": "scene__metascene"
+                    "sceneitemscene": "scene__gameplay__music_media",
+                    "toplevelscene": "scene__gameplay__music_media"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "play cyberbird" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -438,9 +438,9 @@
                   "Resources": null,
                   "Settings": {
                     "filter": "filter__lut__warm_goldish",
-                    "source": "group__basic_scene_clones"
+                    "source": "scene__gameplay__fundamental_sources"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "apply warm lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
@@ -457,11 +457,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__metascene",
+                    "scene": "scene__gameplay__overlayed_media",
                     "sceneitemid": 4,
                     "sceneitemname": "media__video__ladies_gents_might_be_back",
-                    "sceneitemscene": "group__transition_videos",
-                    "toplevelscene": "scene__metascene"
+                    "sceneitemscene": "scene__gameplay__overlayed_media",
+                    "toplevelscene": "scene__gameplay__overlayed_media"
                   },
                   "State": 1,
                   "States": [
@@ -622,11 +622,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__metascene",
-                    "sceneitemid": 10,
+                    "scene": "scene__gameplay__audio_clips_media",
+                    "sceneitemid": 1,
                     "sceneitemname": "media__audio__narrator_test",
-                    "sceneitemscene": "group__voice_clips",
-                    "toplevelscene": "scene__metascene"
+                    "sceneitemscene": "scene__gameplay__audio_clips_media",
+                    "toplevelscene": "scene__gameplay__audio_clips_media"
                   },
                   "State": 1,
                   "States": [{ "Title": "play narrator clip" }, {}],
@@ -697,11 +697,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__metascene",
-                    "sceneitemid": 10,
+                    "scene": "scene__gameplay__audio_clips_media",
+                    "sceneitemid": 1,
                     "sceneitemname": "media__audio__narrator_test",
-                    "sceneitemscene": "group__voice_clips",
-                    "toplevelscene": "scene__metascene"
+                    "sceneitemscene": "scene__gameplay__audio_clips_media",
+                    "toplevelscene": "scene__gameplay__audio_clips_media"
                   },
                   "State": 1,
                   "States": [{ "Title": "stop narrator clip" }, {}],
