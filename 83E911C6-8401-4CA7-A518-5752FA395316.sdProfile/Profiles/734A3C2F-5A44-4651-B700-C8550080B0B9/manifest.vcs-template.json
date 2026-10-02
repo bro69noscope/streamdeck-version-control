@@ -119,63 +119,22 @@
             {
               "Actions": [
                 {
-                  "ActionID": "878d3e53-5088-4f85-bf8b-02b272e7fe83",
+                  "ActionID": "527050f2-04e1-4636-8d1a-aa6cdd134e5a",
                   "LinkedTitle": true,
-                  "Name": "Hotkey",
+                  "Name": "WebSocket Message",
                   "Plugin": {
-                    "Name": "Activate a Key Command",
-                    "UUID": "com.elgato.streamdeck.system.hotkey",
-                    "Version": "1.0"
+                    "Name": "Web Requests",
+                    "UUID": "gg.datagram.web-requests",
+                    "Version": "0.1.1.0"
                   },
                   "Resources": null,
                   "Settings": {
-                    "Coalesce": true,
-                    "Hotkeys": [
-                      {
-                        "KeyCmd": false,
-                        "KeyCtrl": true,
-                        "KeyModifiers": 7,
-                        "KeyOption": true,
-                        "KeyShift": true,
-                        "NativeCode": 119,
-                        "QTKeyCode": 16777271,
-                        "VKeyCode": 119
-                      },
-                      {
-                        "KeyCmd": false,
-                        "KeyCtrl": false,
-                        "KeyModifiers": 0,
-                        "KeyOption": false,
-                        "KeyShift": false,
-                        "NativeCode": 146,
-                        "QTKeyCode": 33554431,
-                        "VKeyCode": -1
-                      },
-                      {
-                        "KeyCmd": false,
-                        "KeyCtrl": false,
-                        "KeyModifiers": 0,
-                        "KeyOption": false,
-                        "KeyShift": false,
-                        "NativeCode": 146,
-                        "QTKeyCode": 33554431,
-                        "VKeyCode": -1
-                      },
-                      {
-                        "KeyCmd": false,
-                        "KeyCtrl": false,
-                        "KeyModifiers": 0,
-                        "KeyOption": false,
-                        "KeyShift": false,
-                        "NativeCode": 146,
-                        "QTKeyCode": 33554431,
-                        "VKeyCode": -1
-                      }
-                    ]
+                    "body": "MoveProductionObsCenter",
+                    "url": "ws://127.0.0.1:8187"
                   },
                   "State": 0,
-                  "States": [{ "Title": "obs center" }],
-                  "UUID": "com.elgato.streamdeck.system.hotkey"
+                  "States": [{ "Title": "obs center ws msg" }],
+                  "UUID": "gg.datagram.web-requests.websocket"
                 },
                 {
                   "ActionID": "f94cf611-72bb-4f39-b14e-328d167f7fa5",
@@ -188,7 +147,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "f9e874b0-6988-48cc-90fa-f879c5a7f16b",
+                    "_uuid": "9ca495f1-47b9-41dc-a5a3-02546bdca4ff",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -303,63 +262,22 @@
             {
               "Actions": [
                 {
-                  "ActionID": "fe2ebdb3-60c0-4229-96f2-cc0d20da9863",
+                  "ActionID": "527050f2-04e1-4636-8d1a-aa6cdd134e5a",
                   "LinkedTitle": true,
-                  "Name": "Hotkey",
+                  "Name": "WebSocket Message",
                   "Plugin": {
-                    "Name": "Activate a Key Command",
-                    "UUID": "com.elgato.streamdeck.system.hotkey",
-                    "Version": "1.0"
+                    "Name": "Web Requests",
+                    "UUID": "gg.datagram.web-requests",
+                    "Version": "0.1.1.0"
                   },
                   "Resources": null,
                   "Settings": {
-                    "Coalesce": true,
-                    "Hotkeys": [
-                      {
-                        "KeyCmd": false,
-                        "KeyCtrl": true,
-                        "KeyModifiers": 7,
-                        "KeyOption": true,
-                        "KeyShift": true,
-                        "NativeCode": 118,
-                        "QTKeyCode": 16777270,
-                        "VKeyCode": 118
-                      },
-                      {
-                        "KeyCmd": false,
-                        "KeyCtrl": false,
-                        "KeyModifiers": 0,
-                        "KeyOption": false,
-                        "KeyShift": false,
-                        "NativeCode": 146,
-                        "QTKeyCode": 33554431,
-                        "VKeyCode": -1
-                      },
-                      {
-                        "KeyCmd": false,
-                        "KeyCtrl": false,
-                        "KeyModifiers": 0,
-                        "KeyOption": false,
-                        "KeyShift": false,
-                        "NativeCode": 146,
-                        "QTKeyCode": 33554431,
-                        "VKeyCode": -1
-                      },
-                      {
-                        "KeyCmd": false,
-                        "KeyCtrl": false,
-                        "KeyModifiers": 0,
-                        "KeyOption": false,
-                        "KeyShift": false,
-                        "NativeCode": 146,
-                        "QTKeyCode": 33554431,
-                        "VKeyCode": -1
-                      }
-                    ]
+                    "body": "MoveProductionObsRight",
+                    "url": "ws://127.0.0.1:8187"
                   },
                   "State": 0,
-                  "States": [{ "Title": "obs right" }],
-                  "UUID": "com.elgato.streamdeck.system.hotkey"
+                  "States": [{ "Title": "obs right ws msg" }],
+                  "UUID": "gg.datagram.web-requests.websocket"
                 },
                 {
                   "ActionID": "b0e31a3f-1d9e-4d2e-9b87-d2f76d43768f",
@@ -372,7 +290,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "3e6f274c-77df-4050-a57f-27f49fe66be9",
+                    "_uuid": "b2128ecc-3c36-4120-b56d-cc091829fd5d",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "nUBaYDm6SmCp_QFkS8N8Z",
@@ -421,6 +339,24 @@
           "State": 0,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.system.multimedia"
+        },
+        "3,1": {
+          "ActionID": "527050f2-04e1-4636-8d1a-aa6cdd134e5a",
+          "LinkedTitle": true,
+          "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "body": "ActivateStreamFeedApp",
+            "url": "ws://127.0.0.1:8187"
+          },
+          "State": 0,
+          "States": [{ "Title": "activate\nstreamfeed" }],
+          "UUID": "gg.datagram.web-requests.websocket"
         },
         "3,2": {
           "ActionID": "d37e5984-2236-4a87-9248-3286a1b961a4",

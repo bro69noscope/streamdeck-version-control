@@ -246,7 +246,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "4418b67f-5765-43a7-b462-1534414ba7f6",
+                    "_uuid": "62777933-1fc1-4a57-96ae-3944c2f95048",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
@@ -747,6 +747,29 @@
           "States": [{ "Title": "narrator \ntest" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
+        "6,3": {
+          "ActionID": "101dde45-988d-40ea-8351-732c97041e78",
+          "LinkedTitle": true,
+          "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "body": "refit",
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/4W7N2TNIMP3WN1GHB1FW8M29M4Z.webp",
+              "Title": "pretty\nscripts"
+            }
+          ],
+          "UUID": "gg.datagram.web-requests.websocket"
+        },
         "7,0": {
           "ActionID": "ab05fa08-8ff1-4ed0-8bd9-a39cfb113758",
           "LinkedTitle": true,
@@ -792,26 +815,18 @@
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
         "7,3": {
-          "ActionID": "101dde45-988d-40ea-8351-732c97041e78",
+          "ActionID": "bae44678-4fcf-4bdb-a252-352f9f236645",
           "LinkedTitle": true,
           "Name": "WebSocket Message",
           "Plugin": {
             "Name": "Web Requests",
             "UUID": "gg.datagram.web-requests",
-            "Version": "0.1.0"
+            "Version": "0.1.1.0"
           },
           "Resources": null,
-          "Settings": {
-            "body": "refit",
-            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
-          },
+          "Settings": { "body": "ActivateObs", "url": "ws://127.0.0.1:8187" },
           "State": 0,
-          "States": [
-            {
-              "Image": "Images/4W7N2TNIMP3WN1GHB1FW8M29M4Z.webp",
-              "Title": "pretty\nscripts"
-            }
-          ],
+          "States": [{ "Title": "activate\nobs" }],
           "UUID": "gg.datagram.web-requests.websocket"
         }
       },
