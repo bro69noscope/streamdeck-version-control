@@ -411,7 +411,10 @@
             "Version": "0.1.1.0"
           },
           "Resources": null,
-          "Settings": { "body": "ActivateObs", "url": "ws://127.0.0.1:8187" },
+          "Settings": {
+            "body": "ActivateObsProduction",
+            "url": "ws://127.0.0.1:50000/ahk/command"
+          },
           "State": 0,
           "States": [{ "Title": "activate\nobs" }],
           "UUID": "gg.datagram.web-requests.websocket"

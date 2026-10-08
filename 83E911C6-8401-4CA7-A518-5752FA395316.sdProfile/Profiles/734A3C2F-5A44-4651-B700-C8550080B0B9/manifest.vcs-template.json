@@ -129,8 +129,8 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "body": "MoveProductionObsCenter",
-                    "url": "ws://127.0.0.1:8187"
+                    "body": "MoveObsProductionCenter",
+                    "url": "ws://127.0.0.1:50000/ahk/command"
                   },
                   "State": 0,
                   "States": [{ "Title": "obs center ws msg" }],
@@ -147,7 +147,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "9ca495f1-47b9-41dc-a5a3-02546bdca4ff",
+                    "_uuid": "9034e446-271d-453d-a931-a48053f6e707",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -262,7 +262,7 @@
             {
               "Actions": [
                 {
-                  "ActionID": "527050f2-04e1-4636-8d1a-aa6cdd134e5a",
+                  "ActionID": "3aed4e8b-1ae1-48ed-b1e9-e5866e2b31b7",
                   "LinkedTitle": true,
                   "Name": "WebSocket Message",
                   "Plugin": {
@@ -272,8 +272,8 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "body": "MoveProductionObsRight",
-                    "url": "ws://127.0.0.1:8187"
+                    "body": "MoveObsProductionRight",
+                    "url": "ws://127.0.0.1:50000/ahk/command"
                   },
                   "State": 0,
                   "States": [{ "Title": "obs right ws msg" }],
@@ -290,7 +290,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "b2128ecc-3c36-4120-b56d-cc091829fd5d",
+                    "_uuid": "117298af-cd4a-40f4-b4ca-f62ad7d60ad9",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "nUBaYDm6SmCp_QFkS8N8Z",
@@ -341,7 +341,7 @@
           "UUID": "com.elgato.streamdeck.system.multimedia"
         },
         "3,1": {
-          "ActionID": "527050f2-04e1-4636-8d1a-aa6cdd134e5a",
+          "ActionID": "81513880-435f-4436-a246-3b0016703161",
           "LinkedTitle": true,
           "Name": "WebSocket Message",
           "Plugin": {
@@ -352,7 +352,7 @@
           "Resources": null,
           "Settings": {
             "body": "ActivateStreamFeedApp",
-            "url": "ws://127.0.0.1:8187"
+            "url": "ws://127.0.0.1:50000/ahk/command"
           },
           "State": 0,
           "States": [{ "Title": "activate\nstreamfeed" }],

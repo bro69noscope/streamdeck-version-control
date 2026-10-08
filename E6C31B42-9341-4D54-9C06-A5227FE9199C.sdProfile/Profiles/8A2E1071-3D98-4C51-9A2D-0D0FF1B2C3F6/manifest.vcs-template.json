@@ -523,7 +523,7 @@
           "Resources": null,
           "Settings": {
             "body": "ActivateObsPortableFtp",
-            "url": "ws://127.0.0.1:8187"
+            "url": "ws://127.0.0.1:50000/ahk/command"
           },
           "State": 0,
           "States": [{ "Title": "activate\nobs ftp" }],

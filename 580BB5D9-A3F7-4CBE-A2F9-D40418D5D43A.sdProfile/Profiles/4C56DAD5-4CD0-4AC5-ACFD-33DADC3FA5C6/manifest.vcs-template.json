@@ -13,7 +13,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__metascene", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "metascene" }, {}],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -246,7 +246,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "62777933-1fc1-4a57-96ae-3944c2f95048",
+                    "_uuid": "4ae824db-57c2-4515-badc-84b404071e52",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
@@ -794,6 +794,21 @@
           ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
+        "7,1": {
+          "ActionID": "cca607df-9045-420b-84a1-b6ced4667fbf",
+          "LinkedTitle": true,
+          "Name": "Open",
+          "Plugin": {
+            "Name": "Open",
+            "UUID": "com.elgato.streamdeck.system.open",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "path": "\"{{STREAMING_REPO_PATH}}run_server.bat\"" },
+          "State": 0,
+          "States": [{ "Title": "launch\nserver" }],
+          "UUID": "com.elgato.streamdeck.system.open"
+        },
         "7,2": {
           "ActionID": "23be17ad-d02d-4050-b6a3-e622f7c9171f",
           "LinkedTitle": true,
@@ -824,7 +839,10 @@
             "Version": "0.1.1.0"
           },
           "Resources": null,
-          "Settings": { "body": "ActivateObs", "url": "ws://127.0.0.1:8187" },
+          "Settings": {
+            "body": "ActivateObsProduction",
+            "url": "ws://127.0.0.1:50000/ahk/command"
+          },
           "State": 0,
           "States": [{ "Title": "activate\nobs" }],
           "UUID": "gg.datagram.web-requests.websocket"

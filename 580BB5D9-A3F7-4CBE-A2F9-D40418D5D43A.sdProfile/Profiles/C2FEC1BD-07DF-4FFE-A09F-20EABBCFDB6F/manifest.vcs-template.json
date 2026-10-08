@@ -12,21 +12,6 @@
           "States": [{}],
           "UUID": "com.elgato.streamdeck.profile.backtoparent"
         },
-        "0,1": {
-          "ActionID": "3daf8619-dfca-47ee-9f8a-96cce43cb3ad",
-          "LinkedTitle": true,
-          "Name": "Open",
-          "Plugin": {
-            "Name": "Open",
-            "UUID": "com.elgato.streamdeck.system.open",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": { "path": "\"{{STREAMING_REPO_PATH}}run_server.bat\"" },
-          "State": 0,
-          "States": [{ "Title": "launch\nserver" }],
-          "UUID": "com.elgato.streamdeck.system.open"
-        },
         "0,2": {
           "ActionID": "68eec9d7-3ed7-40b9-8fe4-2c829565e299",
           "LinkedTitle": true,
