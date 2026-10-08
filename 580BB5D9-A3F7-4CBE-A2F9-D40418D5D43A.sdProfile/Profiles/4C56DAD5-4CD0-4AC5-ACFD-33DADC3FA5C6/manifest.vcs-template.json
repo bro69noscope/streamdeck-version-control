@@ -246,7 +246,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "4ae824db-57c2-4515-badc-84b404071e52",
+                    "_uuid": "56e7083c-4326-4032-a1a2-035b5bc88ba6",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
@@ -582,7 +582,7 @@
           ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
-        "6,2": {
+        "6,1": {
           "ActionID": "59fa316f-2281-4e9a-a21c-d8299017dcc6",
           "Actions": [
             {
@@ -746,6 +746,24 @@
           "State": 0,
           "States": [{ "Title": "narrator \ntest" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
+        },
+        "6,2": {
+          "ActionID": "bfc171f0-fccb-4020-add4-36ab49605f19",
+          "LinkedTitle": true,
+          "Name": "WebSocket Message",
+          "Resources": null,
+          "Settings": {
+            "body": "refit_server",
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/CD1Q078JVH43R5DSP9G2A50OB4Z.webp",
+              "Title": "show\nserver"
+            }
+          ],
+          "UUID": "gg.datagram.web-requests.websocket"
         },
         "6,3": {
           "ActionID": "101dde45-988d-40ea-8351-732c97041e78",
