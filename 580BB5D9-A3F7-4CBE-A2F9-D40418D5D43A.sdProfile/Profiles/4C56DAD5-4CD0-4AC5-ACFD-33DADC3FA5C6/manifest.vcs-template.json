@@ -246,7 +246,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "56e7083c-4326-4032-a1a2-035b5bc88ba6",
+                    "_uuid": "c7bf3571-d2a0-4af0-b832-26eb509fa928",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
@@ -500,7 +500,7 @@
           ],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
-        "4,2": {
+        "5,2": {
           "ActionID": "2e470233-a0e6-471d-ac1a-56a0b847c0e2",
           "LinkedTitle": true,
           "Name": "Action",
@@ -511,7 +511,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "d9c02bae-b8ba-4d4b-b7ef-47f35d77c642",
+            "_uuid": "cfb624c1-7f7b-4fc6-9e99-475d8595a087",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "PybWHe_kBSArCb_swBQdZ",
@@ -529,7 +529,7 @@
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
-        "4,3": {
+        "5,3": {
           "ActionID": "9c1b94b9-6dea-4735-9fa1-f862b8b884e6",
           "LinkedTitle": true,
           "Name": "Action",
@@ -540,7 +540,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "d702ad71-ded6-4345-b57d-ddd23b1a2364",
+            "_uuid": "6a793065-7314-42fe-8123-40a4d053ee4b",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "cc51ea89-4e90-4d6c-8311-4d5abac51ff1",
@@ -644,7 +644,7 @@
                   "Resources": null,
                   "Settings": {
                     "filter": "filter__lut__grayscale",
-                    "source": "group__basic_scene_clones"
+                    "source": "scene__gameplay__fundamental_sources"
                   },
                   "State": 1,
                   "States": [{ "Title": "apply drayscale lut" }, {}],
@@ -677,8 +677,8 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "filter": "Apply LUT - GrayScale",
-                    "source": "group_basic_scene__clones"
+                    "filter": "filter__lut__grayscale",
+                    "source": "scene__gameplay__fundamental_sources"
                   },
                   "State": 1,
                   "States": [{ "Title": "remove grayscale lUT" }, {}],
@@ -751,6 +751,11 @@
           "ActionID": "bfc171f0-fccb-4020-add4-36ab49605f19",
           "LinkedTitle": true,
           "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.1.0"
+          },
           "Resources": null,
           "Settings": {
             "body": "refit_server",
