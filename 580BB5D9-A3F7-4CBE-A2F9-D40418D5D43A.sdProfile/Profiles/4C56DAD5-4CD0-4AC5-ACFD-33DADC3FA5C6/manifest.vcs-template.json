@@ -48,7 +48,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__metascene", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "metascene" }, {}],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -91,7 +91,7 @@
           "UUID": "gg.datagram.web-requests.websocket"
         },
         "1,3": {
-          "ActionID": "fa7fb2db-991c-4696-aea4-91b0de349f21",
+          "ActionID": "6629fe9d-0bf8-41d1-a565-e03c5a675ea2",
           "LinkedTitle": true,
           "Name": "Scene",
           "Plugin": {
@@ -100,14 +100,14 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene__vlc", "target": "preview" },
+          "Settings": { "scene": "scene__lounge", "target": "preview" },
           "State": 1,
           "States": [
             {
-              "Image": "Images/KF52WO60T51L75NS8L39RPOB24Z.webp",
-              "Title": "vlc"
+              "Image": "Images/63J4577ACT6HL4FMI6SP0AJBJ0Z.png",
+              "Title": "lounge"
             },
-            { "Image": "Images/57DKSV856T0596I631GG5236P4Z.webp" }
+            { "Image": "Images/HMBV8M9J4P5EHEF31AWM81KMA0Z.png" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -150,7 +150,7 @@
           "UUID": "gg.datagram.web-requests.websocket"
         },
         "2,3": {
-          "ActionID": "6629fe9d-0bf8-41d1-a565-e03c5a675ea2",
+          "ActionID": "fa7fb2db-991c-4696-aea4-91b0de349f21",
           "LinkedTitle": true,
           "Name": "Scene",
           "Plugin": {
@@ -159,14 +159,14 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene__lounge", "target": "preview" },
+          "Settings": { "scene": "scene__vlc", "target": "preview" },
           "State": 1,
           "States": [
             {
-              "Image": "Images/63J4577ACT6HL4FMI6SP0AJBJ0Z.png",
-              "Title": "lounge"
+              "Image": "Images/KF52WO60T51L75NS8L39RPOB24Z.webp",
+              "Title": "vlc"
             },
-            { "Image": "Images/HMBV8M9J4P5EHEF31AWM81KMA0Z.png" }
+            { "Image": "Images/57DKSV856T0596I631GG5236P4Z.webp" }
           ],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -184,6 +184,27 @@
           "State": 0,
           "States": [{ "Title": "comeback" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
+        },
+        "3,3": {
+          "ActionID": "7d7a3bce-ad13-429a-82df-9b33ea333631",
+          "LinkedTitle": true,
+          "Name": "Scene",
+          "Plugin": {
+            "Name": "OBS Studio",
+            "UUID": "com.elgato.obsstudio",
+            "Version": "3.0.3.31"
+          },
+          "Resources": null,
+          "Settings": { "scene": "scene__center_monitor", "target": "preview" },
+          "State": 1,
+          "States": [
+            {
+              "Image": "Images/8HGLTTJDO1269194MIKOG4TKTSZ.png",
+              "Title": "center\nmonitor"
+            },
+            { "Image": "Images/5SI0OJEFQ94PH34DS89VB962LSZ.png" }
+          ],
+          "UUID": "com.elgato.obsstudio.scene"
         },
         "4,0": {
           "ActionID": "64da8787-38ed-46bd-b2bc-49a597c116a0",
