@@ -221,6 +221,46 @@
           "States": [{ "Title": "hard game" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
+        "5,2": {
+          "ActionID": "316ec079-95be-4a24-ba9b-60428e0c6dab",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "5671dfbe-6740-4f36-a691-3f6441921035",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "chartSteps": 16,
+            "controller": "Keypad",
+            "dialPressAction": { "args": [], "id": "", "name": "" },
+            "dialReleaseAction": { "args": [], "id": "", "name": "" },
+            "id": "lqRFCQS-nnH8N5mf-nAuk",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+            "keyDownAction": {
+              "args": [],
+              "id": "50507a65-e072-47a0-926a-2e25b8439687",
+              "name": "hide always hide clones"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "rotateAction": { "args": [], "id": "", "name": "" },
+            "textColor": "#dcdcdc",
+            "title": { "0": "hide\nalways_hide" },
+            "touchLongAction": { "args": [], "id": "", "name": "" },
+            "touchTapAction": { "args": [], "id": "", "name": "" },
+            "type": "sparkline",
+            "value": null,
+            "valueHistory": []
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
         "5,3": {
           "ActionID": "2e470233-a0e6-471d-ac1a-56a0b847c0e2",
           "LinkedTitle": true,
