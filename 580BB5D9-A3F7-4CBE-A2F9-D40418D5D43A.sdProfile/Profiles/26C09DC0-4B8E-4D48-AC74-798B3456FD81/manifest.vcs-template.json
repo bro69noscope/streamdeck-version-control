@@ -1,0 +1,59 @@
+{
+  "Controllers": [
+    {
+      "Actions": {
+        "0,0": {
+          "ActionID": "fa81b769-54f4-45bf-8f5c-c9f77ffd214e",
+          "LinkedTitle": true,
+          "Name": "Parent Folder",
+          "Plugin": {
+            "Name": "Open Parent Folder",
+            "UUID": "com.elgato.streamdeck.profile.backtoparent",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{}],
+          "UUID": "com.elgato.streamdeck.profile.backtoparent"
+        },
+        "1,0": {
+          "ActionID": "2173187a-49d9-4889-b893-d9438bf85da1",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "1a2f4b03-275c-41a3-b4d7-6e33cab84da0",
+            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "Kaf1onYk8eUNG-UaThkHy",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+            "state": 1,
+            "title": { "0": "eyetracker prod", "1": "eyetracker ftp" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "fd4787db-5af6-43dc-8625-78e1f5bb73d7",
+              "name": "set eyetracker to prod"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "f5c2f04a-ab31-47e6-930f-fd9ac2c4f6ff",
+              "name": "set eyetracker to ftp"
+            }
+          },
+          "State": 1,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
+        }
+      },
+      "Type": "Keypad"
+    }
+  ],
+  "Icon": "",
+  "Name": ""
+}
