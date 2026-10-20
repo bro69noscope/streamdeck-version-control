@@ -339,6 +339,35 @@
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
+        "5,2": {
+          "ActionID": "4ec9911f-d709-4f11-98f3-7ad1b83aed7d",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "5640ba40-56f4-416d-888b-74d5a433b678",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "pZRfRxpLb8vAkCtre51xk",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "keyDownAction": {
+              "args": [],
+              "id": "d70c66c9-450d-4f56-a8f7-51d3f221b52c",
+              "name": "set docks for right monitor"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "fix obs\ndocks" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
         "5,3": {
           "ActionID": "c641befe-5608-4905-a76a-684aaf20cd6b",
           "LinkedTitle": true,
