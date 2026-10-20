@@ -17,7 +17,7 @@
           "States": [{}],
           "UUID": "com.elgato.streamdeck.profile.backtoparent"
         },
-        "1,0": {
+        "0,1": {
           "ActionID": "9c1b94b9-6dea-4735-9fa1-f862b8b884e6",
           "LinkedTitle": true,
           "Name": "Action",
@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "dc9fab33-841c-4763-ab6d-55ca08c0ce64",
+            "_uuid": "8240f84c-be12-452c-90ec-08b2fce6171c",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "cc51ea89-4e90-4d6c-8311-4d5abac51ff1",

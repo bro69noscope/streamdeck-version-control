@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__osu", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/9H4D3AQ1M5559FH9IKF9GH84C8Z.png",
