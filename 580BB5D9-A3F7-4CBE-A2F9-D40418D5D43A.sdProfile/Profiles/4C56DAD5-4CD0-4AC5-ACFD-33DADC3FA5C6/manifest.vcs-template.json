@@ -48,7 +48,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__metascene", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [{ "Title": "metascene" }, {}],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -235,10 +235,6 @@
             "_uuid": "5671dfbe-6740-4f36-a691-3f6441921035",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
-            "chartSteps": 16,
-            "controller": "Keypad",
-            "dialPressAction": { "args": [], "id": "", "name": "" },
-            "dialReleaseAction": { "args": [], "id": "", "name": "" },
             "id": "lqRFCQS-nnH8N5mf-nAuk",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
             "keyDownAction": {
@@ -248,14 +244,7 @@
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
-            "rotateAction": { "args": [], "id": "", "name": "" },
-            "textColor": "#dcdcdc",
-            "title": { "0": "hide\nalways_hide" },
-            "touchLongAction": { "args": [], "id": "", "name": "" },
-            "touchTapAction": { "args": [], "id": "", "name": "" },
-            "type": "sparkline",
-            "value": null,
-            "valueHistory": []
+            "title": { "0": "hide\nalways_hide" }
           },
           "State": 0,
           "States": [{}],
