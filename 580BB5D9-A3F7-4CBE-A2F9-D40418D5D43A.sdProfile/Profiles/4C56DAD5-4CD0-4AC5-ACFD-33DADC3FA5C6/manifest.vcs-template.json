@@ -17,7 +17,7 @@
           "States": [{ "Title": "brb" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
-        "0,2": {
+        "0,1": {
           "ActionID": "23be17ad-d02d-4050-b6a3-e622f7c9171f",
           "LinkedTitle": true,
           "Name": "Create Folder",
@@ -67,25 +67,25 @@
           "States": [{ "Title": "scenes" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
-        "1,2": {
-          "ActionID": "bfc171f0-fccb-4020-add4-36ab49605f19",
+        "1,1": {
+          "ActionID": "101dde45-988d-40ea-8351-732c97041e78",
           "LinkedTitle": true,
           "Name": "WebSocket Message",
           "Plugin": {
             "Name": "Web Requests",
             "UUID": "gg.datagram.web-requests",
-            "Version": "0.1.1.0"
+            "Version": "0.1.0"
           },
           "Resources": null,
           "Settings": {
-            "body": "refit_server",
+            "body": "refit",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
           "State": 0,
           "States": [
             {
-              "Image": "Images/CD1Q078JVH43R5DSP9G2A50OB4Z.webp",
-              "Title": "show\nserver"
+              "Image": "Images/4W7N2TNIMP3WN1GHB1FW8M29M4Z.webp",
+              "Title": "pretty\nscripts"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -126,25 +126,25 @@
           "States": [{ "Title": "sources" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
-        "2,2": {
-          "ActionID": "101dde45-988d-40ea-8351-732c97041e78",
+        "2,1": {
+          "ActionID": "bfc171f0-fccb-4020-add4-36ab49605f19",
           "LinkedTitle": true,
           "Name": "WebSocket Message",
           "Plugin": {
             "Name": "Web Requests",
             "UUID": "gg.datagram.web-requests",
-            "Version": "0.1.0"
+            "Version": "0.1.1.0"
           },
           "Resources": null,
           "Settings": {
-            "body": "refit",
+            "body": "refit_server",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
           "State": 0,
           "States": [
             {
-              "Image": "Images/4W7N2TNIMP3WN1GHB1FW8M29M4Z.webp",
-              "Title": "pretty\nscripts"
+              "Image": "Images/AI2NM05PIH6058OHOBALQWP3V4Z.webp",
+              "Title": "show\nserver"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -184,6 +184,21 @@
           "State": 0,
           "States": [{ "Title": "comeback" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
+        },
+        "3,1": {
+          "ActionID": "cca607df-9045-420b-84a1-b6ced4667fbf",
+          "LinkedTitle": true,
+          "Name": "Open",
+          "Plugin": {
+            "Name": "Open",
+            "UUID": "com.elgato.streamdeck.system.open",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "path": "\"{{STREAMING_REPO_PATH}}run_server.bat\"" },
+          "State": 0,
+          "States": [{ "Title": "launch\nserver" }],
+          "UUID": "com.elgato.streamdeck.system.open"
         },
         "3,3": {
           "ActionID": "7d7a3bce-ad13-429a-82df-9b33ea333631",
@@ -355,21 +370,6 @@
             }
           ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
-        },
-        "7,2": {
-          "ActionID": "cca607df-9045-420b-84a1-b6ced4667fbf",
-          "LinkedTitle": true,
-          "Name": "Open",
-          "Plugin": {
-            "Name": "Open",
-            "UUID": "com.elgato.streamdeck.system.open",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": { "path": "\"{{STREAMING_REPO_PATH}}run_server.bat\"" },
-          "State": 0,
-          "States": [{ "Title": "launch\nserver" }],
-          "UUID": "com.elgato.streamdeck.system.open"
         },
         "7,3": {
           "ActionID": "bae44678-4fcf-4bdb-a252-352f9f236645",
