@@ -374,7 +374,7 @@
                     "sceneitemscene": "scene__gameplay__music_media",
                     "toplevelscene": "scene__gameplay__music_media"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "play cyberbird" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -392,7 +392,7 @@
                     "filter": "filter__lut__warm_goldish",
                     "source": "scene__gameplay__fundamental_sources"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "apply warm lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
@@ -575,7 +575,7 @@
                     "sceneitemscene": "scene__gameplay__music_media",
                     "toplevelscene": "scene__gameplay__music_media"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "play cyberbird" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -593,7 +593,7 @@
                     "filter": "filter__lut__warm_goldish",
                     "source": "scene__gameplay__fundamental_sources"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "apply warm lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 }
