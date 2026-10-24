@@ -461,6 +461,75 @@
           ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
         },
+        "6,1": {
+          "ActionID": "3455f329-5156-4ebe-9d35-a71adaaa747c",
+          "Actions": [
+            {
+              "Actions": [
+                {
+                  "ActionID": "527050f2-04e1-4636-8d1a-aa6cdd134e5a",
+                  "LinkedTitle": true,
+                  "Name": "WebSocket Message",
+                  "Plugin": {
+                    "Name": "Web Requests",
+                    "UUID": "gg.datagram.web-requests",
+                    "Version": "0.1.1.0"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "body": "MoveObsFtpCenter",
+                    "url": "ws://127.0.0.1:50000/ahk/command"
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "obs center ws msg" }],
+                  "UUID": "gg.datagram.web-requests.websocket"
+                },
+                {
+                  "ActionID": "14ee1a5d-0a03-4c55-b483-963d90d500d7",
+                  "LinkedTitle": true,
+                  "Name": "Action",
+                  "Plugin": {
+                    "Name": "Streamer.bot",
+                    "UUID": "bot.streamer.streamdeck",
+                    "Version": "1.1.1.2"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "_uuid": "67857489-0767-40a0-885d-03e1b6519832",
+                    "backgroundColorMap": { "0": null },
+                    "backgroundSrcMap": { "0": "" },
+                    "id": "43z1FBeAnl1WVoPgE-1Lm",
+                    "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+                    "keyDownAction": {
+                      "args": [],
+                      "id": "0ba0202d-40cb-487c-8fe9-0a865328b363",
+                      "name": "set docks for center monitor"
+                    },
+                    "keyDownLongAction": { "args": [], "id": "", "name": "" },
+                    "keyUpAction": { "args": [], "id": "", "name": "" },
+                    "title": { "0": "" }
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "set docks center" }],
+                  "UUID": "bot.streamer.streamdeck.action"
+                }
+              ]
+            },
+            { "Actions": [] }
+          ],
+          "LinkedTitle": true,
+          "Name": "Multi Action",
+          "Plugin": {
+            "Name": "Multi Action",
+            "UUID": "com.elgato.streamdeck.multiactions",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{ "Title": "obs center" }],
+          "UUID": "com.elgato.streamdeck.multiactions.routine"
+        },
         "6,2": {
           "ActionID": "58f555ac-81ef-43cd-bcf1-ef87ecb4e26a",
           "LinkedTitle": true,
@@ -546,6 +615,75 @@
             }
           ],
           "UUID": "com.elgato.streamdeck.profile.rotate"
+        },
+        "7,1": {
+          "ActionID": "0d448788-659f-4604-8923-efa39c054e5e",
+          "Actions": [
+            {
+              "Actions": [
+                {
+                  "ActionID": "438b2662-7ce6-404f-984a-dc4a110b435e",
+                  "LinkedTitle": true,
+                  "Name": "WebSocket Message",
+                  "Plugin": {
+                    "Name": "Web Requests",
+                    "UUID": "gg.datagram.web-requests",
+                    "Version": "0.1.1.0"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "body": "MoveObsFtpRight",
+                    "url": "ws://127.0.0.1:50000/ahk/command"
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "obs right ws msg" }],
+                  "UUID": "gg.datagram.web-requests.websocket"
+                },
+                {
+                  "ActionID": "fa2eeae9-ac9e-4d6c-b1df-cc19136c9781",
+                  "LinkedTitle": true,
+                  "Name": "Action",
+                  "Plugin": {
+                    "Name": "Streamer.bot",
+                    "UUID": "bot.streamer.streamdeck",
+                    "Version": "1.1.1.2"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "_uuid": "d58d21f4-7a9c-42b8-af59-89ff1fea8c05",
+                    "backgroundColorMap": { "0": null },
+                    "backgroundSrcMap": { "0": "" },
+                    "id": "43z1FBeAnl1WVoPgE-1Lm",
+                    "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+                    "keyDownAction": {
+                      "args": [],
+                      "id": "d70c66c9-450d-4f56-a8f7-51d3f221b52c",
+                      "name": "set docks for right monitor"
+                    },
+                    "keyDownLongAction": { "args": [], "id": "", "name": "" },
+                    "keyUpAction": { "args": [], "id": "", "name": "" },
+                    "title": { "0": "" }
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "set docks right" }],
+                  "UUID": "bot.streamer.streamdeck.action"
+                }
+              ]
+            },
+            { "Actions": [] }
+          ],
+          "LinkedTitle": true,
+          "Name": "Multi Action",
+          "Plugin": {
+            "Name": "Multi Action",
+            "UUID": "com.elgato.streamdeck.multiactions",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": {},
+          "State": 0,
+          "States": [{ "Title": "obs right" }],
+          "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
         "7,2": {
           "ActionID": "3df746f2-2271-4a4e-913f-159b75e0176d",
