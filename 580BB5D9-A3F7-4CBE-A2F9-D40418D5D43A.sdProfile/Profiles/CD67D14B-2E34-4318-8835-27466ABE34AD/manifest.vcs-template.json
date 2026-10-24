@@ -82,7 +82,7 @@
                     "source": "scene__gameplay__fundamental_sources"
                   },
                   "State": 1,
-                  "States": [{ "Title": "apply drayscale lut" }, {}],
+                  "States": [{ "Title": "apply grayscale lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
                 {
@@ -198,7 +198,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "c1252830-f43d-4734-a850-070ba2ce2b8d",
+                    "_uuid": "fa6c5009-f35c-43f5-89bd-85a2ec4ea8db",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
