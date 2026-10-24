@@ -48,7 +48,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__metascene", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [{ "Title": "metascene" }, {}],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -352,7 +352,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "f9d62f2a-a499-4fcb-82c5-8480f56ed29c",
+                    "_uuid": "9ad704e1-d6b3-484c-8d59-059a8dd0f5d7",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -474,7 +474,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "c9859e2a-9272-43de-b251-3be4f0e1155c",
+                    "_uuid": "1ad8f8ee-3580-463b-8e40-a3b262016ffb",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "nUBaYDm6SmCp_QFkS8N8Z",
