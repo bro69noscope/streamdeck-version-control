@@ -241,44 +241,112 @@
           "UUID": "bot.streamer.streamdeck.action"
         },
         "2,3": {
-          "ActionID": "ddef62a9-59bc-4273-bd80-62898371e1ec",
+          "ActionID": "6eecd9e6-9e32-4b87-8059-83065bf456a0",
+          "Actions": [
+            {
+              "Actions": [
+                {
+                  "ActionID": "ddef62a9-59bc-4273-bd80-62898371e1ec",
+                  "LinkedTitle": true,
+                  "Name": "Action",
+                  "Plugin": {
+                    "Name": "Streamer.bot",
+                    "UUID": "bot.streamer.streamdeck",
+                    "Version": "1.1.1.2"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "_uuid": "616daefc-7e9a-4547-beae-96dbb5474f73",
+                    "backgroundColorMap": { "0": null },
+                    "backgroundSrcMap": { "0": "" },
+                    "id": "dnt2hNU9aO3oknzUROXyF",
+                    "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+                    "keyDownAction": {
+                      "args": [],
+                      "id": "977f38a3-ba07-4c39-afe1-eb79e9b4d72a",
+                      "name": "set scene__obs_prod_showoff"
+                    },
+                    "keyDownLongAction": { "args": [], "id": "", "name": "" },
+                    "keyUpAction": { "args": [], "id": "", "name": "" },
+                    "title": { "0": "" }
+                  },
+                  "State": 0,
+                  "States": [
+                    {
+                      "Image": "d79ebb96-289e-4332-9a7c-36da60bc8d46/9W8LEGQ58P4PDCEG55O56AE1QCZ.png",
+                      "Title": "set obs showoff scene"
+                    }
+                  ],
+                  "UUID": "bot.streamer.streamdeck.action"
+                },
+                {
+                  "ActionID": "ea905fc4-ade8-461c-82cb-112e838f3641",
+                  "LinkedTitle": true,
+                  "Name": "WebSocket Message",
+                  "Plugin": {
+                    "Name": "Web Requests",
+                    "UUID": "gg.datagram.web-requests",
+                    "Version": "0.1.1.0"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "body": "MoveObsProductionCenterNoFocus",
+                    "url": "ws://127.0.0.1:50000/ahk/command"
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "obs center ws msg" }],
+                  "UUID": "gg.datagram.web-requests.websocket"
+                },
+                {
+                  "ActionID": "6764463d-5c95-4db9-afe9-7c1f7cb45aad",
+                  "LinkedTitle": true,
+                  "Name": "Action",
+                  "Plugin": {
+                    "Name": "Streamer.bot",
+                    "UUID": "bot.streamer.streamdeck",
+                    "Version": "1.1.1.2"
+                  },
+                  "Resources": null,
+                  "Settings": {
+                    "_uuid": "463d3341-f528-4037-8d11-2f96ef27e976",
+                    "backgroundColorMap": { "0": null },
+                    "backgroundSrcMap": { "0": "" },
+                    "id": "yqd4NbCOt_sXk9ldjWiSK",
+                    "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+                    "keyDownAction": {
+                      "args": [],
+                      "id": "d70c66c9-450d-4f56-a8f7-51d3f221b52c",
+                      "name": "set docks for center monitor"
+                    },
+                    "keyDownLongAction": { "args": [], "id": "", "name": "" },
+                    "keyUpAction": { "args": [], "id": "", "name": "" },
+                    "title": { "0": "set docks for center monitor" }
+                  },
+                  "State": 0,
+                  "States": [{ "Title": "set docks for center monitor" }],
+                  "UUID": "bot.streamer.streamdeck.action"
+                }
+              ]
+            },
+            { "Actions": [] }
+          ],
           "LinkedTitle": true,
-          "Name": "Action",
+          "Name": "Multi Action",
           "Plugin": {
-            "Name": "Streamer.bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Name": "Multi Action",
+            "UUID": "com.elgato.streamdeck.multiactions",
+            "Version": "1.0"
           },
           "Resources": null,
-          "Settings": {
-            "_uuid": "f2c91676-b746-4895-bb8b-7c94c30a1e46",
-            "backgroundColorMap": { "0": null },
-            "backgroundSrcMap": { "0": "" },
-            "chartSteps": 16,
-            "controller": "Keypad",
-            "dialPressAction": { "args": [], "id": "", "name": "" },
-            "dialReleaseAction": { "args": [], "id": "", "name": "" },
-            "id": "dnt2hNU9aO3oknzUROXyF",
-            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
-            "keyDownAction": {
-              "args": [],
-              "id": "977f38a3-ba07-4c39-afe1-eb79e9b4d72a",
-              "name": "set scene__obs_prod_showoff"
-            },
-            "keyDownLongAction": { "args": [], "id": "", "name": "" },
-            "keyUpAction": { "args": [], "id": "", "name": "" },
-            "rotateAction": { "args": [], "id": "", "name": "" },
-            "textColor": "#dcdcdc",
-            "title": { "0": "obs \nshowofff" },
-            "touchLongAction": { "args": [], "id": "", "name": "" },
-            "touchTapAction": { "args": [], "id": "", "name": "" },
-            "type": "sparkline",
-            "value": null,
-            "valueHistory": []
-          },
+          "Settings": {},
           "State": 0,
-          "States": [{ "Image": "Images/SMFIF016SD16513VP77DIBD204Z.png" }],
-          "UUID": "bot.streamer.streamdeck.action"
+          "States": [
+            {
+              "Image": "Images/QPPCLM7PD12VP8JEG0M92PGEVSZ.png",
+              "Title": "obs \nshowofff"
+            }
+          ],
+          "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
         "3,3": {
           "ActionID": "41518e92-4ef9-4135-9ab9-4908dcc35be8",
@@ -495,7 +563,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "67857489-0767-40a0-885d-03e1b6519832",
+                    "_uuid": "d4db1f5c-24c3-4368-b617-8ebc5a5181c9",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",
@@ -650,7 +718,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "d58d21f4-7a9c-42b8-af59-89ff1fea8c05",
+                    "_uuid": "c46b399e-bc39-4730-a014-16f6af16557b",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",
