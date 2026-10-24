@@ -433,11 +433,11 @@
           "Resources": null,
           "Settings": {
             "_uuid": "eb130be2-4c1b-4870-90d0-c7a2a5ef3186",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "state": 0,
+            "state": 1,
             "title": { "0": "eyetracker prod", "1": "eyetracker ftp" },
             "toggleOffAction": {
               "args": [],
@@ -450,7 +450,7 @@
               "name": "set eyetracker to ftp"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -523,7 +523,7 @@
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "state": 0,
+            "state": 1,
             "title": { "0": "vcam", "1": "vcam" },
             "toggleOffAction": {
               "args": [],
@@ -536,7 +536,7 @@
               "name": "Enable Virtual Cam"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
