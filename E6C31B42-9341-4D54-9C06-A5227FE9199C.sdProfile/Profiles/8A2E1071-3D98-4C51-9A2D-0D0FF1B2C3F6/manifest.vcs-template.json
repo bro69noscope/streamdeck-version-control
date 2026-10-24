@@ -190,7 +190,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "88962600-a858-485c-81df-ccb9ada00c28",
-            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundColorMap": { "0": null, "1": "" },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "9aHEa0DFJltQW45AgJBJR",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
@@ -241,9 +241,9 @@
           "UUID": "bot.streamer.streamdeck.action"
         },
         "2,3": {
-          "ActionID": "c9ca3368-7501-4936-aaf0-9f8bb63e09cf",
+          "ActionID": "ddef62a9-59bc-4273-bd80-62898371e1ec",
           "LinkedTitle": true,
-          "Name": "Action Switch",
+          "Name": "Action",
           "Plugin": {
             "Name": "Streamer.bot",
             "UUID": "bot.streamer.streamdeck",
@@ -251,27 +251,34 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "f261123b-baf7-44c0-809b-921beae2569b",
-            "backgroundColorMap": { "0": null, "1": null },
-            "backgroundSrcMap": { "0": "", "1": "" },
-            "id": "BXyczN33poFtnKa3jUAoV",
+            "_uuid": "f2c91676-b746-4895-bb8b-7c94c30a1e46",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "chartSteps": 16,
+            "controller": "Keypad",
+            "dialPressAction": { "args": [], "id": "", "name": "" },
+            "dialReleaseAction": { "args": [], "id": "", "name": "" },
+            "id": "dnt2hNU9aO3oknzUROXyF",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
-            "state": 0,
-            "title": { "0": "alerts", "1": "alerts" },
-            "toggleOffAction": {
+            "keyDownAction": {
               "args": [],
-              "id": "862fdc40-4a37-452f-9f3b-3361cf150876",
-              "name": "hide alerts"
+              "id": "977f38a3-ba07-4c39-afe1-eb79e9b4d72a",
+              "name": "set scene__obs_prod_showoff"
             },
-            "toggleOnAction": {
-              "args": [],
-              "id": "979e750f-e196-4e92-9e00-65f13ad178e5",
-              "name": "show alerts"
-            }
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "rotateAction": { "args": [], "id": "", "name": "" },
+            "textColor": "#dcdcdc",
+            "title": { "0": "obs \nshowofff" },
+            "touchLongAction": { "args": [], "id": "", "name": "" },
+            "touchTapAction": { "args": [], "id": "", "name": "" },
+            "type": "sparkline",
+            "value": null,
+            "valueHistory": []
           },
           "State": 0,
-          "States": [{}, {}],
-          "UUID": "bot.streamer.streamdeck.action-switch"
+          "States": [{ "Image": "Images/SMFIF016SD16513VP77DIBD204Z.png" }],
+          "UUID": "bot.streamer.streamdeck.action"
         },
         "3,3": {
           "ActionID": "41518e92-4ef9-4135-9ab9-4908dcc35be8",
@@ -303,6 +310,39 @@
             }
           },
           "State": 1,
+          "States": [{}, {}],
+          "UUID": "bot.streamer.streamdeck.action-switch"
+        },
+        "4,2": {
+          "ActionID": "c9ca3368-7501-4936-aaf0-9f8bb63e09cf",
+          "LinkedTitle": true,
+          "Name": "Action Switch",
+          "Plugin": {
+            "Name": "Streamer.bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.1.1.2"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "0ca88c37-dfaf-40b6-8cf9-31ff55463953",
+            "backgroundColorMap": { "0": null, "1": null },
+            "backgroundSrcMap": { "0": "", "1": "" },
+            "id": "BXyczN33poFtnKa3jUAoV",
+            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
+            "state": 0,
+            "title": { "0": "alerts", "1": "alerts" },
+            "toggleOffAction": {
+              "args": [],
+              "id": "862fdc40-4a37-452f-9f3b-3361cf150876",
+              "name": "hide alerts"
+            },
+            "toggleOnAction": {
+              "args": [],
+              "id": "979e750f-e196-4e92-9e00-65f13ad178e5",
+              "name": "show alerts"
+            }
+          },
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
