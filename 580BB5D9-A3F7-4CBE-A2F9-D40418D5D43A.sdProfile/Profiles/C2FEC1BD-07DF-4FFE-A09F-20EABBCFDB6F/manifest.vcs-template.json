@@ -12,7 +12,48 @@
           "States": [{}],
           "UUID": "com.elgato.streamdeck.profile.backtoparent"
         },
+        "0,1": {
+          "ActionID": "6609b324-8341-4175-a708-0cba63682439",
+          "LinkedTitle": true,
+          "Name": "WebSocket Message",
+          "Resources": null,
+          "Settings": {
+            "body": "refit",
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/JQ1F5Q98CT2JH237607KNW25SCZ.webp",
+              "Title": "pretty\nscripts"
+            }
+          ],
+          "UUID": "gg.datagram.web-requests.websocket"
+        },
         "0,2": {
+          "ActionID": "3beb15bc-f602-473d-8c79-8a32b2eec851",
+          "LinkedTitle": true,
+          "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "body": "refit_server",
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/2LW9IQ63K50L94TMK1FC3WN7H4Z.webp",
+              "Title": "show\nserver"
+            }
+          ],
+          "UUID": "gg.datagram.web-requests.websocket"
+        },
+        "0,3": {
           "ActionID": "68eec9d7-3ed7-40b9-8fe4-2c829565e299",
           "LinkedTitle": true,
           "Name": "WebSocket Message",
@@ -31,29 +72,6 @@
             {
               "Image": "Images/GBIO1GGW9L6D59077E4SBIJ10SZ.png",
               "Title": "free all\ndb slots"
-            }
-          ],
-          "UUID": "gg.datagram.web-requests.websocket"
-        },
-        "0,3": {
-          "ActionID": "40810a8f-2398-4801-93ed-214de259c1f2",
-          "LinkedTitle": true,
-          "Name": "WebSocket Message",
-          "Plugin": {
-            "Name": "Web Requests",
-            "UUID": "gg.datagram.web-requests",
-            "Version": "0.1.1.0"
-          },
-          "Resources": null,
-          "Settings": {
-            "body": "get windows",
-            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/test"
-          },
-          "State": 0,
-          "States": [
-            {
-              "Image": "Images/AKPF6248810SD4O3QO8MDHWWCSZ.png",
-              "Title": "get all\nwindow\nnames\nin db"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -227,24 +245,6 @@
           ],
           "UUID": "gg.datagram.web-requests.websocket"
         },
-        "6,3": {
-          "ActionID": "3beb15bc-f602-473d-8c79-8a32b2eec851",
-          "LinkedTitle": true,
-          "Name": "WebSocket Message",
-          "Resources": null,
-          "Settings": {
-            "body": "refit_server",
-            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
-          },
-          "State": 0,
-          "States": [
-            {
-              "Image": "Images/F23467H3AH7GJDK0203N90NCKOZ.webp",
-              "Title": "show\nserver"
-            }
-          ],
-          "UUID": "gg.datagram.web-requests.websocket"
-        },
         "7,0": {
           "ActionID": "2e698434-3c82-4fb0-ad24-94b0145213ff",
           "LinkedTitle": true,
@@ -255,20 +255,40 @@
           "States": [{ "Title": "old stuff" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
+        "7,2": {
+          "ActionID": "734ecd54-1db4-409a-84da-0308452209f8",
+          "LinkedTitle": true,
+          "Name": "Open",
+          "Plugin": {
+            "Name": "Open",
+            "UUID": "com.elgato.streamdeck.system.open",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "path": "\"{{STREAMING_REPO_PATH}}run_server.bat\"" },
+          "State": 0,
+          "States": [{ "Title": "launch\nserver" }],
+          "UUID": "com.elgato.streamdeck.system.open"
+        },
         "7,3": {
-          "ActionID": "6609b324-8341-4175-a708-0cba63682439",
+          "ActionID": "40810a8f-2398-4801-93ed-214de259c1f2",
           "LinkedTitle": true,
           "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.1.0"
+          },
           "Resources": null,
           "Settings": {
-            "body": "refit",
-            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
+            "body": "get windows",
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/test"
           },
           "State": 0,
           "States": [
             {
-              "Image": "Images/JQ1F5Q98CT2JH237607KNW25SCZ.webp",
-              "Title": "pretty\nscripts"
+              "Image": "Images/AKPF6248810SD4O3QO8MDHWWCSZ.png",
+              "Title": "get all\nwindow\nnames\nin db"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
