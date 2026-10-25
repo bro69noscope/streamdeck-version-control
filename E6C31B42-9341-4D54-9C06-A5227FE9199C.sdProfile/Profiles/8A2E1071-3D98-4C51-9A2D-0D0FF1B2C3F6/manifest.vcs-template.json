@@ -190,7 +190,7 @@
           "Resources": null,
           "Settings": {
             "_uuid": "88962600-a858-485c-81df-ccb9ada00c28",
-            "backgroundColorMap": { "0": null, "1": "" },
+            "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "9aHEa0DFJltQW45AgJBJR",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
@@ -256,7 +256,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "31d8b087-a3da-4e58-a45d-286fb0dceed3",
+                    "_uuid": "a660e66c-84bf-449a-8ba1-180cfdba57e3",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "dnt2hNU9aO3oknzUROXyF",
@@ -280,7 +280,7 @@
                   "UUID": "bot.streamer.streamdeck.action"
                 },
                 {
-                  "ActionID": "ea905fc4-ade8-461c-82cb-112e838f3641",
+                  "ActionID": "141dcee9-7a03-4652-9ab7-deb04107cf6d",
                   "LinkedTitle": true,
                   "Name": "WebSocket Message",
                   "Plugin": {
@@ -298,7 +298,7 @@
                   "UUID": "gg.datagram.web-requests.websocket"
                 },
                 {
-                  "ActionID": "6764463d-5c95-4db9-afe9-7c1f7cb45aad",
+                  "ActionID": "2f438042-bdc1-4c90-a01a-efc047a495b1",
                   "LinkedTitle": true,
                   "Name": "Action",
                   "Plugin": {
@@ -308,7 +308,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "1d03fd28-ff7b-43fa-aeb7-836adb4b13a7",
+                    "_uuid": "c457662e-7420-42a1-a4ee-1d162bd8b19e",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -563,7 +563,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "828f864b-c965-40b4-b50d-a074e580c79b",
+                    "_uuid": "af280c49-21d2-4c6c-b3e6-d0926b594637",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",
@@ -718,7 +718,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "556d223f-c440-47b3-bcb4-f13dccf4a6e7",
+                    "_uuid": "f6b60c31-2682-4a1c-b6ac-0737f2ca6615",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",
@@ -801,7 +801,12 @@
             "url": "ws://127.0.0.1:50000/ahk/command"
           },
           "State": 0,
-          "States": [{ "Title": "activate\nobs ftp" }],
+          "States": [
+            {
+              "Image": "Images/0KL807K6AP41T6SLQ297RG2VPOZ.png",
+              "Title": "activate\nobs ftp"
+            }
+          ],
           "UUID": "gg.datagram.web-requests.websocket"
         }
       },
