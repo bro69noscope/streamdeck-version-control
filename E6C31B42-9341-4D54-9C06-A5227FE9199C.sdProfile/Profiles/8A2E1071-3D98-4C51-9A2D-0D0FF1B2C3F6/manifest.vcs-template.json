@@ -38,12 +38,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "edefa931-2ec5-4207-b31f-bcfaa55bbdf4",
-              "name": "mute aux send 1"
+              "name": "sbact__mute_aux_send_1"
             },
             "toggleOnAction": {
               "args": [],
               "id": "b3972f10-293d-4378-b7dd-f910a771795f",
-              "name": "unmute aux send 1"
+              "name": "sbact__unmute_aux_send_1"
             }
           },
           "State": 1,
@@ -71,12 +71,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "34344d2e-0b40-4bcc-85c6-da95fd7bd99d",
-              "name": "mute 11/12 channels"
+              "name": "sbact__mute_11_12_channels"
             },
             "toggleOnAction": {
               "args": [],
               "id": "aa46a27d-eef4-4f00-9c5b-520e33588535",
-              "name": "unmute 11/12 channels"
+              "name": "sbact__unmute_11_12_channels"
             }
           },
           "State": 1,
@@ -102,7 +102,7 @@
             "keyDownAction": {
               "args": [],
               "id": "b485a409-a30f-4f98-9d85-a27f6e5c60c3",
-              "name": "set scene__center_monitor"
+              "name": "sbact__set_scene__center_monitor"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -133,12 +133,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "ecec52cf-bda3-495c-a3d5-e800682176d7",
-              "name": "mute usb out"
+              "name": "sbact__mute_usb_out"
             },
             "toggleOnAction": {
               "args": [],
               "id": "e4bf0f0d-350e-40f7-b2d4-5f9226b181c0",
-              "name": "unmute usb out (mute all others)"
+              "name": "sbact__unmute_usb_out_mute_all_others"
             }
           },
           "State": 0,
@@ -166,12 +166,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "ce4a8588-ada7-45ba-9385-9f891c424326",
-              "name": "mute 5/6 channels"
+              "name": "sbact__mute_5_6_channels"
             },
             "toggleOnAction": {
               "args": [],
               "id": "16f70f42-e06c-4b80-9841-52424dc3708d",
-              "name": "unmute 5/6 channels"
+              "name": "sbact__unmute_5_6_channels"
             }
           },
           "State": 0,
@@ -199,12 +199,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "37c52aa7-fcd7-45c1-b382-f24344b159d2",
-              "name": "mute 7/8 channels"
+              "name": "sbact__mute_7_8_channels"
             },
             "toggleOnAction": {
               "args": [],
               "id": "a97ebd94-664e-47e8-8506-3a5c47264b85",
-              "name": "unmute 7/8 channels"
+              "name": "sbact__unmute_7_8_channels"
             }
           },
           "State": 0,
@@ -230,7 +230,7 @@
             "keyDownAction": {
               "args": [],
               "id": "dbb95da9-5e23-4d80-b5c3-11cfc11870e2",
-              "name": "set scene__lounge"
+              "name": "sbact__set_scene__lounge"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -264,7 +264,7 @@
                     "keyDownAction": {
                       "args": [],
                       "id": "977f38a3-ba07-4c39-afe1-eb79e9b4d72a",
-                      "name": "set scene__obs_prod_showoff"
+                      "name": "sbact__set_scene__obs_prod_showoff"
                     },
                     "keyDownLongAction": { "args": [], "id": "", "name": "" },
                     "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -316,7 +316,7 @@
                     "keyDownAction": {
                       "args": [],
                       "id": "d70c66c9-450d-4f56-a8f7-51d3f221b52c",
-                      "name": "set docks for center monitor"
+                      "name": "sbact__set_docks_for_center_monitor"
                     },
                     "keyDownLongAction": { "args": [], "id": "", "name": "" },
                     "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -369,12 +369,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "267dbfc1-596a-4cd8-9779-0ffa66726ca5",
-              "name": "hide facecam"
+              "name": "sbact__hide_facecam"
             },
             "toggleOnAction": {
               "args": [],
               "id": "1b8e887d-51e1-467c-bd50-73d0bbcfcfc5",
-              "name": "show facecam"
+              "name": "sbact__show_facecam"
             }
           },
           "State": 1,
@@ -402,12 +402,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "862fdc40-4a37-452f-9f3b-3361cf150876",
-              "name": "hide alerts"
+              "name": "sbact__hide_alerts"
             },
             "toggleOnAction": {
               "args": [],
               "id": "979e750f-e196-4e92-9e00-65f13ad178e5",
-              "name": "show alerts"
+              "name": "sbact__show_alerts"
             }
           },
           "State": 0,
@@ -435,12 +435,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "6f17c6a8-b9b8-4334-91ff-e7ff5a3babdc",
-              "name": "hide eyetracker"
+              "name": "sbact__hide_eyetracker"
             },
             "toggleOnAction": {
               "args": [],
               "id": "b8be51c1-ef8d-4be8-938b-1e5cecfb3c29",
-              "name": "show eyetracker"
+              "name": "sbact__show_eyetracker"
             }
           },
           "State": 1,
@@ -466,7 +466,7 @@
             "keyDownAction": {
               "args": [],
               "id": "d70c66c9-450d-4f56-a8f7-51d3f221b52c",
-              "name": "set docks for right monitor"
+              "name": "sbact__set_docks_for_center_monitor"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -495,7 +495,7 @@
             "keyDownAction": {
               "args": [],
               "id": "a50651eb-eaad-43fb-86ad-1ac315808a75",
-              "name": "refresh alerts"
+              "name": "sbact__refresh_alerts"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -571,7 +571,7 @@
                     "keyDownAction": {
                       "args": [],
                       "id": "0ba0202d-40cb-487c-8fe9-0a865328b363",
-                      "name": "set docks for center monitor"
+                      "name": "sbact__set_docks_for_center_monitor"
                     },
                     "keyDownLongAction": { "args": [], "id": "", "name": "" },
                     "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -619,12 +619,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "fd4787db-5af6-43dc-8625-78e1f5bb73d7",
-              "name": "set eyetracker to prod"
+              "name": "sbact__set_eyetracker_to_prod"
             },
             "toggleOnAction": {
               "args": [],
               "id": "f5c2f04a-ab31-47e6-930f-fd9ac2c4f6ff",
-              "name": "set eyetracker to ftp"
+              "name": "sbact__set_eyetracker_to_ftp"
             }
           },
           "State": 1,
@@ -650,7 +650,7 @@
             "keyDownAction": {
               "args": [],
               "id": "964ba814-12a8-4089-8ea9-b445e744a22f",
-              "name": "skip ongoing alert"
+              "name": "sbact__skip_alert"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -726,7 +726,7 @@
                     "keyDownAction": {
                       "args": [],
                       "id": "d70c66c9-450d-4f56-a8f7-51d3f221b52c",
-                      "name": "set docks for right monitor"
+                      "name": "sbact__set_docks_for_center_monitor"
                     },
                     "keyDownLongAction": { "args": [], "id": "", "name": "" },
                     "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -774,12 +774,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "ae7bbb67-8bc9-4662-97ae-c0ae8b9f4755",
-              "name": "Disable Virtual Cam"
+              "name": "sbact__disable_virtual_cam"
             },
             "toggleOnAction": {
               "args": [],
               "id": "6ddfb373-fc41-4812-a619-ca31bf9a5230",
-              "name": "Enable Virtual Cam"
+              "name": "sbact__enable_virtual_cam"
             }
           },
           "State": 1,

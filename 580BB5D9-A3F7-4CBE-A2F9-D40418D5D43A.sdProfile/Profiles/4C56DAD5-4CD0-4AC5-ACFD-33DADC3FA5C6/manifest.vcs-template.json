@@ -255,7 +255,7 @@
             "keyDownAction": {
               "args": [],
               "id": "50507a65-e072-47a0-926a-2e25b8439687",
-              "name": "hide always hide clones"
+              "name": "sbact__hide_always_hide_clones"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -284,7 +284,7 @@
             "keyDownAction": {
               "args": [],
               "id": "2d04c060-cab9-49a1-97ef-b3573e48f661",
-              "name": "Hard Reset"
+              "name": "sbact__reset_all"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -360,7 +360,7 @@
                     "keyDownAction": {
                       "args": [],
                       "id": "d70c66c9-450d-4f56-a8f7-51d3f221b52c",
-                      "name": "set docks for center monitor"
+                      "name": "sbact__set_docks_for_center_monitor"
                     },
                     "keyDownLongAction": { "args": [], "id": "", "name": "" },
                     "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -406,7 +406,7 @@
             "keyDownAction": {
               "args": [],
               "id": "5a63350f-9e97-447c-9d91-990dad7dd458",
-              "name": "Temporary Cam Zoom"
+              "name": "sbact__temporary_cam_zoom"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -482,7 +482,7 @@
                     "keyDownAction": {
                       "args": [],
                       "id": "8737d48c-cc69-443d-a98f-63e4e9e09655",
-                      "name": "set docks for right monitor"
+                      "name": "sbact__set_docks_for_right_monitor"
                     },
                     "keyDownLongAction": { "args": [], "id": "", "name": "" },
                     "keyUpAction": { "args": [], "id": "", "name": "" },

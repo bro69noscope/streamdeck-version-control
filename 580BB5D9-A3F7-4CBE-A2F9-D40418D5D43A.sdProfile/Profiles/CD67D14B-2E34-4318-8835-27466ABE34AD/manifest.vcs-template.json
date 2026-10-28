@@ -206,7 +206,7 @@
                     "keyDownAction": {
                       "args": [],
                       "id": "2d04c060-cab9-49a1-97ef-b3573e48f661",
-                      "name": "Hard Reset"
+                      "name": "sbact__reset_all"
                     },
                     "keyDownLongAction": { "args": [], "id": "", "name": "" },
                     "keyUpAction": { "args": [], "id": "", "name": "" },

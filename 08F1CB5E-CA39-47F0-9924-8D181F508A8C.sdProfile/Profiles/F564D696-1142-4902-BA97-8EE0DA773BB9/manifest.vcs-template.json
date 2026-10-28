@@ -181,12 +181,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "fd4787db-5af6-43dc-8625-78e1f5bb73d7",
-              "name": "set eyetracker to prod"
+              "name": "sbact__set_eyetracker_to_prod"
             },
             "toggleOnAction": {
               "args": [],
               "id": "f5c2f04a-ab31-47e6-930f-fd9ac2c4f6ff",
-              "name": "set eyetracker to ftp"
+              "name": "sbact__set_eyetracker_to_ftp"
             }
           },
           "State": 0,
@@ -214,12 +214,12 @@
             "toggleOffAction": {
               "args": [],
               "id": "ae7bbb67-8bc9-4662-97ae-c0ae8b9f4755",
-              "name": "Disable Virtual Cam"
+              "name": "sbact__disable_virtual_cam"
             },
             "toggleOnAction": {
               "args": [],
               "id": "6ddfb373-fc41-4812-a619-ca31bf9a5230",
-              "name": "Enable Virtual Cam"
+              "name": "sbact__enable_virtual_cam"
             }
           },
           "State": 0,
@@ -268,7 +268,7 @@
             "keyDownAction": {
               "args": [],
               "id": "a50651eb-eaad-43fb-86ad-1ac315808a75",
-              "name": "refresh alerts"
+              "name": "sbact__refresh_alerts"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -344,7 +344,7 @@
             "keyDownAction": {
               "args": [],
               "id": "5a63350f-9e97-447c-9d91-990dad7dd458",
-              "name": "Temporary Cam Zoom"
+              "name": "sbact__temporary_cam_zoom"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },

@@ -36,7 +36,7 @@
             "keyDownAction": {
               "args": [],
               "id": "7ebb29d2-03f0-4138-9bdb-805848dfe3c6",
-              "name": "brb end"
+              "name": "sbact__end_brb"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -65,7 +65,7 @@
             "keyDownAction": {
               "args": [],
               "id": "75e9b2ad-0446-43c5-a842-ceb1ca70a896",
-              "name": "brb set 1"
+              "name": "sbact__set_brb_1"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -94,7 +94,7 @@
             "keyDownAction": {
               "args": [],
               "id": "9eaf9fe4-3e97-427f-96ed-bedfa57aa581",
-              "name": "brb set 2"
+              "name": "sbact__set_brb_2"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -123,7 +123,7 @@
             "keyDownAction": {
               "args": [],
               "id": "863b0d18-d706-429f-b801-69a71419dd2c",
-              "name": "brb set 5"
+              "name": "sbact__set_brb_5"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
@@ -152,7 +152,7 @@
             "keyDownAction": {
               "args": [],
               "id": "495959d5-a6fe-429f-bf0b-7c02a4c46526",
-              "name": "brb input"
+              "name": "sbact__input_brb"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },

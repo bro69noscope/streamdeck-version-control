@@ -36,7 +36,7 @@
             "keyDownAction": {
               "args": [],
               "id": "9e2a7010-59f9-454c-8ab0-71f8024fe1ad",
-              "name": "Retarded Mates"
+              "name": "sbact__retarded_mates"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
