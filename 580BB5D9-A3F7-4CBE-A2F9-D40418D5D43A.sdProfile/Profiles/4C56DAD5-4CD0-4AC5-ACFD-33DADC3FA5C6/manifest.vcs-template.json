@@ -43,7 +43,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__metascene", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "metascene" }, {}],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -96,7 +96,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__lounge", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/63J4577ACT6HL4FMI6SP0AJBJ0Z.png",
@@ -346,13 +346,13 @@
                   "LinkedTitle": true,
                   "Name": "Action",
                   "Plugin": {
-                    "Name": "Streamer.bot",
+                    "Name": "Streamer.Bot",
                     "UUID": "bot.streamer.streamdeck",
-                    "Version": "1.1.1.2"
+                    "Version": "1.2.0.5"
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "d76d0bb7-5deb-4303-a6fd-5f3b7d968e4b",
+                    "_uuid": "bc011406-8b7d-4587-bd18-f8c759ee3504",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -468,13 +468,13 @@
                   "LinkedTitle": true,
                   "Name": "Action",
                   "Plugin": {
-                    "Name": "Streamer.bot",
+                    "Name": "Streamer.Bot",
                     "UUID": "bot.streamer.streamdeck",
-                    "Version": "1.1.1.2"
+                    "Version": "1.2.0.5"
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "9a7cf116-0299-4f03-902f-923d189d4ebc",
+                    "_uuid": "62991bf7-9456-4026-b56a-a6544fa6f75f",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "nUBaYDm6SmCp_QFkS8N8Z",

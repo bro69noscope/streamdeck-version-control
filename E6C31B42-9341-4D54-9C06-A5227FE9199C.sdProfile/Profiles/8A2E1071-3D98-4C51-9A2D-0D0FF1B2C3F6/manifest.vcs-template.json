@@ -22,9 +22,9 @@
           "LinkedTitle": true,
           "Name": "Action Switch",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -55,9 +55,9 @@
           "LinkedTitle": true,
           "Name": "Action Switch",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -117,9 +117,9 @@
           "LinkedTitle": true,
           "Name": "Action Switch",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -150,9 +150,9 @@
           "LinkedTitle": true,
           "Name": "Action Switch",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -183,9 +183,9 @@
           "LinkedTitle": true,
           "Name": "Action Switch",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -250,13 +250,13 @@
                   "LinkedTitle": true,
                   "Name": "Action",
                   "Plugin": {
-                    "Name": "Streamer.bot",
+                    "Name": "Streamer.Bot",
                     "UUID": "bot.streamer.streamdeck",
-                    "Version": "1.1.1.2"
+                    "Version": "1.2.0.5"
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "a660e66c-84bf-449a-8ba1-180cfdba57e3",
+                    "_uuid": "73601ff3-d4c7-4853-8570-48de1256bf32",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "dnt2hNU9aO3oknzUROXyF",
@@ -302,13 +302,13 @@
                   "LinkedTitle": true,
                   "Name": "Action",
                   "Plugin": {
-                    "Name": "Streamer.bot",
+                    "Name": "Streamer.Bot",
                     "UUID": "bot.streamer.streamdeck",
-                    "Version": "1.1.1.2"
+                    "Version": "1.2.0.5"
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "c457662e-7420-42a1-a4ee-1d162bd8b19e",
+                    "_uuid": "754e59ee-a0a6-4bf5-8bca-fdab5337acdb",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -353,9 +353,9 @@
           "LinkedTitle": true,
           "Name": "Action Switch",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -386,9 +386,9 @@
           "LinkedTitle": true,
           "Name": "Action Switch",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -419,9 +419,9 @@
           "LinkedTitle": true,
           "Name": "Action Switch",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -557,13 +557,13 @@
                   "LinkedTitle": true,
                   "Name": "Action",
                   "Plugin": {
-                    "Name": "Streamer.bot",
+                    "Name": "Streamer.Bot",
                     "UUID": "bot.streamer.streamdeck",
-                    "Version": "1.1.1.2"
+                    "Version": "1.2.0.5"
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "af280c49-21d2-4c6c-b3e6-d0926b594637",
+                    "_uuid": "50f5505e-0b13-4dad-9c3a-4f50c0ec20ce",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",
@@ -603,9 +603,9 @@
           "LinkedTitle": true,
           "Name": "Action Switch",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -712,13 +712,13 @@
                   "LinkedTitle": true,
                   "Name": "Action",
                   "Plugin": {
-                    "Name": "Streamer.bot",
+                    "Name": "Streamer.Bot",
                     "UUID": "bot.streamer.streamdeck",
-                    "Version": "1.1.1.2"
+                    "Version": "1.2.0.5"
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "f6b60c31-2682-4a1c-b6ac-0737f2ca6615",
+                    "_uuid": "fa903858-fbbe-4415-af44-36d264287b33",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",
@@ -758,9 +758,9 @@
           "LinkedTitle": true,
           "Name": "Action Switch",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
