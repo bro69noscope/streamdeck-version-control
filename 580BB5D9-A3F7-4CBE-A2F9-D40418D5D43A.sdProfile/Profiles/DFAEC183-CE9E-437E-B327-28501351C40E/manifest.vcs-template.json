@@ -48,7 +48,7 @@
             "Version": "3.0.3.31"
           },
           "Resources": null,
-          "Settings": { "scene": "scene__facecam", "target": "preview" },
+          "Settings": { "scene": "scene__layer__facecam", "target": "preview" },
           "State": 1,
           "States": [
             {

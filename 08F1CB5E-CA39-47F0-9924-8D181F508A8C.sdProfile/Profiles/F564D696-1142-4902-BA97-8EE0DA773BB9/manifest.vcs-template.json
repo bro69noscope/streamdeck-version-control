@@ -241,7 +241,7 @@
             "icon": "scene",
             "scene": "scene__center_monitor",
             "sceneitemid": 5,
-            "sceneitemname": "scene__eyetracker",
+            "sceneitemname": "scene__layer__eyetracker",
             "sceneitemscene": "scene__center_monitor",
             "toplevelscene": "scene__center_monitor"
           },
@@ -315,11 +315,11 @@
           "Settings": {
             "collection": "collection_aoe2",
             "icon": "browser",
-            "scene": "scene__alerts",
+            "scene": "scene__layer__alerts",
             "sceneitemid": 4,
             "sceneitemname": "browser__streamerbot_alerts",
-            "sceneitemscene": "scene__alerts",
-            "toplevelscene": "scene__alerts"
+            "sceneitemscene": "scene__layer__alerts",
+            "toplevelscene": "scene__layer__alerts"
           },
           "State": 1,
           "States": [{ "Title": "alerts" }, {}],
@@ -391,11 +391,11 @@
           "Settings": {
             "collection": "collection_aoe2",
             "icon": "camera",
-            "scene": "scene__facecam",
+            "scene": "scene__layer__facecam",
             "sceneitemid": 1,
             "sceneitemname": "capture__device__facecam",
-            "sceneitemscene": "scene__facecam",
-            "toplevelscene": "scene__facecam"
+            "sceneitemscene": "scene__layer__facecam",
+            "toplevelscene": "scene__layer__facecam"
           },
           "State": 1,
           "States": [{ "Title": "facecam" }, {}],

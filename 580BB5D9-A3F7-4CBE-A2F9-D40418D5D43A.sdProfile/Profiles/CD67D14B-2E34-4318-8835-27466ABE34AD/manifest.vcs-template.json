@@ -57,11 +57,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__gameplay__audio_clips_media",
+                    "scene": "scene__layer_ig__audio_clips_media",
                     "sceneitemid": 1,
                     "sceneitemname": "media__audio__narrator_test",
-                    "sceneitemscene": "scene__gameplay__audio_clips_media",
-                    "toplevelscene": "scene__gameplay__audio_clips_media"
+                    "sceneitemscene": "scene__layer_ig__audio_clips_media",
+                    "toplevelscene": "scene__layer_ig__audio_clips_media"
                   },
                   "State": 1,
                   "States": [{ "Title": "play narrator clip" }, {}],
@@ -79,7 +79,7 @@
                   "Resources": null,
                   "Settings": {
                     "filter": "filter__lut__grayscale",
-                    "source": "scene__gameplay__fundamental_sources"
+                    "source": "scene__layer_ig__fundamental_sources"
                   },
                   "State": 1,
                   "States": [{ "Title": "apply grayscale lut" }, {}],
@@ -113,7 +113,7 @@
                   "Resources": null,
                   "Settings": {
                     "filter": "filter__lut__grayscale",
-                    "source": "scene__gameplay__fundamental_sources"
+                    "source": "scene__layer_ig__fundamental_sources"
                   },
                   "State": 1,
                   "States": [{ "Title": "remove grayscale lUT" }, {}],
@@ -132,11 +132,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__gameplay__audio_clips_media",
+                    "scene": "scene__layer_ig__audio_clips_media",
                     "sceneitemid": 1,
                     "sceneitemname": "media__audio__narrator_test",
-                    "sceneitemscene": "scene__gameplay__audio_clips_media",
-                    "toplevelscene": "scene__gameplay__audio_clips_media"
+                    "sceneitemscene": "scene__layer_ig__audio_clips_media",
+                    "toplevelscene": "scene__layer_ig__audio_clips_media"
                   },
                   "State": 1,
                   "States": [{ "Title": "stop narrator clip" }, {}],
@@ -328,11 +328,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__gameplay__overlayed_media",
+                    "scene": "scene__layer_ig__overlayed_media",
                     "sceneitemid": 4,
                     "sceneitemname": "media__video__ladies_gents_might_be_back",
-                    "sceneitemscene": "scene__gameplay__overlayed_media",
-                    "toplevelscene": "scene__gameplay__overlayed_media"
+                    "sceneitemscene": "scene__layer_ig__overlayed_media",
+                    "toplevelscene": "scene__layer_ig__overlayed_media"
                   },
                   "State": 1,
                   "States": [
@@ -368,11 +368,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__gameplay__music_media",
+                    "scene": "scene__layer_ig__music_media",
                     "sceneitemid": 1,
                     "sceneitemname": "media__music__cyberbird",
-                    "sceneitemscene": "scene__gameplay__music_media",
-                    "toplevelscene": "scene__gameplay__music_media"
+                    "sceneitemscene": "scene__layer_ig__music_media",
+                    "toplevelscene": "scene__layer_ig__music_media"
                   },
                   "State": 1,
                   "States": [{ "Title": "play cyberbird" }, {}],
@@ -390,7 +390,7 @@
                   "Resources": null,
                   "Settings": {
                     "filter": "filter__lut__warm_goldish",
-                    "source": "scene__gameplay__fundamental_sources"
+                    "source": "scene__layer_ig__fundamental_sources"
                   },
                   "State": 1,
                   "States": [{ "Title": "apply warm lut" }, {}],
@@ -409,11 +409,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__gameplay__overlayed_media",
+                    "scene": "scene__layer_ig__overlayed_media",
                     "sceneitemid": 4,
                     "sceneitemname": "media__video__ladies_gents_might_be_back",
-                    "sceneitemscene": "scene__gameplay__overlayed_media",
-                    "toplevelscene": "scene__gameplay__overlayed_media"
+                    "sceneitemscene": "scene__layer_ig__overlayed_media",
+                    "toplevelscene": "scene__layer_ig__overlayed_media"
                   },
                   "State": 1,
                   "States": [
@@ -569,11 +569,11 @@
                   "Resources": null,
                   "Settings": {
                     "collection": "collection__dota2",
-                    "scene": "scene__gameplay__music_media",
+                    "scene": "scene__layer_ig__music_media",
                     "sceneitemid": 1,
                     "sceneitemname": "media__music__cyberbird",
-                    "sceneitemscene": "scene__gameplay__music_media",
-                    "toplevelscene": "scene__gameplay__music_media"
+                    "sceneitemscene": "scene__layer_ig__music_media",
+                    "toplevelscene": "scene__layer_ig__music_media"
                   },
                   "State": 1,
                   "States": [{ "Title": "play cyberbird" }, {}],
@@ -591,7 +591,7 @@
                   "Resources": null,
                   "Settings": {
                     "filter": "filter__lut__warm_goldish",
-                    "source": "scene__gameplay__fundamental_sources"
+                    "source": "scene__layer_ig__fundamental_sources"
                   },
                   "State": 1,
                   "States": [{ "Title": "apply warm lut" }, {}],
