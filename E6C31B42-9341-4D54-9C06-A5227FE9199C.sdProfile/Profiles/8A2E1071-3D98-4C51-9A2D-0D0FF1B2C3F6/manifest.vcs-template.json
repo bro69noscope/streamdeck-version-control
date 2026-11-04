@@ -17,41 +17,8 @@
           "States": [{ "Title": "brb" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
-        "0,1": {
-          "ActionID": "e50a53a4-ee3b-423a-80dc-e7b293d00e5b",
-          "LinkedTitle": true,
-          "Name": "Action Switch",
-          "Plugin": {
-            "Name": "Streamer.Bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.2.0.5"
-          },
-          "Resources": null,
-          "Settings": {
-            "_uuid": "5aa1c97a-fc97-457c-8259-d8694236257a",
-            "backgroundColorMap": { "0": null, "1": null },
-            "backgroundSrcMap": { "0": "", "1": "" },
-            "id": "O48n0suO3coUUtCrsqLf_",
-            "instanceUuid": "",
-            "state": 1,
-            "title": { "0": "aux send 1\naudio", "1": "aux send 1\naudio" },
-            "toggleOffAction": {
-              "args": [],
-              "id": "edefa931-2ec5-4207-b31f-bcfaa55bbdf4",
-              "name": "sbact__MuteAuxSend1"
-            },
-            "toggleOnAction": {
-              "args": [],
-              "id": "b3972f10-293d-4378-b7dd-f910a771795f",
-              "name": "sbact__UnmuteAuxSend1"
-            }
-          },
-          "State": 1,
-          "States": [{}, {}],
-          "UUID": "bot.streamer.streamdeck.action-switch"
-        },
         "0,2": {
-          "ActionID": "95ab3eeb-ba8b-47b9-8d28-aaadb35a0699",
+          "ActionID": "58f555ac-81ef-43cd-bcf1-ef87ecb4e26a",
           "LinkedTitle": true,
           "Name": "Action Switch",
           "Plugin": {
@@ -61,22 +28,22 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "508afab0-3913-41a4-b8d0-f4471883ca94",
+            "_uuid": "e029ce15-2ae8-4ce9-9356-708df68350b2",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
-            "id": "O48n0suO3coUUtCrsqLf_",
-            "instanceUuid": "",
+            "id": "Kaf1onYk8eUNG-UaThkHy",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
             "state": 1,
-            "title": { "0": "11/12 audio", "1": "11/12 audio" },
+            "title": { "0": "eyetracker prod", "1": "eyetracker ftp" },
             "toggleOffAction": {
               "args": [],
-              "id": "34344d2e-0b40-4bcc-85c6-da95fd7bd99d",
-              "name": "sbact__Mute11And12Channels"
+              "id": "fd4787db-5af6-43dc-8625-78e1f5bb73d7",
+              "name": "sbact__SetEyetrackerToProd"
             },
             "toggleOnAction": {
               "args": [],
-              "id": "aa46a27d-eef4-4f00-9c5b-520e33588535",
-              "name": "sbact__Unmute11And12Channels"
+              "id": "f5c2f04a-ab31-47e6-930f-fd9ac2c4f6ff",
+              "name": "sbact__SetEyetrackerToFtp"
             }
           },
           "State": 1,
@@ -113,103 +80,19 @@
           "UUID": "bot.streamer.streamdeck.action"
         },
         "1,0": {
-          "ActionID": "655f5356-a6cc-47a6-be1c-079bd69afb18",
+          "ActionID": "01fc6171-d040-44e7-b6ef-ce7a222ba7b0",
           "LinkedTitle": true,
-          "Name": "Action Switch",
+          "Name": "Create Folder",
           "Plugin": {
-            "Name": "Streamer.Bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.2.0.5"
+            "Name": "Create Folder",
+            "UUID": "com.elgato.streamdeck.profile.openchild",
+            "Version": "1.0"
           },
           "Resources": null,
-          "Settings": {
-            "_uuid": "fa79c62f-5de2-4b7c-8ff5-88ea8ed0e3af",
-            "backgroundColorMap": { "0": null, "1": null },
-            "backgroundSrcMap": { "0": "", "1": "" },
-            "id": "9aHEa0DFJltQW45AgJBJR",
-            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
-            "state": 0,
-            "title": { "0": "usb out\naudio", "1": "usb out\naudio" },
-            "toggleOffAction": {
-              "args": [],
-              "id": "ecec52cf-bda3-495c-a3d5-e800682176d7",
-              "name": "sbact__MuteUsbOut"
-            },
-            "toggleOnAction": {
-              "args": [],
-              "id": "e4bf0f0d-350e-40f7-b2d4-5f9226b181c0",
-              "name": "sbact__UnmuteUsbOutMuteAllOthers"
-            }
-          },
+          "Settings": { "ProfileUUID": "ba719f27-93ca-40f7-9a2b-d65a486873fb" },
           "State": 0,
-          "States": [{}, {}],
-          "UUID": "bot.streamer.streamdeck.action-switch"
-        },
-        "1,1": {
-          "ActionID": "8b075d6e-dc2e-46a2-ba33-e49876aba015",
-          "LinkedTitle": true,
-          "Name": "Action Switch",
-          "Plugin": {
-            "Name": "Streamer.Bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.2.0.5"
-          },
-          "Resources": null,
-          "Settings": {
-            "_uuid": "1139761c-1de3-4cfd-8250-98b055c56a38",
-            "backgroundColorMap": { "0": null, "1": null },
-            "backgroundSrcMap": { "0": "", "1": "" },
-            "id": "9aHEa0DFJltQW45AgJBJR",
-            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
-            "state": 0,
-            "title": { "0": " 5/6 audio", "1": " 5/6 audio" },
-            "toggleOffAction": {
-              "args": [],
-              "id": "ce4a8588-ada7-45ba-9385-9f891c424326",
-              "name": "sbact__Mute5And6Channels"
-            },
-            "toggleOnAction": {
-              "args": [],
-              "id": "16f70f42-e06c-4b80-9841-52424dc3708d",
-              "name": "sbact__Unmute5And6Channels"
-            }
-          },
-          "State": 0,
-          "States": [{}, {}],
-          "UUID": "bot.streamer.streamdeck.action-switch"
-        },
-        "1,2": {
-          "ActionID": "601a22ab-f051-46ec-99d0-dd90be51186a",
-          "LinkedTitle": true,
-          "Name": "Action Switch",
-          "Plugin": {
-            "Name": "Streamer.Bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.2.0.5"
-          },
-          "Resources": null,
-          "Settings": {
-            "_uuid": "88962600-a858-485c-81df-ccb9ada00c28",
-            "backgroundColorMap": { "0": null, "1": null },
-            "backgroundSrcMap": { "0": "", "1": "" },
-            "id": "9aHEa0DFJltQW45AgJBJR",
-            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
-            "state": 0,
-            "title": { "0": "7/8 audio", "1": "7/8 audio" },
-            "toggleOffAction": {
-              "args": [],
-              "id": "37c52aa7-fcd7-45c1-b382-f24344b159d2",
-              "name": "sbact__Mute7And8Channels"
-            },
-            "toggleOnAction": {
-              "args": [],
-              "id": "a97ebd94-664e-47e8-8506-3a5c47264b85",
-              "name": "sbact__Unmute7And8Channels"
-            }
-          },
-          "State": 0,
-          "States": [{}, {}],
-          "UUID": "bot.streamer.streamdeck.action-switch"
+          "States": [{ "Title": "audio\nsources" }],
+          "UUID": "com.elgato.streamdeck.profile.openchild"
         },
         "1,3": {
           "ActionID": "52bb3bbd-00f4-4350-8a8e-a4b3e089cfb3",
@@ -240,6 +123,21 @@
           "States": [{ "Image": "Images/VVKT85O5HT6BJ2PNPFG1C88330Z.png" }],
           "UUID": "bot.streamer.streamdeck.action"
         },
+        "2,0": {
+          "ActionID": "7b49f901-5907-4eba-b0de-278f606d9ca4",
+          "LinkedTitle": true,
+          "Name": "Create Folder",
+          "Plugin": {
+            "Name": "Create Folder",
+            "UUID": "com.elgato.streamdeck.profile.openchild",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "ProfileUUID": "f36ffb60-5ced-482e-b1da-51f96e2da7c5" },
+          "State": 0,
+          "States": [{ "Title": "sources" }],
+          "UUID": "com.elgato.streamdeck.profile.openchild"
+        },
         "2,3": {
           "ActionID": "6eecd9e6-9e32-4b87-8059-83065bf456a0",
           "Actions": [
@@ -256,7 +154,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "f1ebcf92-426c-4e37-8ac1-cead2476fc5e",
+                    "_uuid": "c898a159-3de7-411e-8409-a989118150e2",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "dnt2hNU9aO3oknzUROXyF",
@@ -308,7 +206,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "0ddd16ed-e853-4d02-9371-33d0b3556634",
+                    "_uuid": "ed06f78a-9d72-4845-9df8-868fd3603941",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -381,106 +279,7 @@
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
-        "4,1": {
-          "ActionID": "58f555ac-81ef-43cd-bcf1-ef87ecb4e26a",
-          "LinkedTitle": true,
-          "Name": "Action Switch",
-          "Plugin": {
-            "Name": "Streamer.Bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.2.0.5"
-          },
-          "Resources": null,
-          "Settings": {
-            "_uuid": "e021beb0-95bc-42ad-8549-d4585abe3a1e",
-            "backgroundColorMap": { "0": null, "1": null },
-            "backgroundSrcMap": { "0": "", "1": "" },
-            "id": "Kaf1onYk8eUNG-UaThkHy",
-            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "state": 1,
-            "title": { "0": "eyetracker prod", "1": "eyetracker ftp" },
-            "toggleOffAction": {
-              "args": [],
-              "id": "fd4787db-5af6-43dc-8625-78e1f5bb73d7",
-              "name": "sbact__SetEyetrackerToProd"
-            },
-            "toggleOnAction": {
-              "args": [],
-              "id": "f5c2f04a-ab31-47e6-930f-fd9ac2c4f6ff",
-              "name": "sbact__SetEyetrackerToFtp"
-            }
-          },
-          "State": 1,
-          "States": [{}, {}],
-          "UUID": "bot.streamer.streamdeck.action-switch"
-        },
-        "4,2": {
-          "ActionID": "c9ca3368-7501-4936-aaf0-9f8bb63e09cf",
-          "LinkedTitle": true,
-          "Name": "Action Switch",
-          "Plugin": {
-            "Name": "Streamer.Bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.2.0.5"
-          },
-          "Resources": null,
-          "Settings": {
-            "_uuid": "0ca88c37-dfaf-40b6-8cf9-31ff55463953",
-            "backgroundColorMap": { "0": null, "1": null },
-            "backgroundSrcMap": { "0": "", "1": "" },
-            "id": "BXyczN33poFtnKa3jUAoV",
-            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
-            "state": 1,
-            "title": { "0": "alerts", "1": "alerts" },
-            "toggleOffAction": {
-              "args": [],
-              "id": "862fdc40-4a37-452f-9f3b-3361cf150876",
-              "name": "sbact__HideAlerts"
-            },
-            "toggleOnAction": {
-              "args": [],
-              "id": "979e750f-e196-4e92-9e00-65f13ad178e5",
-              "name": "sbact__ShowAlerts"
-            }
-          },
-          "State": 1,
-          "States": [{}, {}],
-          "UUID": "bot.streamer.streamdeck.action-switch"
-        },
         "4,3": {
-          "ActionID": "0e5eef59-8fa8-4ddc-8d05-2e57f71a4f38",
-          "LinkedTitle": true,
-          "Name": "Action Switch",
-          "Plugin": {
-            "Name": "Streamer.Bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.2.0.5"
-          },
-          "Resources": null,
-          "Settings": {
-            "_uuid": "2f811aec-3c9c-4256-94f2-953293ebf0a5",
-            "backgroundColorMap": { "0": null, "1": null },
-            "backgroundSrcMap": { "0": "", "1": "" },
-            "id": "BXyczN33poFtnKa3jUAoV",
-            "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
-            "state": 1,
-            "title": { "0": "eyetracker", "1": "eyetracker" },
-            "toggleOffAction": {
-              "args": [],
-              "id": "6f17c6a8-b9b8-4334-91ff-e7ff5a3babdc",
-              "name": "sbact__HideEyetracker"
-            },
-            "toggleOnAction": {
-              "args": [],
-              "id": "b8be51c1-ef8d-4be8-938b-1e5cecfb3c29",
-              "name": "sbact__ShowEyetracker"
-            }
-          },
-          "State": 1,
-          "States": [{}, {}],
-          "UUID": "bot.streamer.streamdeck.action-switch"
-        },
-        "5,1": {
           "ActionID": "3df746f2-2271-4a4e-913f-159b75e0176d",
           "LinkedTitle": true,
           "Name": "Action Switch",
@@ -491,7 +290,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "c5a52a8e-07fb-419d-8210-0f089f0fa6e9",
+            "_uuid": "80c636ea-9d66-45e9-a104-1e2da6223ae9",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
@@ -629,7 +428,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "056ae5f8-1b63-4a00-b35c-c292c9d8e569",
+                    "_uuid": "a7d6b654-bad2-4097-a520-4cf8416fe89a",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",
@@ -751,7 +550,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "7c9fcdaf-9497-4388-9dec-5f461a312065",
+                    "_uuid": "1b85048c-bf80-4f6f-a803-c1dd6d20fa8c",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",
