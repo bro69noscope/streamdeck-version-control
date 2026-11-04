@@ -22,13 +22,13 @@
           "LinkedTitle": true,
           "Name": "Action",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "affc497b-6c30-4516-93c6-a82a6214cce0",
+            "_uuid": "bb8e0e43-5456-46a4-b41c-81ae14264e84",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "H7jUDRq1-vWSOlo3Dv89y",

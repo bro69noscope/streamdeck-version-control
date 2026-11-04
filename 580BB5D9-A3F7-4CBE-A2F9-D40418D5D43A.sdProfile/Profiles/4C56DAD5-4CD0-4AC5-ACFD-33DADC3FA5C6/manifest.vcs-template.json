@@ -96,7 +96,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__lounge", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/63J4577ACT6HL4FMI6SP0AJBJ0Z.png",
@@ -352,7 +352,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "bc011406-8b7d-4587-bd18-f8c759ee3504",
+                    "_uuid": "32b4a43a-27a8-4089-b33e-f69cce83b30e",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -474,7 +474,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "62991bf7-9456-4026-b56a-a6544fa6f75f",
+                    "_uuid": "f405d7c5-4969-497a-8234-2020381faaa9",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "nUBaYDm6SmCp_QFkS8N8Z",

@@ -256,7 +256,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "73601ff3-d4c7-4853-8570-48de1256bf32",
+                    "_uuid": "0a58d989-6414-4e50-be1f-779e486bd36c",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "dnt2hNU9aO3oknzUROXyF",
@@ -308,7 +308,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "754e59ee-a0a6-4bf5-8bca-fdab5337acdb",
+                    "_uuid": "0e0287fd-707c-4f44-9eeb-aafec95f7150",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -397,7 +397,7 @@
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "BXyczN33poFtnKa3jUAoV",
             "instanceUuid": "8d766545-29f3-4fc4-9765-8d2a72b86250",
-            "state": 0,
+            "state": 1,
             "title": { "0": "alerts", "1": "alerts" },
             "toggleOffAction": {
               "args": [],
@@ -410,7 +410,7 @@
               "name": "sbact__ShowAlerts"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -563,7 +563,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "50f5505e-0b13-4dad-9c3a-4f50c0ec20ce",
+                    "_uuid": "cb0b850e-f8db-4131-a2cf-145e00f8c690",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",
@@ -718,7 +718,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "fa903858-fbbe-4415-af44-36d264287b33",
+                    "_uuid": "656b3ec7-2680-43c9-a917-78202e5c854a",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",
