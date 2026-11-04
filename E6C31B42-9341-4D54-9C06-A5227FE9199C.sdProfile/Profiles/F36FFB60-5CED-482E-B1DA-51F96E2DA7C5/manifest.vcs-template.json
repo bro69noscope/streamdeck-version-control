@@ -82,6 +82,29 @@
           "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
+        },
+        "7,3": {
+          "ActionID": "764ad24b-9e85-4078-9cbe-041311ecebc7",
+          "LinkedTitle": true,
+          "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "body": "ActivateObsPortableFtp",
+            "url": "ws://127.0.0.1:50000/ahk/command"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/C6DE8376G50GFBW2POKNNFOMB0Z.png",
+              "Title": "activate\nobs ftp"
+            }
+          ],
+          "UUID": "gg.datagram.web-requests.websocket"
         }
       },
       "Type": "Keypad"

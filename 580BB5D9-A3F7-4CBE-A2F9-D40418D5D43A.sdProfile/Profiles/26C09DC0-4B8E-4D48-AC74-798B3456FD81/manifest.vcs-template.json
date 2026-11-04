@@ -49,6 +49,29 @@
           "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
+        },
+        "7,3": {
+          "ActionID": "1d02f7be-c443-446c-a484-1af6e1a1ab1d",
+          "LinkedTitle": true,
+          "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "body": "ActivateObsProduction",
+            "url": "ws://127.0.0.1:50000/ahk/command"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/CTGP0TN8RH0V1E0I353WGS8I7SZ.png",
+              "Title": "activate\nobs"
+            }
+          ],
+          "UUID": "gg.datagram.web-requests.websocket"
         }
       },
       "Type": "Keypad"

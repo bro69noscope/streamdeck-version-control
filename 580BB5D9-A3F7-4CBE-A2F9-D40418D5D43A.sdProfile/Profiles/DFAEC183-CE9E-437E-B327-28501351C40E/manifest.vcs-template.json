@@ -75,6 +75,29 @@
             }
           ],
           "UUID": "com.elgato.obsstudio.scene"
+        },
+        "7,3": {
+          "ActionID": "a7388ae6-4816-40a3-8504-2afc7853d2df",
+          "LinkedTitle": true,
+          "Name": "WebSocket Message",
+          "Plugin": {
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.1.0"
+          },
+          "Resources": null,
+          "Settings": {
+            "body": "ActivateObsProduction",
+            "url": "ws://127.0.0.1:50000/ahk/command"
+          },
+          "State": 0,
+          "States": [
+            {
+              "Image": "Images/HTO6NW2EV55QJF3EITKQ1O47W4Z.png",
+              "Title": "activate\nobs"
+            }
+          ],
+          "UUID": "gg.datagram.web-requests.websocket"
         }
       },
       "Type": "Keypad"
