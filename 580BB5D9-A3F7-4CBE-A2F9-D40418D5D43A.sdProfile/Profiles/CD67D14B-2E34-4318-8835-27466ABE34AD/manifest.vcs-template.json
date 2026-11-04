@@ -192,13 +192,13 @@
                   "LinkedTitle": true,
                   "Name": "Action",
                   "Plugin": {
-                    "Name": "Streamer.bot",
+                    "Name": "Streamer.Bot",
                     "UUID": "bot.streamer.streamdeck",
-                    "Version": "1.1.1.2"
+                    "Version": "1.2.0.5"
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "fa6c5009-f35c-43f5-89bd-85a2ec4ea8db",
+                    "_uuid": "b64115ba-3112-4470-8203-dbed86e38ee2",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
