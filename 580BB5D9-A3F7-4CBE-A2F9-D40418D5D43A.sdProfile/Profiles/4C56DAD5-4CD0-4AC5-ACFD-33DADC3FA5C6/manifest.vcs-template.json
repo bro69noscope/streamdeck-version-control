@@ -222,7 +222,7 @@
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
         "4,2": {
-          "ActionID": "4efb765e-e7cb-4b89-bf13-d00db8f5190f",
+          "ActionID": "2e470233-a0e6-471d-ac1a-56a0b847c0e2",
           "LinkedTitle": true,
           "Name": "Action",
           "Plugin": {
@@ -235,16 +235,16 @@
             "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
-            "id": "1I7j5csiw-YEmgOdcB6QC",
+            "id": "PybWHe_kBSArCb_swBQdZ",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
             "keyDownAction": {
               "args": [],
-              "id": "a50651eb-eaad-43fb-86ad-1ac315808a75",
-              "name": "sbact__RefreshAlerts"
+              "id": "2d04c060-cab9-49a1-97ef-b3573e48f661",
+              "name": "sbact__ResetAll"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
-            "title": { "0": "refresh\nalerts" }
+            "title": { "0": "reset\nall" }
           },
           "State": 0,
           "States": [{}],
@@ -309,29 +309,29 @@
           "UUID": "bot.streamer.streamdeck.action"
         },
         "5,3": {
-          "ActionID": "2e470233-a0e6-471d-ac1a-56a0b847c0e2",
+          "ActionID": "4efb765e-e7cb-4b89-bf13-d00db8f5190f",
           "LinkedTitle": true,
           "Name": "Action",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
             "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
-            "id": "PybWHe_kBSArCb_swBQdZ",
+            "id": "1I7j5csiw-YEmgOdcB6QC",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
             "keyDownAction": {
               "args": [],
-              "id": "2d04c060-cab9-49a1-97ef-b3573e48f661",
-              "name": "sbact__ResetAll"
+              "id": "a50651eb-eaad-43fb-86ad-1ac315808a75",
+              "name": "sbact__RefreshAlerts"
             },
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
-            "title": { "0": "reset\nall" }
+            "title": { "0": "refresh\nalerts" }
           },
           "State": 0,
           "States": [{}],
@@ -429,6 +429,35 @@
           "State": 0,
           "States": [{ "Title": "obs center" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
+        },
+        "6,3": {
+          "ActionID": "ce4ccfb5-ab0f-4d24-a489-cf78cecf7d34",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.Bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.2.0.5"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "00000000-0000-0000-0000-000000000000",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "H7jUDRq1-vWSOlo3Dv89y",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+            "keyDownAction": {
+              "args": [],
+              "id": "964ba814-12a8-4089-8ea9-b445e744a22f",
+              "name": "sbact__SkipAlert"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "skip\nalert" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
         },
         "7,0": {
           "ActionID": "ab05fa08-8ff1-4ed0-8bd9-a39cfb113758",
