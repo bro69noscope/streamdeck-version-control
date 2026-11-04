@@ -221,6 +221,35 @@
           "States": [{ "Title": "hard game" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
+        "4,2": {
+          "ActionID": "4efb765e-e7cb-4b89-bf13-d00db8f5190f",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.Bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.2.0.5"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "063547c1-2f69-40fa-b0ea-834aa559f90c",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "1I7j5csiw-YEmgOdcB6QC",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+            "keyDownAction": {
+              "args": [],
+              "id": "a50651eb-eaad-43fb-86ad-1ac315808a75",
+              "name": "sbact__RefreshAlerts"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "refresh\nalerts" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
         "5,1": {
           "ActionID": "316ec079-95be-4a24-ba9b-60428e0c6dab",
           "LinkedTitle": true,
@@ -366,7 +395,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "da4e8d6d-6c88-4ce0-afcf-764c9cd3a3b8",
+                    "_uuid": "4b1c9389-33e5-4d5d-80dc-ba653cc98350",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -459,7 +488,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "9c278a57-eb8e-4bc0-b463-473dafad25c2",
+                    "_uuid": "ebda9c61-549d-465e-a6aa-5bfb36975ed0",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "nUBaYDm6SmCp_QFkS8N8Z",
