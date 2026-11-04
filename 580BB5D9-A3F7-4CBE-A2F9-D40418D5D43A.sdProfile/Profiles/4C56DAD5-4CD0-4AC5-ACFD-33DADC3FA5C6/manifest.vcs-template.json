@@ -18,19 +18,27 @@
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
         "0,1": {
-          "ActionID": "cca607df-9045-420b-84a1-b6ced4667fbf",
+          "ActionID": "bfc171f0-fccb-4020-add4-36ab49605f19",
           "LinkedTitle": true,
-          "Name": "Open",
+          "Name": "WebSocket Message",
           "Plugin": {
-            "Name": "Open",
-            "UUID": "com.elgato.streamdeck.system.open",
-            "Version": "1.0"
+            "Name": "Web Requests",
+            "UUID": "gg.datagram.web-requests",
+            "Version": "0.1.1.0"
           },
           "Resources": null,
-          "Settings": { "path": "\"{{STREAMING_REPO_PATH}}run_server.bat\"" },
+          "Settings": {
+            "body": "refit_server",
+            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
+          },
           "State": 0,
-          "States": [{ "Title": "launch\nserver" }],
-          "UUID": "com.elgato.streamdeck.system.open"
+          "States": [
+            {
+              "Image": "Images/AI2NM05PIH6058OHOBALQWP3V4Z.webp",
+              "Title": "show\nserver"
+            }
+          ],
+          "UUID": "gg.datagram.web-requests.websocket"
         },
         "0,3": {
           "ActionID": "24d92745-55ef-4bab-af39-108449d4ee4d",
@@ -43,7 +51,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__metascene", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [{ "Title": "metascene" }, {}],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -63,24 +71,24 @@
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
         "1,1": {
-          "ActionID": "bfc171f0-fccb-4020-add4-36ab49605f19",
+          "ActionID": "101dde45-988d-40ea-8351-732c97041e78",
           "LinkedTitle": true,
           "Name": "WebSocket Message",
           "Plugin": {
             "Name": "Web Requests",
             "UUID": "gg.datagram.web-requests",
-            "Version": "0.1.1.0"
+            "Version": "0.1.0"
           },
           "Resources": null,
           "Settings": {
-            "body": "refit_server",
+            "body": "refit",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
           "State": 0,
           "States": [
             {
-              "Image": "Images/AI2NM05PIH6058OHOBALQWP3V4Z.webp",
-              "Title": "show\nserver"
+              "Image": "Images/4W7N2TNIMP3WN1GHB1FW8M29M4Z.webp",
+              "Title": "pretty\nscripts"
             }
           ],
           "UUID": "gg.datagram.web-requests.websocket"
@@ -122,27 +130,24 @@
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
         "2,1": {
-          "ActionID": "101dde45-988d-40ea-8351-732c97041e78",
+          "ActionID": "23be17ad-d02d-4050-b6a3-e622f7c9171f",
           "LinkedTitle": true,
-          "Name": "WebSocket Message",
+          "Name": "Create Folder",
           "Plugin": {
-            "Name": "Web Requests",
-            "UUID": "gg.datagram.web-requests",
-            "Version": "0.1.0"
+            "Name": "Create Folder",
+            "UUID": "com.elgato.streamdeck.profile.openchild",
+            "Version": "1.0"
           },
           "Resources": null,
-          "Settings": {
-            "body": "refit",
-            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
-          },
+          "Settings": { "ProfileUUID": "c2fec1bd-07df-4ffe-a09f-20eabbcfdb6f" },
           "State": 0,
           "States": [
             {
-              "Image": "Images/4W7N2TNIMP3WN1GHB1FW8M29M4Z.webp",
-              "Title": "pretty\nscripts"
+              "Image": "Images/479KQQGGR145H5B4IBQ70NCKA4Z.webp",
+              "Title": "scripts"
             }
           ],
-          "UUID": "gg.datagram.web-requests.websocket"
+          "UUID": "com.elgato.streamdeck.profile.openchild"
         },
         "2,3": {
           "ActionID": "fa7fb2db-991c-4696-aea4-91b0de349f21",
@@ -178,26 +183,6 @@
           "Settings": { "ProfileUUID": "cd67d14b-2e34-4318-8835-27466abe34ad" },
           "State": 0,
           "States": [{ "Title": "comeback" }],
-          "UUID": "com.elgato.streamdeck.profile.openchild"
-        },
-        "3,1": {
-          "ActionID": "23be17ad-d02d-4050-b6a3-e622f7c9171f",
-          "LinkedTitle": true,
-          "Name": "Create Folder",
-          "Plugin": {
-            "Name": "Create Folder",
-            "UUID": "com.elgato.streamdeck.profile.openchild",
-            "Version": "1.0"
-          },
-          "Resources": null,
-          "Settings": { "ProfileUUID": "c2fec1bd-07df-4ffe-a09f-20eabbcfdb6f" },
-          "State": 0,
-          "States": [
-            {
-              "Image": "Images/479KQQGGR145H5B4IBQ70NCKA4Z.webp",
-              "Title": "scripts"
-            }
-          ],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
         "3,3": {
@@ -236,18 +221,18 @@
           "States": [{ "Title": "hard game" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
-        "5,2": {
+        "5,1": {
           "ActionID": "316ec079-95be-4a24-ba9b-60428e0c6dab",
           "LinkedTitle": true,
           "Name": "Action",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "5671dfbe-6740-4f36-a691-3f6441921035",
+            "_uuid": "33aa3443-6490-4923-9328-63d689a8d41c",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "lqRFCQS-nnH8N5mf-nAuk",
@@ -260,6 +245,35 @@
             "keyDownLongAction": { "args": [], "id": "", "name": "" },
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "hide\nalways_hide" }
+          },
+          "State": 0,
+          "States": [{}],
+          "UUID": "bot.streamer.streamdeck.action"
+        },
+        "5,2": {
+          "ActionID": "ea93a760-6364-421c-a36e-d3de5c92d7b2",
+          "LinkedTitle": true,
+          "Name": "Action",
+          "Plugin": {
+            "Name": "Streamer.Bot",
+            "UUID": "bot.streamer.streamdeck",
+            "Version": "1.2.0.5"
+          },
+          "Resources": null,
+          "Settings": {
+            "_uuid": "74b76a97-7d22-46b7-b386-609bb94fa387",
+            "backgroundColorMap": { "0": null },
+            "backgroundSrcMap": { "0": "" },
+            "id": "TjAx95TV0LhiLgYMv5mel",
+            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
+            "keyDownAction": {
+              "args": [],
+              "id": "5a63350f-9e97-447c-9d91-990dad7dd458",
+              "name": "sbact__TemporaryCamZoom"
+            },
+            "keyDownLongAction": { "args": [], "id": "", "name": "" },
+            "keyUpAction": { "args": [], "id": "", "name": "" },
+            "title": { "0": "zoom" }
           },
           "State": 0,
           "States": [{}],
@@ -352,7 +366,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "32b4a43a-27a8-4089-b33e-f69cce83b30e",
+                    "_uuid": "4c3f9821-1332-4c6d-be05-aa0d60b70562",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -386,35 +400,6 @@
           "State": 0,
           "States": [{ "Title": "obs center" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
-        },
-        "6,3": {
-          "ActionID": "ea93a760-6364-421c-a36e-d3de5c92d7b2",
-          "LinkedTitle": true,
-          "Name": "Action",
-          "Plugin": {
-            "Name": "Streamer.bot",
-            "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
-          },
-          "Resources": null,
-          "Settings": {
-            "_uuid": "6b945ae9-36b5-4087-82d9-b2343129531f",
-            "backgroundColorMap": { "0": null },
-            "backgroundSrcMap": { "0": "" },
-            "id": "TjAx95TV0LhiLgYMv5mel",
-            "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "keyDownAction": {
-              "args": [],
-              "id": "5a63350f-9e97-447c-9d91-990dad7dd458",
-              "name": "sbact__TemporaryCamZoom"
-            },
-            "keyDownLongAction": { "args": [], "id": "", "name": "" },
-            "keyUpAction": { "args": [], "id": "", "name": "" },
-            "title": { "0": "zoom" }
-          },
-          "State": 0,
-          "States": [{}],
-          "UUID": "bot.streamer.streamdeck.action"
         },
         "7,0": {
           "ActionID": "ab05fa08-8ff1-4ed0-8bd9-a39cfb113758",
@@ -474,7 +459,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "f405d7c5-4969-497a-8234-2020381faaa9",
+                    "_uuid": "4fcf0dad-8417-4a4b-a87a-fcd2199394bb",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "nUBaYDm6SmCp_QFkS8N8Z",
@@ -509,6 +494,21 @@
           "States": [{ "Title": "obs right" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
+        "7,2": {
+          "ActionID": "cca607df-9045-420b-84a1-b6ced4667fbf",
+          "LinkedTitle": true,
+          "Name": "Open",
+          "Plugin": {
+            "Name": "Open",
+            "UUID": "com.elgato.streamdeck.system.open",
+            "Version": "1.0"
+          },
+          "Resources": null,
+          "Settings": { "path": "\"{{STREAMING_REPO_PATH}}run_server.bat\"" },
+          "State": 0,
+          "States": [{ "Title": "launch\nserver" }],
+          "UUID": "com.elgato.streamdeck.system.open"
+        },
         "7,3": {
           "ActionID": "bae44678-4fcf-4bdb-a252-352f9f236645",
           "LinkedTitle": true,
@@ -526,7 +526,7 @@
           "State": 0,
           "States": [
             {
-              "Image": "Images/RTLGRN04MT2ETCF3T34B4VLMTCZ.png",
+              "Image": "Images/P0M2KBAW8P5ON3T790D7OIINMOZ.png",
               "Title": "activate\nobs"
             }
           ],
