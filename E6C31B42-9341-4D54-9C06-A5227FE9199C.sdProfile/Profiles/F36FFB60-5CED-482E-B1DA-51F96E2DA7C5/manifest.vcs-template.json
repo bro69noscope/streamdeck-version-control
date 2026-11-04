@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "476bf0dd-77e1-4378-a984-eadf55065ec7",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "BXyczN33poFtnKa3jUAoV",
@@ -46,7 +46,7 @@
               "name": "sbact__ShowAlerts"
             }
           },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -61,7 +61,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "67d1d743-0ad4-4e2f-9a4e-afd937430d37",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "BXyczN33poFtnKa3jUAoV",
@@ -79,7 +79,7 @@
               "name": "sbact__ShowEyetracker"
             }
           },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },

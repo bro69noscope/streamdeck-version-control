@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "e029ce15-2ae8-4ce9-9356-708df68350b2",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
@@ -46,7 +46,7 @@
               "name": "sbact__SetEyetrackerToFtp"
             }
           },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -61,7 +61,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "dd819a7e-04f5-4a3a-abfa-562ebd3e4cb8",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "m99-ppQk0DJa8bs1ijKaM",
@@ -105,7 +105,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "0ddbb2a9-dcef-4c87-9990-f35095dcda28",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "m99-ppQk0DJa8bs1ijKaM",
@@ -154,7 +154,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "a2dcdda1-32d6-45b3-a633-1b5d711682be",
+                    "_uuid": "00000000-0000-0000-0000-000000000000",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "dnt2hNU9aO3oknzUROXyF",
@@ -206,7 +206,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "fa509137-e3f9-45b1-a9f6-f5246c373b83",
+                    "_uuid": "00000000-0000-0000-0000-000000000000",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "yqd4NbCOt_sXk9ldjWiSK",
@@ -257,7 +257,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "b4cfc8b8-b64d-4287-9952-624ef411df56",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "BXyczN33poFtnKa3jUAoV",
@@ -275,7 +275,7 @@
               "name": "sbact__ShowFacecam"
             }
           },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -290,7 +290,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "80c636ea-9d66-45e9-a104-1e2da6223ae9",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
@@ -308,7 +308,7 @@
               "name": "sbact__EnableVirtualCam"
             }
           },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -323,7 +323,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "5640ba40-56f4-416d-888b-74d5a433b678",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "pZRfRxpLb8vAkCtre51xk",
@@ -352,7 +352,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "5d2c8f56-a370-4c13-8a53-fd6f3a4206ad",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "H7jUDRq1-vWSOlo3Dv89y",
@@ -428,7 +428,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "622608ec-b1e6-4a80-bb2b-65391debf46b",
+                    "_uuid": "00000000-0000-0000-0000-000000000000",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",
@@ -474,7 +474,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "aefeb524-8dfc-4835-a73b-5346cb6c0d28",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "H7jUDRq1-vWSOlo3Dv89y",
@@ -550,7 +550,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "9b4008b8-3a07-4559-a5d6-0e6a8e0b08b6",
+                    "_uuid": "00000000-0000-0000-0000-000000000000",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "43z1FBeAnl1WVoPgE-1Lm",

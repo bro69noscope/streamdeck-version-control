@@ -63,7 +63,7 @@
                     "sceneitemscene": "scene__layer_ig__audio_clips_media",
                     "toplevelscene": "scene__layer_ig__audio_clips_media"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "play narrator clip" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -81,7 +81,7 @@
                     "filter": "filter__lut__grayscale",
                     "source": "scene__layer_ig__fundamental_sources"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "apply grayscale lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
@@ -115,7 +115,7 @@
                     "filter": "filter__lut__grayscale",
                     "source": "scene__layer_ig__fundamental_sources"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "remove grayscale lUT" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
@@ -138,7 +138,7 @@
                     "sceneitemscene": "scene__layer_ig__audio_clips_media",
                     "toplevelscene": "scene__layer_ig__audio_clips_media"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "stop narrator clip" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -161,7 +161,7 @@
                     "type": "set",
                     "volume": 1
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "set usb out mix by to 0 db" }, {}],
                   "UUID": "com.elgato.obsstudio.mixeraudio"
                 }
@@ -198,7 +198,7 @@
                   },
                   "Resources": null,
                   "Settings": {
-                    "_uuid": "b64115ba-3112-4470-8203-dbed86e38ee2",
+                    "_uuid": "00000000-0000-0000-0000-000000000000",
                     "backgroundColorMap": { "0": null },
                     "backgroundSrcMap": { "0": "" },
                     "id": "PybWHe_kBSArCb_swBQdZ",
@@ -334,7 +334,7 @@
                     "sceneitemscene": "scene__layer_ig__overlayed_media",
                     "toplevelscene": "scene__layer_ig__overlayed_media"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [
                     { "Title": "show \"ladies and gents\" media" },
                     {}
@@ -374,7 +374,7 @@
                     "sceneitemscene": "scene__layer_ig__music_media",
                     "toplevelscene": "scene__layer_ig__music_media"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "play cyberbird" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -392,7 +392,7 @@
                     "filter": "filter__lut__warm_goldish",
                     "source": "scene__layer_ig__fundamental_sources"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "apply warm lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
@@ -415,7 +415,7 @@
                     "sceneitemscene": "scene__layer_ig__overlayed_media",
                     "toplevelscene": "scene__layer_ig__overlayed_media"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [
                     { "Title": "hide \"ladies and gents\" media" },
                     {}
@@ -575,7 +575,7 @@
                     "sceneitemscene": "scene__layer_ig__music_media",
                     "toplevelscene": "scene__layer_ig__music_media"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "play cyberbird" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -593,7 +593,7 @@
                     "filter": "filter__lut__warm_goldish",
                     "source": "scene__layer_ig__fundamental_sources"
                   },
-                  "State": 1,
+                  "State": 0,
                   "States": [{ "Title": "apply warm lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 }

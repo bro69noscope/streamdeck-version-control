@@ -35,7 +35,7 @@
           },
           "Resources": null,
           "Settings": { "isInMultiAction": false },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "com.elgato.obsstudio.record"
         },

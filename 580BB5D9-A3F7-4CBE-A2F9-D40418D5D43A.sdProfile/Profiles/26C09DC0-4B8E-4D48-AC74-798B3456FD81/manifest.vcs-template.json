@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "1a2f4b03-275c-41a3-b4d7-6e33cab84da0",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
@@ -46,7 +46,7 @@
               "name": "sbact__SetEyetrackerToFtp"
             }
           },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },

@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__zoom", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_zoom-icon__active.png",
@@ -49,7 +49,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__layer__facecam", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_facecam-icon__active.png",
@@ -70,7 +70,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__browser", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_browser-icon__active.jpg",

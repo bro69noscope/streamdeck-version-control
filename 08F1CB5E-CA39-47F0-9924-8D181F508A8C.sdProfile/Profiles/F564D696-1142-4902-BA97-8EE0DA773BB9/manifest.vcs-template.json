@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__lounge", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_lounge-icon__active.png",
@@ -49,7 +49,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__center_monitor", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_center_monitor-icon__active.png",
@@ -87,7 +87,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__capture_age", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/gen__scene_capture_age-icon__active.jpg",
@@ -108,7 +108,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__vlc", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_vlc-icon__active.webp",
@@ -129,7 +129,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__aoe2", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/gen__scene_aoe2-icon__active.png",
@@ -150,7 +150,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__osu", "target": "preview" },
-          "State": 1,
+          "State": 0,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_osu-icon__active.png",
@@ -171,7 +171,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "8bd2bda9-8aa7-4822-aaae-1977177f85c8",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
@@ -204,7 +204,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "5e1970c7-4922-4993-9117-233da509d3ea",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
@@ -245,7 +245,7 @@
             "sceneitemscene": "scene__center_monitor",
             "toplevelscene": "scene__center_monitor"
           },
-          "State": 1,
+          "State": 0,
           "States": [{ "Title": "eyetracker" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
@@ -260,7 +260,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "72deea37-7b4d-4a88-8874-ab9d4cf6769e",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "H7jUDRq1-vWSOlo3Dv89y",
@@ -321,7 +321,7 @@
             "sceneitemscene": "scene__layer__alerts",
             "toplevelscene": "scene__layer__alerts"
           },
-          "State": 1,
+          "State": 0,
           "States": [{ "Title": "alerts" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
@@ -336,7 +336,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "708bab6b-1701-4443-b215-f4156ca1a90e",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null },
             "backgroundSrcMap": { "0": "" },
             "id": "TjAx95TV0LhiLgYMv5mel",
@@ -397,7 +397,7 @@
             "sceneitemscene": "scene__layer__facecam",
             "toplevelscene": "scene__layer__facecam"
           },
-          "State": 1,
+          "State": 0,
           "States": [{ "Title": "facecam" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },

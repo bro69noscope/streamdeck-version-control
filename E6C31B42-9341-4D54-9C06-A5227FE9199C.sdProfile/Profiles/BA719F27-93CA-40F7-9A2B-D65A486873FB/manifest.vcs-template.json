@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "7966da82-aa87-47b6-9acc-c883043d0eb7",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "9aHEa0DFJltQW45AgJBJR",
@@ -61,7 +61,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "6b06b66d-85f1-4cc3-b109-d0c798355535",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "O48n0suO3coUUtCrsqLf_",
@@ -79,7 +79,7 @@
               "name": "sbact__UnmuteAuxSend1"
             }
           },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -94,7 +94,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "cfad37a5-f6f2-4a60-aba7-ac192c06dfc7",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "9aHEa0DFJltQW45AgJBJR",
@@ -127,7 +127,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "4142f32b-0407-465e-a943-63988c35c682",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "O48n0suO3coUUtCrsqLf_",
@@ -145,7 +145,7 @@
               "name": "sbact__Unmute11And12Channels"
             }
           },
-          "State": 1,
+          "State": 0,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -160,7 +160,7 @@
           },
           "Resources": null,
           "Settings": {
-            "_uuid": "a37d2564-c888-452f-a071-889be4766a36",
+            "_uuid": "00000000-0000-0000-0000-000000000000",
             "backgroundColorMap": { "0": null, "1": null },
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "9aHEa0DFJltQW45AgJBJR",
