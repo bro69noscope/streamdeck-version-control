@@ -13,7 +13,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.profile.backtoparent"
         },
@@ -41,7 +41,7 @@
                     "type": "set",
                     "volume": 0.558
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "set usb out mix to -15db" }, {}],
                   "UUID": "com.elgato.obsstudio.mixeraudio"
                 },
@@ -63,7 +63,7 @@
                     "sceneitemscene": "scene__layer_ig__audio_clips_media",
                     "toplevelscene": "scene__layer_ig__audio_clips_media"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "play narrator clip" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -81,7 +81,7 @@
                     "filter": "filter__lut__grayscale",
                     "source": "scene__layer_ig__fundamental_sources"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "apply grayscale lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
@@ -96,7 +96,7 @@
                   },
                   "Resources": null,
                   "Settings": { "delay": 11300 },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "wait 11.3s" }],
                   "UUID": "com.elgato.streamdeck.multiactions.delay"
                 },
@@ -115,7 +115,7 @@
                     "filter": "filter__lut__grayscale",
                     "source": "scene__layer_ig__fundamental_sources"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "remove grayscale lUT" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
@@ -138,7 +138,7 @@
                     "sceneitemscene": "scene__layer_ig__audio_clips_media",
                     "toplevelscene": "scene__layer_ig__audio_clips_media"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "stop narrator clip" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -161,7 +161,7 @@
                     "type": "set",
                     "volume": 1
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "set usb out mix by to 0 db" }, {}],
                   "UUID": "com.elgato.obsstudio.mixeraudio"
                 }
@@ -178,7 +178,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "narrator \ntest" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
@@ -212,7 +212,7 @@
                     "keyUpAction": { "args": [], "id": "", "name": "" },
                     "title": { "0": "reset\nall" }
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "reset all" }],
                   "UUID": "bot.streamer.streamdeck.action"
                 },
@@ -272,7 +272,7 @@
                       }
                     ]
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [
                     {
                       "FontFamily": "",
@@ -300,7 +300,7 @@
                   },
                   "Resources": null,
                   "Settings": { "actionIdx": 3 },
-                  "State": 0,
+                  "State": 1,
                   "States": [
                     {
                       "FontFamily": "",
@@ -334,7 +334,7 @@
                     "sceneitemscene": "scene__layer_ig__overlayed_media",
                     "toplevelscene": "scene__layer_ig__overlayed_media"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [
                     { "Title": "show \"ladies and gents\" media" },
                     {}
@@ -352,7 +352,7 @@
                   },
                   "Resources": null,
                   "Settings": { "delay": 5700 },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "wait 6s" }],
                   "UUID": "com.elgato.streamdeck.multiactions.delay"
                 },
@@ -374,7 +374,7 @@
                     "sceneitemscene": "scene__layer_ig__music_media",
                     "toplevelscene": "scene__layer_ig__music_media"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "play cyberbird" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -392,7 +392,7 @@
                     "filter": "filter__lut__warm_goldish",
                     "source": "scene__layer_ig__fundamental_sources"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "apply warm lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 },
@@ -415,7 +415,7 @@
                     "sceneitemscene": "scene__layer_ig__overlayed_media",
                     "toplevelscene": "scene__layer_ig__overlayed_media"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [
                     { "Title": "hide \"ladies and gents\" media" },
                     {}
@@ -435,7 +435,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -513,7 +513,7 @@
                       }
                     ]
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [
                     {
                       "FontFamily": "",
@@ -541,7 +541,7 @@
                   },
                   "Resources": null,
                   "Settings": { "actionIdx": 3 },
-                  "State": 0,
+                  "State": 1,
                   "States": [
                     {
                       "FontFamily": "",
@@ -575,7 +575,7 @@
                     "sceneitemscene": "scene__layer_ig__music_media",
                     "toplevelscene": "scene__layer_ig__music_media"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "play cyberbird" }, {}],
                   "UUID": "com.elgato.obsstudio.source"
                 },
@@ -593,7 +593,7 @@
                     "filter": "filter__lut__warm_goldish",
                     "source": "scene__layer_ig__fundamental_sources"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "apply warm lut" }, {}],
                   "UUID": "com.elgato.obsstudio.filter.state"
                 }
@@ -610,7 +610,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -641,7 +641,7 @@
             "body": "ActivateObsProduction",
             "url": "ws://127.0.0.1:50000/ahk/command"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/LNO3QI29115CT5IPB6N99F4JCSZ.png",

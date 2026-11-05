@@ -13,7 +13,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.profile.backtoparent"
         },
@@ -42,7 +42,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "retarded\nmates" }],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -60,7 +60,7 @@
             "body": "ActivateObsProduction",
             "url": "ws://127.0.0.1:50000/ahk/command"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/HKR0A5W1ED1CR7IDVAPV4RMOBGZ.png",

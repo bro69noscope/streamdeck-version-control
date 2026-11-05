@@ -13,7 +13,7 @@
           },
           "Resources": null,
           "Settings": { "ProfileUUID": "8218f639-7990-4b5d-98bf-bec08a028290" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "brb" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
@@ -31,7 +31,7 @@
             "body": "refit_server",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/AI2NM05PIH6058OHOBALQWP3V4Z.webp",
@@ -51,7 +51,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__metascene", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "metascene" }, {}],
           "UUID": "com.elgato.obsstudio.scene"
         },
@@ -66,7 +66,7 @@
           },
           "Resources": null,
           "Settings": { "ProfileUUID": "dfaec183-ce9e-437e-b327-28501351c40e" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "scenes" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
@@ -84,7 +84,7 @@
             "body": "refit",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/4W7N2TNIMP3WN1GHB1FW8M29M4Z.webp",
@@ -104,7 +104,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__lounge", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/63J4577ACT6HL4FMI6SP0AJBJ0Z.png",
@@ -125,7 +125,7 @@
           },
           "Resources": null,
           "Settings": { "ProfileUUID": "26c09dc0-4b8e-4d48-ac74-798b3456fd81" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "sources" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
@@ -140,7 +140,7 @@
           },
           "Resources": null,
           "Settings": { "ProfileUUID": "c2fec1bd-07df-4ffe-a09f-20eabbcfdb6f" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/479KQQGGR145H5B4IBQ70NCKA4Z.webp",
@@ -160,7 +160,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__vlc", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/KF52WO60T51L75NS8L39RPOB24Z.webp",
@@ -181,7 +181,7 @@
           },
           "Resources": null,
           "Settings": { "ProfileUUID": "cd67d14b-2e34-4318-8835-27466abe34ad" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "comeback" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
@@ -196,7 +196,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__center_monitor", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/8HGLTTJDO1269194MIKOG4TKTSZ.png",
@@ -217,7 +217,7 @@
           },
           "Resources": null,
           "Settings": { "ProfileUUID": "91c8189b-54ba-4ea0-b7ca-1ab31658f260" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "hard game" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
@@ -246,7 +246,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "reset\nall" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -275,7 +275,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "hide\nalways_hide" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -304,7 +304,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "zoom" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -333,7 +333,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "refresh\nalerts" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -352,7 +352,7 @@
             "PageIndex": 1,
             "ProfileUUID": "e6c31b42-9341-4d54-9c06-a5227fe9199c"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/lnk__gen__profile_ftp_4x8-icon.jpg",
@@ -380,7 +380,7 @@
                     "body": "MoveObsProductionCenter",
                     "url": "ws://127.0.0.1:50000/ahk/command"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "obs center ws msg" }],
                   "UUID": "gg.datagram.web-requests.websocket"
                 },
@@ -409,7 +409,7 @@
                     "keyUpAction": { "args": [], "id": "", "name": "" },
                     "title": { "0": "set docks for center monitor" }
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "set docks for center monitor" }],
                   "UUID": "bot.streamer.streamdeck.action"
                 }
@@ -426,7 +426,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "obs center" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
@@ -455,7 +455,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "skip\nalert" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -474,7 +474,7 @@
             "PageIndex": 1,
             "ProfileUUID": "9601b245-d84a-4a2f-a3f0-0b92f0969aaa"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/lnk__gen__profile_hub_4x8-icon.png",
@@ -502,7 +502,7 @@
                     "body": "MoveObsProductionRight",
                     "url": "ws://127.0.0.1:50000/ahk/command"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "obs right ws msg" }],
                   "UUID": "gg.datagram.web-requests.websocket"
                 },
@@ -531,7 +531,7 @@
                     "keyUpAction": { "args": [], "id": "", "name": "" },
                     "title": { "0": "set docks for right monitor" }
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "set docks for right monitor" }],
                   "UUID": "bot.streamer.streamdeck.action"
                 }
@@ -548,7 +548,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "obs right" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
@@ -563,7 +563,7 @@
           },
           "Resources": null,
           "Settings": { "path": "\"{{BRO_NLLS_REPO_PATH}}run_server.bat\"" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "launch\nserver" }],
           "UUID": "com.elgato.streamdeck.system.open"
         },
@@ -581,7 +581,7 @@
             "body": "ActivateObsProduction",
             "url": "ws://127.0.0.1:50000/ahk/command"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/P0M2KBAW8P5ON3T790D7OIINMOZ.png",

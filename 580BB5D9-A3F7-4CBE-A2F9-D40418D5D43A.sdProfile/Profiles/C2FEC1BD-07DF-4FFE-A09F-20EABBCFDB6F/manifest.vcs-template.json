@@ -8,7 +8,7 @@
           "Name": "Parent Folder",
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.profile.backtoparent"
         },
@@ -21,7 +21,7 @@
             "body": "refit",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/JQ1F5Q98CT2JH237607KNW25SCZ.webp",
@@ -44,7 +44,7 @@
             "body": "refit_server",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/2LW9IQ63K50L94TMK1FC3WN7H4Z.webp",
@@ -67,7 +67,7 @@
             "body": "free all slots",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/database"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/GBIO1GGW9L6D59077E4SBIJ10SZ.png",
@@ -90,7 +90,7 @@
             "body": "pregamespy start",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/6AVEPAWDQP1VFC8S4H90IGVLBGZ.webp",
@@ -113,7 +113,7 @@
             "body": "pregamespy stop",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/RCKAC9NJV92C5D4OD7B4I995IGZ.webp",
@@ -136,7 +136,7 @@
             "body": "pregamespy unlock",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/LJHERCDTWD4PLCT51CDTAO4OWGZ.webp",
@@ -159,7 +159,7 @@
             "body": "pregamespy test different message",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/MJ8T720FSD2GN1QCQMTLOVA5N0Z.webp",
@@ -182,7 +182,7 @@
             "body": "shopwatcher start",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/TG70NMOCAD6QH0148BRHSDRIJCZ.webp",
@@ -205,7 +205,7 @@
             "body": "shopwatcher stop",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/BH276STMI947LE0BJ5A3DT9E2GZ.webp",
@@ -228,7 +228,7 @@
             "body": "shopwatcher unlock",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/subprocess"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -251,7 +251,7 @@
           "Name": "Create Folder",
           "Resources": null,
           "Settings": { "ProfileUUID": "42eacc21-d0b4-44a9-ba9f-30a876dfb2c9" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "old stuff" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
@@ -266,7 +266,7 @@
           },
           "Resources": null,
           "Settings": { "path": "\"{{BRO_NLLS_REPO_PATH}}run_server.bat\"" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "launch\nserver" }],
           "UUID": "com.elgato.streamdeck.system.open"
         },
@@ -284,7 +284,7 @@
             "body": "get windows",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/test"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/AKPF6248810SD4O3QO8MDHWWCSZ.png",

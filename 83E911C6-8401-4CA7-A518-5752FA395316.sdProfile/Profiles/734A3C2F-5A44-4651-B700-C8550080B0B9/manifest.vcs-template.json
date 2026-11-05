@@ -15,7 +15,7 @@
           "Settings": {
             "path": "\"C:\\Users\\ville\\myfiles\\git-repos\\next-level-live-streaming\\external\\streamdeck\\utils\\quit-streamdeck\\quit-streamdeck.vbs\""
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/NIIE5R81HH3IL3V5R9MB115B28Z.png",
@@ -35,7 +35,7 @@
           },
           "Resources": null,
           "Settings": { "isInMultiAction": false },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "com.elgato.obsstudio.record"
         },
@@ -50,7 +50,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.page.previous"
         },
@@ -109,7 +109,7 @@
               }
             ]
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "rec on" }],
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
@@ -127,7 +127,7 @@
             "body": "ActivateStreamFeedApp",
             "url": "ws://127.0.0.1:50000/ahk/command"
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "activate\nstreamfeed" }],
           "UUID": "gg.datagram.web-requests.websocket"
         },
@@ -142,7 +142,7 @@
           },
           "Resources": null,
           "Settings": { "actionIdx": 0 },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.system.multimedia"
         },
@@ -201,7 +201,7 @@
               }
             ]
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "rec off" }],
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
@@ -216,7 +216,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.system.multimedia"
         },
@@ -231,7 +231,7 @@
           },
           "Resources": null,
           "Settings": { "actionIdx": 2 },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.system.multimedia"
         }

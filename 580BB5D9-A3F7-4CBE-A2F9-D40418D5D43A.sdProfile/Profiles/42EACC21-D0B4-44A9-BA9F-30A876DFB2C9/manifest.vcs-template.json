@@ -8,7 +8,7 @@
           "Name": "Parent Folder",
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.profile.backtoparent"
         },
@@ -21,7 +21,7 @@
             "body": "bring to top",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/TJRV1PMQW95MB5VFM99STP7RCKZ.png",
@@ -39,7 +39,7 @@
             "body": "readjust",
             "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/63F0RB52550EPA4QSNVSOCPMICZ.png",

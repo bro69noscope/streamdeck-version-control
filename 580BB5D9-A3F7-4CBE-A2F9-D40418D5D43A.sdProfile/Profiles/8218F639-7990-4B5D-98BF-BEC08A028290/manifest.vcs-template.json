@@ -13,7 +13,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.profile.backtoparent"
         },
@@ -22,9 +22,9 @@
           "LinkedTitle": true,
           "Name": "Action",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -42,7 +42,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "brb end" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -51,9 +51,9 @@
           "LinkedTitle": true,
           "Name": "Action",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -71,7 +71,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "brb 1" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -80,9 +80,9 @@
           "LinkedTitle": true,
           "Name": "Action",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -100,7 +100,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "brb 2" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -109,9 +109,9 @@
           "LinkedTitle": true,
           "Name": "Action",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -129,7 +129,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "brb 5" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -138,9 +138,9 @@
           "LinkedTitle": true,
           "Name": "Action",
           "Plugin": {
-            "Name": "Streamer.bot",
+            "Name": "Streamer.Bot",
             "UUID": "bot.streamer.streamdeck",
-            "Version": "1.1.1.2"
+            "Version": "1.2.0.5"
           },
           "Resources": null,
           "Settings": {
@@ -158,7 +158,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "brb X" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -176,7 +176,7 @@
             "body": "ActivateObsProduction",
             "url": "ws://127.0.0.1:50000/ahk/command"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/QBL4H2MNFT77109SFQJ5WP79HSZ.png",

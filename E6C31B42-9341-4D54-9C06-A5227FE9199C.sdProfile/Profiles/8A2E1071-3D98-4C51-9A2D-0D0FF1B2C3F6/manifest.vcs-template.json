@@ -13,7 +13,7 @@
           },
           "Resources": null,
           "Settings": { "ProfileUUID": "e7a26743-7d7b-4ebb-a9ce-9d7099951131" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "brb" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
@@ -46,7 +46,7 @@
               "name": "sbact__SetEyetrackerToFtp"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -75,7 +75,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "center\nmonitor" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Image": "Images/5ONHPWWKIH5PRFH11CMC9KHDM8Z.png" }],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -90,7 +90,7 @@
           },
           "Resources": null,
           "Settings": { "ProfileUUID": "ba719f27-93ca-40f7-9a2b-d65a486873fb" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "audio\nsources" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
@@ -119,7 +119,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "lounge" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Image": "Images/VVKT85O5HT6BJ2PNPFG1C88330Z.png" }],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -134,7 +134,7 @@
           },
           "Resources": null,
           "Settings": { "ProfileUUID": "f36ffb60-5ced-482e-b1da-51f96e2da7c5" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "sources" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
@@ -168,7 +168,7 @@
                     "keyUpAction": { "args": [], "id": "", "name": "" },
                     "title": { "0": "" }
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [
                     {
                       "Image": "d79ebb96-289e-4332-9a7c-36da60bc8d46/9W8LEGQ58P4PDCEG55O56AE1QCZ.png",
@@ -191,7 +191,7 @@
                     "body": "MoveObsProductionCenterNoFocus",
                     "url": "ws://127.0.0.1:50000/ahk/command"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "obs center ws msg" }],
                   "UUID": "gg.datagram.web-requests.websocket"
                 },
@@ -220,7 +220,7 @@
                     "keyUpAction": { "args": [], "id": "", "name": "" },
                     "title": { "0": "set docks for center monitor" }
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "set docks for center monitor" }],
                   "UUID": "bot.streamer.streamdeck.action"
                 }
@@ -237,7 +237,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/QPPCLM7PD12VP8JEG0M92PGEVSZ.png",
@@ -275,7 +275,7 @@
               "name": "sbact__ShowFacecam"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -295,7 +295,7 @@
             "backgroundSrcMap": { "0": "", "1": "" },
             "id": "Kaf1onYk8eUNG-UaThkHy",
             "instanceUuid": "4c4ed369-4b2d-4f20-be3c-43e41abf87c7",
-            "state": 1,
+            "state": 0,
             "title": { "0": "vcam", "1": "vcam" },
             "toggleOffAction": {
               "args": [],
@@ -308,7 +308,7 @@
               "name": "sbact__EnableVirtualCam"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -337,7 +337,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "fix obs\ndocks" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -366,7 +366,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "refresh\nalerts" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -385,7 +385,7 @@
             "PageIndex": 1,
             "ProfileUUID": "580bb5d9-a3f7-4cbe-a2f9-d40418d5d43a"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/IQ2BFC8I71301FT7E0V7CHG5RCZ.png",
@@ -413,7 +413,7 @@
                     "body": "MoveObsFtpCenter",
                     "url": "ws://127.0.0.1:50000/ahk/command"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "obs center ws msg" }],
                   "UUID": "gg.datagram.web-requests.websocket"
                 },
@@ -442,7 +442,7 @@
                     "keyUpAction": { "args": [], "id": "", "name": "" },
                     "title": { "0": "" }
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "set docks center" }],
                   "UUID": "bot.streamer.streamdeck.action"
                 }
@@ -459,7 +459,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "obs center" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
@@ -488,7 +488,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "skip\nalert" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -507,7 +507,7 @@
             "PageIndex": 1,
             "ProfileUUID": "9601b245-d84a-4a2f-a3f0-0b92f0969aaa"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/lnk__gen__profile_hub_4x8-icon.png",
@@ -535,7 +535,7 @@
                     "body": "MoveObsFtpRight",
                     "url": "ws://127.0.0.1:50000/ahk/command"
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "obs right ws msg" }],
                   "UUID": "gg.datagram.web-requests.websocket"
                 },
@@ -564,7 +564,7 @@
                     "keyUpAction": { "args": [], "id": "", "name": "" },
                     "title": { "0": "" }
                   },
-                  "State": 0,
+                  "State": 1,
                   "States": [{ "Title": "set docks right" }],
                   "UUID": "bot.streamer.streamdeck.action"
                 }
@@ -581,7 +581,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "obs right" }],
           "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
@@ -596,7 +596,7 @@
           },
           "Resources": null,
           "Settings": { "path": "\"{{BRO_NLLS_REPO_PATH}}run_server.bat\"" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "launch\nserver" }],
           "UUID": "com.elgato.streamdeck.system.open"
         },
@@ -614,7 +614,7 @@
             "body": "ActivateObsPortableFtp",
             "url": "ws://127.0.0.1:50000/ahk/command"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/0KL807K6AP41T6SLQ297RG2VPOZ.png",

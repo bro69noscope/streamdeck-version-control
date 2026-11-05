@@ -13,7 +13,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.profile.backtoparent"
         },
@@ -46,7 +46,7 @@
               "name": "sbact__SetEyetrackerToFtp"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -64,7 +64,7 @@
             "body": "ActivateObsProduction",
             "url": "ws://127.0.0.1:50000/ahk/command"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/CTGP0TN8RH0V1E0I353WGS8I7SZ.png",

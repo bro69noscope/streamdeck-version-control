@@ -13,7 +13,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.profile.backtoparent"
         },
@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__osu", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/9H4D3AQ1M5559FH9IKF9GH84C8Z.png",
@@ -49,7 +49,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__layer__facecam", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -90,7 +90,7 @@
             "body": "ActivateObsProduction",
             "url": "ws://127.0.0.1:50000/ahk/command"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/HTO6NW2EV55QJF3EITKQ1O47W4Z.png",

@@ -17,7 +17,7 @@
             "PageIndex": 1,
             "ProfileUUID": "83e911c6-8401-4ca7-a518-5752fa395316"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -89,7 +89,7 @@
               }
             ]
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "rec off" }],
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
@@ -109,7 +109,7 @@
             "tokenExists": true,
             "version": "2.9"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -137,7 +137,7 @@
           },
           "Resources": null,
           "Settings": { "isInMultiAction": false },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "com.elgato.obsstudio.record"
         },
@@ -196,7 +196,7 @@
               }
             ]
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "rec on" }],
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
@@ -211,7 +211,7 @@
           },
           "Resources": null,
           "Settings": { "keyImage": "", "tokenExists": true, "version": "2.9" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -242,7 +242,7 @@
             "tokenExists": true,
             "version": "2.9"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -276,7 +276,7 @@
             "tokenExists": true,
             "version": "2.9"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -330,7 +330,7 @@
             "tokenExists": true,
             "version": "2.9"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -363,7 +363,7 @@
             "version": "2.9",
             "volumeParam": "100"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -396,7 +396,7 @@
             "version": "2.9",
             "volumeParam": "80"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -423,7 +423,7 @@
           },
           "Resources": null,
           "Settings": { "keyImage": "", "tokenExists": true, "version": "2.9" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -455,7 +455,7 @@
             "version": "2.9",
             "volumeParam": "10"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -487,7 +487,7 @@
             "version": "2.9",
             "volumeParam": "10"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "FontFamily": "",
@@ -513,7 +513,7 @@
           },
           "Resources": null,
           "Settings": {},
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "com.elgato.streamdeck.page.next"
         }

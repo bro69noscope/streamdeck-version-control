@@ -13,7 +13,7 @@
           },
           "Resources": null,
           "Settings": { "ProfileUUID": "c39232a6-69ae-43d9-8634-fe89386f5ca1" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "brb" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
@@ -28,7 +28,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__lounge", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_lounge-icon__active.png",
@@ -49,7 +49,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__center_monitor", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_center_monitor-icon__active.png",
@@ -72,7 +72,7 @@
           },
           "Resources": null,
           "Settings": { "ProfileUUID": "ce51b19e-95b4-47e7-a500-1c6c89752dde" },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "rare\nscenes" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
@@ -87,7 +87,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__capture_age", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/gen__scene_capture_age-icon__active.jpg",
@@ -108,7 +108,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__vlc", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_vlc-icon__active.webp",
@@ -129,7 +129,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__aoe2", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/gen__scene_aoe2-icon__active.png",
@@ -150,7 +150,7 @@
           },
           "Resources": null,
           "Settings": { "scene": "scene__osu", "target": "preview" },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/lnk__gen__scene_osu-icon__active.png",
@@ -189,7 +189,7 @@
               "name": "sbact__SetEyetrackerToFtp"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -222,7 +222,7 @@
               "name": "sbact__EnableVirtualCam"
             }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}, {}],
           "UUID": "bot.streamer.streamdeck.action-switch"
         },
@@ -245,7 +245,7 @@
             "sceneitemscene": "scene__center_monitor",
             "toplevelscene": "scene__center_monitor"
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "eyetracker" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
@@ -274,7 +274,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "refresh\nalerts" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -293,7 +293,7 @@
             "PageIndex": 1,
             "ProfileUUID": "e6c31b42-9341-4d54-9c06-a5227fe9199c"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/lnk__gen__profile_ftp_4x8-icon.jpg",
@@ -321,7 +321,7 @@
             "sceneitemscene": "scene__layer__alerts",
             "toplevelscene": "scene__layer__alerts"
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "alerts" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
@@ -350,7 +350,7 @@
             "keyUpAction": { "args": [], "id": "", "name": "" },
             "title": { "0": "zoom" }
           },
-          "State": 0,
+          "State": 1,
           "States": [{}],
           "UUID": "bot.streamer.streamdeck.action"
         },
@@ -369,7 +369,7 @@
             "PageIndex": 1,
             "ProfileUUID": "9601b245-d84a-4a2f-a3f0-0b92f0969aaa"
           },
-          "State": 0,
+          "State": 1,
           "States": [
             {
               "Image": "Images/lnk__gen__profile_hub_4x8-icon.png",
@@ -397,7 +397,7 @@
             "sceneitemscene": "scene__layer__facecam",
             "toplevelscene": "scene__layer__facecam"
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "facecam" }, {}],
           "UUID": "com.elgato.obsstudio.source"
         },
@@ -415,7 +415,7 @@
             "body": "ActivateObsProduction",
             "url": "ws://127.0.0.1:50000/ahk/command"
           },
-          "State": 0,
+          "State": 1,
           "States": [{ "Title": "activate\nobs" }],
           "UUID": "gg.datagram.web-requests.websocket"
         }
