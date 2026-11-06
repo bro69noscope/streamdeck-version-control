@@ -17,29 +17,6 @@
           "States": [{ "Title": "brb" }],
           "UUID": "com.elgato.streamdeck.profile.openchild"
         },
-        "0,1": {
-          "ActionID": "bfc171f0-fccb-4020-add4-36ab49605f19",
-          "LinkedTitle": true,
-          "Name": "WebSocket Message",
-          "Plugin": {
-            "Name": "Web Requests",
-            "UUID": "gg.datagram.web-requests",
-            "Version": "0.1.1.0"
-          },
-          "Resources": null,
-          "Settings": {
-            "body": "refit_server",
-            "url": "{{REPOSITORY_PYTHON_WS_BASE_URL}}/windows"
-          },
-          "State": 1,
-          "States": [
-            {
-              "Image": "Images/AI2NM05PIH6058OHOBALQWP3V4Z.webp",
-              "Title": "show\nserver"
-            }
-          ],
-          "UUID": "gg.datagram.web-requests.websocket"
-        },
         "0,3": {
           "ActionID": "24d92745-55ef-4bab-af39-108449d4ee4d",
           "LinkedTitle": true,
@@ -553,19 +530,63 @@
           "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
         "7,2": {
-          "ActionID": "cca607df-9045-420b-84a1-b6ced4667fbf",
+          "ActionID": "91d42c73-c4bc-4075-ae62-0a8fec336508",
           "LinkedTitle": true,
-          "Name": "Open",
+          "Name": "Hotkey",
           "Plugin": {
-            "Name": "Open",
-            "UUID": "com.elgato.streamdeck.system.open",
+            "Name": "Activate a Key Command",
+            "UUID": "com.elgato.streamdeck.system.hotkey",
             "Version": "1.0"
           },
           "Resources": null,
-          "Settings": { "path": "\"{{BRO_NLLS_REPO_PATH}}run_server.bat\"" },
+          "Settings": {
+            "Coalesce": true,
+            "Hotkeys": [
+              {
+                "KeyCmd": false,
+                "KeyCtrl": true,
+                "KeyModifiers": 7,
+                "KeyOption": true,
+                "KeyShift": true,
+                "NativeCode": 135,
+                "QTKeyCode": 16777287,
+                "VKeyCode": 135
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              },
+              {
+                "KeyCmd": false,
+                "KeyCtrl": false,
+                "KeyModifiers": 0,
+                "KeyOption": false,
+                "KeyShift": false,
+                "NativeCode": 146,
+                "QTKeyCode": 33554431,
+                "VKeyCode": -1
+              }
+            ]
+          },
           "State": 1,
-          "States": [{ "Title": "launch\nserver" }],
-          "UUID": "com.elgato.streamdeck.system.open"
+          "States": [{ "Title": " activate\nsever" }],
+          "UUID": "com.elgato.streamdeck.system.hotkey"
         },
         "7,3": {
           "ActionID": "bae44678-4fcf-4bdb-a252-352f9f236645",
