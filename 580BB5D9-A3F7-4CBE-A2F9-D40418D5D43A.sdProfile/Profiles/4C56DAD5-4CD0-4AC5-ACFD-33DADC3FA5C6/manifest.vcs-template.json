@@ -368,7 +368,7 @@
                   "Plugin": {
                     "Name": "Streamer.Bot",
                     "UUID": "bot.streamer.streamdeck",
-                    "Version": "1.2.0.5"
+                    "Version": "1.2.1.11"
                   },
                   "Resources": null,
                   "Settings": {
@@ -490,7 +490,7 @@
                   "Plugin": {
                     "Name": "Streamer.Bot",
                     "UUID": "bot.streamer.streamdeck",
-                    "Version": "1.2.0.5"
+                    "Version": "1.2.1.11"
                   },
                   "Resources": null,
                   "Settings": {
@@ -530,7 +530,7 @@
           "UUID": "com.elgato.streamdeck.multiactions.routine"
         },
         "7,2": {
-          "ActionID": "91d42c73-c4bc-4075-ae62-0a8fec336508",
+          "ActionID": "b88f1337-1ce8-4d9a-9ef3-1061cd3a8c80",
           "LinkedTitle": true,
           "Name": "Hotkey",
           "Plugin": {
@@ -585,7 +585,12 @@
             ]
           },
           "State": 1,
-          "States": [{ "Title": " activate\nsever" }],
+          "States": [
+            {
+              "Image": "Images/3DQRWSV6JD42TAELI4IAWS5O84Z.webp",
+              "Title": "HK\nactivate\nsever"
+            }
+          ],
           "UUID": "com.elgato.streamdeck.system.hotkey"
         },
         "7,3": {
